@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="498" viewBox="0 0 1100 498">
+<rect width="1100" height="498" fill="#FFFFFF"/>
+<rect width="1100" height="70" fill="#1F4E79"/>
+<text x="30" y="32" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="20" fill="#FFFFFF" font-weight="bold" text-anchor="start">Práctica 4. Prepararse con Facilitator y Copilot</text>
+<text x="30" y="56" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#DDE8F5" font-weight="normal" text-anchor="start">Tecnología principal: Microsoft 365 Copilot en Teams y Facilitator</text>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#595959"/></marker></defs>
+<rect x="25" y="100" width="250" height="368" rx="10" fill="#EAF1FB" stroke="#2E75B6" stroke-width="2"/>
+<text x="45" y="130" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="17" fill="#1F4E79" font-weight="bold" text-anchor="start">Insumos</text>
+<text x="45" y="160" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#222" font-weight="normal" text-anchor="start">• Invitación "Revisión de</text>
+<text x="45" y="177" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#222" font-weight="normal" text-anchor="start">preparación INT-MDV-2026"</text>
+<text x="45" y="202" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#222" font-weight="normal" text-anchor="start">• Tres correos de las áreas</text>
+<text x="45" y="227" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#222" font-weight="normal" text-anchor="start">• Plan y matriz de riesgos en</text>
+<text x="45" y="244" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#222" font-weight="normal" text-anchor="start">OneDrive</text>
+<rect x="325" y="100" width="470" height="70" rx="10" fill="#FFFFFF" stroke="#2E75B6" stroke-width="2"/>
+<circle cx="357" cy="135.0" r="17" fill="#2E75B6"/>
+<text x="357" y="141.0" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle">1</text>
+<text x="387" y="131.0" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">Revisar la reunión y reunir la información</text>
+<text x="387" y="149.0" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">disponible</text>
+<line x1="560.0" y1="170" x2="560.0" y2="180" stroke="#595959" stroke-width="2" marker-end="url(#a)"/>
+<rect x="325" y="182" width="470" height="70" rx="10" fill="#FFFFFF" stroke="#2E75B6" stroke-width="2"/>
+<circle cx="357" cy="217.0" r="17" fill="#2E75B6"/>
+<text x="357" y="223.0" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle">2</text>
+<text x="387" y="222.0" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">Preparar objetivo, agenda, contexto y preguntas</text>
+<line x1="560.0" y1="252" x2="560.0" y2="262" stroke="#595959" stroke-width="2" marker-end="url(#a)"/>
+<rect x="325" y="264" width="470" height="70" rx="10" fill="#FFFFFF" stroke="#2E75B6" stroke-width="2"/>
+<circle cx="357" cy="299.0" r="17" fill="#2E75B6"/>
+<text x="357" y="305.0" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle">3</text>
+<text x="387" y="304.0" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">Anticipar desacuerdos y decisiones difíciles</text>
+<line x1="560.0" y1="334" x2="560.0" y2="344" stroke="#595959" stroke-width="2" marker-end="url(#a)"/>
+<rect x="325" y="346" width="470" height="70" rx="10" fill="#FFFFFF" stroke="#2E75B6" stroke-width="2"/>
+<circle cx="357" cy="381.0" r="17" fill="#2E75B6"/>
+<text x="357" y="387.0" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle">4</text>
+<text x="387" y="386.0" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">Guardar la guía y confirmar Facilitator</text>
+<line x1="277" y1="264.0" x2="319" y2="264.0" stroke="#595959" stroke-width="2" marker-end="url(#a)"/>
+<line x1="797" y1="264.0" x2="837" y2="264.0" stroke="#595959" stroke-width="2" marker-end="url(#a)"/>
+<rect x="845" y="100" width="230" height="368" rx="10" fill="#E8F6F3" stroke="#0F7B6C" stroke-width="2"/>
+<text x="865" y="130" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="17" fill="#0F7B6C" font-weight="bold" text-anchor="start">Entregable</text>
+<text x="865" y="162" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">Guía de preparación de la</text>
+<text x="865" y="180" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">reunión</text>
+</svg>
