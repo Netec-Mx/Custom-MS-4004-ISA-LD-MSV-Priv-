@@ -40,10 +40,9 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Por qué:** Crear con lenguaje natural permite construir un agente sin configuración técnica.
 
-**Paso 1.** Abrir **Microsoft Edge**, escribir [m365.cloud.microsoft](https://m365.cloud.microsoft/) en la barra de direcciones y presionar **Enter**. Si se solicita, iniciar sesión con su cuenta corporativa.
+**Paso 1.** Abrir **Microsoft Edge**, ingresar a [m365.cloud.microsoft](https://m365.cloud.microsoft/) e iniciar sesión con su cuenta corporativa si se solicita.
 
-- **Qué verás:** la página de inicio de Microsoft 365 Copilot con un cuadro de mensaje al centro y un panel a la izquierda.
-- **Alternativa:** Si aparece la página de inicio de Microsoft 365 sin chat, seleccionar el icono **Copilot** en la barra lateral izquierda.
+- **Alternativa:** Si no aparece el chat, seleccionar el icono **Copilot** en la barra lateral izquierda.
 
 **Paso 2.** En el panel izquierdo, seleccionar **Agentes > Crear agente** (o **Nuevo agente**).
 
@@ -92,9 +91,7 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Paso 5.** Crear un **Documento en blanco** de Word con una tabla de 4 filas y 4 columnas (**Prueba**, **Resultado esperado**, **Resultado obtenido** y **¿Cumple?**) y registrar las cuatro pruebas.
 
-**Paso 6.** Guardar el archivo: en Word de escritorio, seleccionar **Archivo > Guardar como > OneDrive - [su organización] > Laboratorio_Copilot_ISA > Entregables**, escribir el nombre `Pruebas_Agente_[INICIALES].docx` (sustituyendo `[INICIALES]`) y seleccionar **Guardar**. En Word para la web, hacer clic en el nombre del documento en la parte superior, escribir el nombre y, en **Ubicación**, seleccionar la carpeta `Entregables`.
-
-- **Qué verás:** el nombre `Pruebas_Agente_[INICIALES].docx` en la barra de título y el estado **Guardado**.
+**Paso 6.** Guardar el archivo en **OneDrive > Laboratorio_Copilot_ISA > Entregables** con el nombre `Pruebas_Agente_[INICIALES].docx`: en Word de escritorio, **Archivo > Guardar como**; en Word para la web, hacer clic en el nombre del documento en la parte superior y elegir la carpeta.
 
 **Al terminar esta tarea debes tener:**
 
@@ -128,9 +125,7 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Por qué:** Justificar el agente frente al chat ayuda a decidir cuándo vale la pena crear otros.
 
-**Paso 1.** En el panel izquierdo, seleccionar **Copilot** (el chat general, no un agente) y seleccionar **Nuevo chat**.
-
-- **Qué verás:** un chat vacío sin el nombre de ningún agente encima del cuadro de mensaje.
+**Paso 1.** En el panel izquierdo, seleccionar **Copilot** (el chat general, sin agente) y luego **Nuevo chat**.
 
 **Paso 2.** Pegar *"Revisa este reporte:"* seguido del contenido de `Reporte_Iniciativa_Contradictorio.docx` y enviar.
 

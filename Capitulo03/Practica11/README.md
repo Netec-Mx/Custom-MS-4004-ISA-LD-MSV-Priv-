@@ -41,14 +41,11 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Por qué:** El resultado de un prompt vago es el punto de comparación para medir la mejora.
 
-**Paso 1.** Abrir **Microsoft Edge**, escribir [m365.cloud.microsoft](https://m365.cloud.microsoft/) en la barra de direcciones y presionar **Enter**. Si se solicita, iniciar sesión con su cuenta corporativa.
+**Paso 1.** Abrir **Microsoft Edge**, ingresar a [m365.cloud.microsoft](https://m365.cloud.microsoft/) e iniciar sesión con su cuenta corporativa si se solicita.
 
-- **Qué verás:** la página de inicio de Microsoft 365 Copilot con un cuadro de mensaje al centro y un panel a la izquierda.
-- **Alternativa:** Si aparece la página de inicio de Microsoft 365 sin chat, seleccionar el icono **Copilot** en la barra lateral izquierda.
+- **Alternativa:** Si no aparece el chat, seleccionar el icono **Copilot** en la barra lateral izquierda.
 
-**Paso 2.** En el panel izquierdo, seleccionar **Copilot** (el chat general, no un agente) y seleccionar **Nuevo chat**.
-
-- **Qué verás:** un chat vacío sin el nombre de ningún agente encima del cuadro de mensaje.
+**Paso 2.** En el panel izquierdo, seleccionar **Copilot** (el chat general, sin agente) y luego **Nuevo chat**.
 
 **Paso 3.** Pegar exactamente este prompt, sin cambios, y enviarlo:
 
@@ -56,7 +53,6 @@ Al finalizar la práctica, el participante será capaz de:
 Revisa lo del proyecto de la subestación y dime los riesgos y qué hacer.
 ```
 
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
 - **Qué verás:** una respuesta general, probablemente sin fuentes concretas, sin prioridades claras o que pregunta a qué proyecto se refiere. Ese es el comportamiento esperado de un prompt vago.
 
 **Paso 4.** En OneDrive, abrir `Laboratorio_Copilot_ISA > Practica11`, seleccionar `Plantilla_Comparacion_Prompts.docx`, elegir **Copiar a > Entregables** y cambiar el nombre de la copia a `Comparacion_Prompts_[INICIALES].docx`. Abrir la copia.
@@ -88,7 +84,6 @@ restricciones y formato de respuesta: "Revisa lo del proyecto de la subestación
 Contexto: soy analista y debo preparar recomendaciones priorizadas para mi líder sobre el proyecto INT-MDV-2026.
 ```
 
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
 - **Qué verás:** recomendaciones organizadas por aspecto (objetivo, contexto, fuentes, criterios, restricciones y formato) y, a veces, una versión sugerida del prompt.
 
 **Paso 3.** Copiar el diagnóstico y pegarlo en la sección **2. Diagnóstico de Prompt Coach** de su documento.
@@ -141,7 +136,6 @@ Quiero usar el prompt optimizado para producir una síntesis de un párrafo para
 ¿Qué elementos debo modificar y cuáles conservar?
 ```
 
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
 - **Qué verás:** una lista de elementos para cambiar (por ejemplo, el formato y la extensión) y elementos para conservar (fuentes y criterios).
 
 **Paso 2.** Copiar la respuesta en la sección **5. Segunda optimización** de su documento.

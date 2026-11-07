@@ -40,15 +40,14 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Por qué:** Los colaboradores necesitan saber qué hacer, no la especificación técnica del transformador.
 
-**Paso 1.** Abrir **Microsoft Edge**, escribir [m365.cloud.microsoft](https://m365.cloud.microsoft/) en la barra de direcciones y presionar **Enter**. Si se solicita, iniciar sesión con su cuenta corporativa.
+**Paso 1.** Abrir **Microsoft Edge**, ingresar a [m365.cloud.microsoft](https://m365.cloud.microsoft/) e iniciar sesión con su cuenta corporativa si se solicita.
 
-- **Qué verás:** la página de inicio de Microsoft 365 Copilot con un cuadro de mensaje al centro y un panel a la izquierda.
-- **Alternativa:** Si aparece la página de inicio de Microsoft 365 sin chat, seleccionar el icono **Copilot** en la barra lateral izquierda.
+- **Alternativa:** Si no aparece el chat, seleccionar el icono **Copilot** en la barra lateral izquierda.
 
-**Paso 2.** En el panel izquierdo, seleccionar **Agentes**. Escribir `Diseñador de comunicaciones` en el cuadro de búsqueda de agentes y hacer clic en el resultado. En inglés puede aparecer como **Communications Designer**.
+**Paso 2.** En el panel izquierdo, seleccionar **Agentes**, escribir `Diseñador de comunicaciones` en la búsqueda y abrir el agente (en inglés: **Communications Designer**).
 
-- **Qué verás:** el nombre **Diseñador de comunicaciones** encima del cuadro de mensaje y, a veces, sugerencias de inicio. A partir de aquí, todo lo que escriba lo procesa este agente.
-- **Si no ocurre así:** seleccionar **Todos los agentes** (u **Obtener agentes**) y buscarlo de nuevo. Si sigue sin aparecer, avisar al instructor: el agente no está habilitado para su cuenta.
+- **Qué verás:** el nombre **Diseñador de comunicaciones** encima del cuadro de mensaje.
+- **Si no ocurre así:** buscarlo en **Todos los agentes**; si no aparece, avisar al instructor.
 
 **Paso 3.** Pegar el siguiente prompt (insertar `/Ficha_Tecnica_Intervencion` con el selector de archivos):
 
@@ -58,8 +57,7 @@ Explica en lenguaje claro el propósito, el periodo, las posibles afectaciones y
 Máximo 200 palabras.
 ```
 
-- **Cómo insertar los archivos:** en el prompt, cada texto que empieza con `/` es un archivo. Borrar ese texto, escribir `/` seguido de las primeras letras del nombre del archivo y seleccionarlo en la lista que aparece; el archivo queda resaltado como un vínculo. Si no aparece en la lista, seleccionar el botón **+** (Agregar) > **Cargar desde OneDrive** > `Laboratorio_Copilot_ISA/Practica09` y elegirlo.
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Cómo insertar los archivos:** cada texto que empieza con `/` es un archivo: borrarlo, escribir `/` y las primeras letras del nombre, y elegir el archivo en la lista. Si no aparece, usar **+** > **Cargar desde OneDrive** > `Laboratorio_Copilot_ISA/Practica09`.
 - **Qué verás:** un borrador de correo interno de hasta 200 palabras con asunto, propósito, fechas, afectaciones y una sección de acciones.
 
 **Paso 4.** Verificar que el correo incluya las tres acciones de la ficha técnica: **no programar trabajos** en la subestación esa semana, **confirmar turnos** de disponibilidad y **canalizar consultas externas** a Comunicaciones.
@@ -85,7 +83,6 @@ Adapta el mismo acontecimiento para la comunidad y los usuarios externos, en una
 (máximo 100 palabras). Sin tecnicismos ni datos de operación interna. Mantén fecha, propósito y afectaciones.
 ```
 
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
 - **Qué verás:** una publicación de hasta 100 palabras sin términos técnicos (por ejemplo, sin "150 MVA" ni "bahía").
 
 **Paso 2.** Escribir: *"Compara la comunicación interna y la externa en una tabla con las filas lenguaje, extensión, tono y nivel de detalle"*.
@@ -117,22 +114,18 @@ Incorpora /Nota_Interna_Datos_Sensibles al análisis. ¿Qué contenido debería 
 antes de publicar cada comunicación? Justifica cada punto e indica quién debería aprobarlo.
 ```
 
-- **Cómo insertar los archivos:** en el prompt, cada texto que empieza con `/` es un archivo. Borrar ese texto, escribir `/` seguido de las primeras letras del nombre del archivo y seleccionarlo en la lista que aparece; el archivo queda resaltado como un vínculo. Si no aparece en la lista, seleccionar el botón **+** (Agregar) > **Cargar desde OneDrive** > `Laboratorio_Copilot_ISA/Practica09` y elegirlo.
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Archivos:** insertarlos con `/`, igual que antes.
 - **Qué verás:** una lista de contenidos que deben protegerse, modificarse o revisarse, con la justificación y el aprobador sugerido.
 
 **Paso 2.** Verificar cuatro elementos: el **costo de 4.200 MCOP** y los **nombres de los clientes** se protegen, la **compensación** queda en revisión de Jurídica y la **extensión a 48 horas** no se publica porque no está aprobada.
 
 - **Si no ocurre así:** preguntar por el que falte: *"¿Puedo publicar [dato]?"*
 
-**Paso 3.** Abrir una pestaña nueva, ingresar a [office.com](https://www.office.com/) y seleccionar **Word > Documento en blanco** (o abrir Word de escritorio > **Documento en blanco**). Regresar a Copilot y, debajo de la comunicación interna, la externa, la tabla comparativa y la revisión, seleccionar el icono **Copiar**. Volver a Word, hacer clic en el documento y pegar con **Ctrl+V**.
+**Paso 3.** Crear un **Documento en blanco** en Word (escritorio o [office.com](https://www.office.com/)). En Copilot, seleccionar **Copiar** debajo de la comunicación interna, la externa, la tabla comparativa y la revisión y pegar en Word con **Ctrl+V**.
 
-- **Qué verás:** el texto con su formato (títulos, tablas y viñetas) dentro del documento.
-- **Alternativa:** Si la tabla se pega como texto plano, pegar con **Ctrl+Shift+V** > **Mantener formato de origen**, o pedir a Copilot: *"Entrega la tabla en formato de tabla"* y copiarla de nuevo.
+- **Alternativa:** Si una tabla se pega como texto plano, pegar con **Ctrl+Shift+V** o pedir a Copilot: *"Entrega la tabla en formato de tabla"*.
 
-**Paso 4.** Guardar el archivo: en Word de escritorio, seleccionar **Archivo > Guardar como > OneDrive - [su organización] > Laboratorio_Copilot_ISA > Entregables**, escribir el nombre `Comunicaciones_INT-MDV_[INICIALES].docx` (sustituyendo `[INICIALES]`) y seleccionar **Guardar**. En Word para la web, hacer clic en el nombre del documento en la parte superior, escribir el nombre y, en **Ubicación**, seleccionar la carpeta `Entregables`.
-
-- **Qué verás:** el nombre `Comunicaciones_INT-MDV_[INICIALES].docx` en la barra de título y el estado **Guardado**.
+**Paso 4.** Guardar el archivo en **OneDrive > Laboratorio_Copilot_ISA > Entregables** con el nombre `Comunicaciones_INT-MDV_[INICIALES].docx`: en Word de escritorio, **Archivo > Guardar como**; en Word para la web, hacer clic en el nombre del documento en la parte superior y elegir la carpeta.
 
 **Al terminar esta tarea debes tener:**
 

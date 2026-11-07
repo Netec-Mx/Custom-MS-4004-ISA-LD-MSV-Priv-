@@ -42,15 +42,14 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Por qué:** Investigador tarda varios minutos. Lanzarlo primero permite leer el contexto interno mientras trabaja, y definir el alcance evita un informe genérico.
 
-**Paso 1.** Abrir **Microsoft Edge**, escribir [m365.cloud.microsoft](https://m365.cloud.microsoft/) en la barra de direcciones y presionar **Enter**. Si se solicita, iniciar sesión con su cuenta corporativa.
+**Paso 1.** Abrir **Microsoft Edge**, ingresar a [m365.cloud.microsoft](https://m365.cloud.microsoft/) e iniciar sesión con su cuenta corporativa si se solicita.
 
-- **Qué verás:** la página de inicio de Microsoft 365 Copilot con un cuadro de mensaje al centro y un panel a la izquierda.
-- **Alternativa:** Si aparece la página de inicio de Microsoft 365 sin chat, seleccionar el icono **Copilot** en la barra lateral izquierda.
+- **Alternativa:** Si no aparece el chat, seleccionar el icono **Copilot** en la barra lateral izquierda.
 
-**Paso 2.** En el panel izquierdo, seleccionar **Agentes**. Escribir `Investigador` en el cuadro de búsqueda de agentes y hacer clic en el resultado. En inglés puede aparecer como **Researcher**.
+**Paso 2.** En el panel izquierdo, seleccionar **Agentes**, escribir `Investigador` en la búsqueda y abrir el agente (en inglés: **Researcher**).
 
-- **Qué verás:** el nombre **Investigador** encima del cuadro de mensaje y, a veces, sugerencias de inicio. A partir de aquí, todo lo que escriba lo procesa este agente.
-- **Si no ocurre así:** seleccionar **Todos los agentes** (u **Obtener agentes**) y buscarlo de nuevo. Si sigue sin aparecer, avisar al instructor: el agente no está habilitado para su cuenta.
+- **Qué verás:** el nombre **Investigador** encima del cuadro de mensaje.
+- **Si no ocurre así:** buscarlo en **Todos los agentes**; si no aparece, avisar al instructor.
 
 **Paso 3.** Hacer clic en el cuadro de mensaje del agente y pegar el siguiente prompt:
 
@@ -61,7 +60,6 @@ beneficios reportados, riesgos de implementación, nivel de madurez y fuentes ut
 Distingue entre resultados medidos y expectativas de proveedores. Cita cada afirmación.
 ```
 
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
 - **Qué verás:** Investigador puede responder primero con preguntas de aclaración (por ejemplo, sobre el alcance geográfico o el uso del resultado) antes de empezar a investigar.
 
 **Paso 4.** Responder las preguntas de aclaración en el cuadro de mensaje. Usar estas respuestas: para el alcance geográfico, *"Latinoamérica, Europa y Norteamérica"*; para el uso del resultado, *"Decidir si proponer un piloto en 2027"*; para cualquier otra pregunta, *"Prioriza empresas de transmisión de energía"*.
@@ -108,8 +106,7 @@ restricciones (presupuesto de 2.500 MCOP, datos no integrados, 3 personas con ex
 evaluación de ciberseguridad OT) hacen viable un piloto. Marca como "inferencia" lo que no esté respaldado por una fuente.
 ```
 
-- **Cómo insertar los archivos:** en el prompt, cada texto que empieza con `/` es un archivo. Borrar ese texto, escribir `/` seguido de las primeras letras del nombre del archivo y seleccionarlo en la lista que aparece; el archivo queda resaltado como un vínculo. Si no aparece en la lista, seleccionar el botón **+** (Agregar) > **Cargar desde OneDrive** > `Laboratorio_Copilot_ISA/Practica01` y elegirlo.
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Cómo insertar los archivos:** cada texto que empieza con `/` es un archivo: borrarlo, escribir `/` y las primeras letras del nombre, y elegir el archivo en la lista. Si no aparece, usar **+** > **Cargar desde OneDrive** > `Laboratorio_Copilot_ISA/Practica01`.
 - **Qué verás:** una tabla o lista con las 4 prioridades del documento, un nivel de contribución (alto, medio o bajo) por prioridad, la evidencia y comentarios sobre las restricciones.
 
 **Paso 4.** Comparar la respuesta con su nota de la Tarea 1: debe haber **4 filas** (una por prioridad) y las restricciones deben mencionar los **datos no integrados**.
@@ -138,7 +135,6 @@ de forma distinta) y muestra quién afirma qué. Luego lista los aspectos para l
 evidencia suficiente para decidir un piloto en ISA INTERCOLOMBIA.
 ```
 
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
 - **Qué verás:** una lista de contradicciones con el nombre de cada fuente y lo que afirma, seguida de una lista de aspectos sin evidencia suficiente.
 - **Alternativa:** Si el agente responde que no hay contradicciones, escribir: *"Compara específicamente los beneficios y costos reportados por cada fuente"*.
 
@@ -162,22 +158,17 @@ evidencia suficiente para decidir un piloto en ISA INTERCOLOMBIA.
 
 **Por qué:** El reporte es el insumo para decidir si se propone un piloto y se reutiliza como referencia en la Práctica 14.
 
-**Paso 1.** Abrir una pestaña nueva, ingresar a [office.com](https://www.office.com/) y seleccionar **Word > Documento en blanco** (o abrir Word de escritorio > **Documento en blanco**). Regresar a Copilot y, debajo de el informe de Investigador, seleccionar el icono **Copiar**. Volver a Word, hacer clic en el documento y pegar con **Ctrl+V**.
+**Paso 1.** Crear un **Documento en blanco** en Word (escritorio o [office.com](https://www.office.com/)). En Copilot, seleccionar **Copiar** debajo del informe de Investigador y pegar en Word con **Ctrl+V**.
 
-- **Qué verás:** el texto con su formato (títulos, tablas y viñetas) dentro del documento.
-- **Alternativa:** Si la tabla se pega como texto plano, pegar con **Ctrl+Shift+V** > **Mantener formato de origen**, o pedir a Copilot: *"Entrega la tabla en formato de tabla"* y copiarla de nuevo.
+- **Alternativa:** Si una tabla se pega como texto plano, pegar con **Ctrl+Shift+V** o pedir a Copilot: *"Entrega la tabla en formato de tabla"*.
 
 **Paso 2.** Repetir la acción **Copiar > Ctrl+V** con la respuesta de la Tarea 2 (tabla de prioridades) y la de la Tarea 3 (contradicciones). Al final del documento, escribir las tres preguntas pendientes que anotó.
 
-**Paso 3.** Escribir estos títulos en el documento, uno por línea, y aplicarles el estilo **Título 1** (pestaña **Inicio > Estilos**): **Fuentes**, **Hallazgos**, **Oportunidades**, **Riesgos**, **Contradicciones entre fuentes** y **Preguntas pendientes**. Después, cortar (**Ctrl+X**) y pegar (**Ctrl+V**) cada contenido debajo del título que corresponde.
-
-- **Qué verás:** el panel **Navegación** (pestaña **Vista > Panel de navegación**) muestra los títulos en orden.
+**Paso 3.** Escribir estos títulos con el estilo **Título 1** (**Inicio > Estilos**): **Fuentes**, **Hallazgos**, **Oportunidades**, **Riesgos**, **Contradicciones entre fuentes** y **Preguntas pendientes**. Mover cada contenido debajo del título que le corresponde (**Ctrl+X** y **Ctrl+V**).
 
 **Paso 4.** En la sección **Fuentes**, dejar la lista de citas del informe y agregar las notas de verificación de la Tarea 2 (por ejemplo, *"Cita [4] verificada"*).
 
-**Paso 5.** Guardar el archivo: en Word de escritorio, seleccionar **Archivo > Guardar como > OneDrive - [su organización] > Laboratorio_Copilot_ISA > Entregables**, escribir el nombre `Reporte_Investigacion_[INICIALES].docx` (sustituyendo `[INICIALES]`) y seleccionar **Guardar**. En Word para la web, hacer clic en el nombre del documento en la parte superior, escribir el nombre y, en **Ubicación**, seleccionar la carpeta `Entregables`.
-
-- **Qué verás:** el nombre `Reporte_Investigacion_[INICIALES].docx` en la barra de título y el estado **Guardado**.
+**Paso 5.** Guardar el archivo en **OneDrive > Laboratorio_Copilot_ISA > Entregables** con el nombre `Reporte_Investigacion_[INICIALES].docx`: en Word de escritorio, **Archivo > Guardar como**; en Word para la web, hacer clic en el nombre del documento en la parte superior y elegir la carpeta.
 
 **Al terminar esta tarea debes tener:**
 

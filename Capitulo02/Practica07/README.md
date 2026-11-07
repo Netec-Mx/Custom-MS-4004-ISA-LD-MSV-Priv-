@@ -40,15 +40,14 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Por qué:** La información del proyecto está repartida en correos, informes, notas y reuniones. El agente la reúne en un solo lugar.
 
-**Paso 1.** Abrir **Microsoft Edge**, escribir [m365.cloud.microsoft](https://m365.cloud.microsoft/) en la barra de direcciones y presionar **Enter**. Si se solicita, iniciar sesión con su cuenta corporativa.
+**Paso 1.** Abrir **Microsoft Edge**, ingresar a [m365.cloud.microsoft](https://m365.cloud.microsoft/) e iniciar sesión con su cuenta corporativa si se solicita.
 
-- **Qué verás:** la página de inicio de Microsoft 365 Copilot con un cuadro de mensaje al centro y un panel a la izquierda.
-- **Alternativa:** Si aparece la página de inicio de Microsoft 365 sin chat, seleccionar el icono **Copilot** en la barra lateral izquierda.
+- **Alternativa:** Si no aparece el chat, seleccionar el icono **Copilot** en la barra lateral izquierda.
 
-**Paso 2.** En el panel izquierdo, seleccionar **Agentes**. Escribir `Project Delta Digest` en el cuadro de búsqueda de agentes y hacer clic en el resultado.
+**Paso 2.** En el panel izquierdo, seleccionar **Agentes**, escribir `Project Delta Digest` en la búsqueda y abrir el agente.
 
-- **Qué verás:** el nombre **Project Delta Digest** encima del cuadro de mensaje y, a veces, sugerencias de inicio. A partir de aquí, todo lo que escriba lo procesa este agente.
-- **Si no ocurre así:** seleccionar **Todos los agentes** (u **Obtener agentes**) y buscarlo de nuevo. Si sigue sin aparecer, avisar al instructor: el agente no está habilitado para su cuenta.
+- **Qué verás:** el nombre **Project Delta Digest** encima del cuadro de mensaje.
+- **Si no ocurre así:** buscarlo en **Todos los agentes**; si no aparece, avisar al instructor.
 
 **Paso 3.** Pegar el siguiente prompt y enviarlo:
 
@@ -58,7 +57,6 @@ actividades en progreso, próximos hitos, bloqueadores, elementos estancados, ri
 Indica la fuente de cada hallazgo.
 ```
 
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
 - **Qué verás:** una revisión del proyecto organizada en avances, entregables completados, actividades en progreso, próximos hitos, bloqueadores, elementos estancados, riesgos y decisiones recientes, con referencias a sus fuentes.
 
 **Paso 4.** Comprobar que aparezcan los cuatro hallazgos clave: ventana de **30 h** frente a 36 h planeadas, permiso ambiental con respuesta el **25-nov**, cliente que pide **reprogramar a diciembre** y **plan con comunidades** sin avance desde hace 2 semanas.
@@ -84,7 +82,6 @@ Indica la fuente de cada hallazgo.
 Genera una vista para liderazgo: resultados, riesgos, hitos, fechas y aspectos que requieren atención, con poco detalle operativo.
 ```
 
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
 - **Qué verás:** una vista más corta centrada en resultados, riesgos, hitos y fechas, con poco detalle operativo.
 
 **Paso 2.** Pegar el siguiente prompt:
@@ -94,7 +91,6 @@ Para cada bloqueador y riesgo indica si requiere seguimiento, escalación o deci
 confirmada, incompleta, desactualizada o no verificable.
 ```
 
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
 - **Qué verás:** cada bloqueador y riesgo con dos etiquetas: una acción (seguimiento, escalación o decisión) y la calidad de la información (confirmada, incompleta, desactualizada o no verificable).
 
 **Paso 3.** Revisar que el permiso ambiental y la ventana del operador estén marcados como **escalación** o **decisión**, que la solicitud del cliente de reprogramar a diciembre aparezca como asunto que requiere **decisión**, y que el plan con comunidades se marque como **estancado** o **incompleto**.
@@ -118,7 +114,6 @@ confirmada, incompleta, desactualizada o no verificable.
 Genera ahora una versión para el gerente del proyecto (PM), con el detalle operativo necesario para gestionar las actividades.
 ```
 
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
 - **Qué verás:** una versión más extensa con actividades, responsables y fechas operativas.
 
 **Paso 2.** Abrir un **Documento en blanco** de Word y escribir tres diferencias entre la vista de liderazgo y la del PM. Por ejemplo: **extensión** (número de líneas), **nivel de detalle** (decisiones frente a tareas) y **tipo de acción** (escalar frente a ejecutar).
@@ -143,16 +138,13 @@ Con base en los bloqueadores y decisiones pendientes, propón la agenda para la 
 Muéstramela primero para confirmarla antes de darla por final.
 ```
 
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
 - **Qué verás:** una propuesta de agenda y una pregunta del agente para que usted la confirme o la ajuste.
 
 **Paso 2.** Revisar la agenda: debe incluir la ventana del operador, el permiso ambiental, la respuesta al cliente y el vocero. Responder *"Confirmo la agenda"* o pedir un ajuste concreto (por ejemplo, *"Agrega 10 minutos para el plan con comunidades"*).
 
 **Paso 3.** En el documento de Word de la Tarea 3, copiar y pegar la vista de liderazgo, la vista para el PM y la agenda confirmada. Al final, agregar una línea: *"Agente de actualización de estado: actividad de una persona o equipo. Project Delta Digest: seguimiento integral de un proyecto."*
 
-**Paso 4.** Guardar el archivo: en Word de escritorio, seleccionar **Archivo > Guardar como > OneDrive - [su organización] > Laboratorio_Copilot_ISA > Entregables**, escribir el nombre `Estado_Proyecto_INT-MDV_[INICIALES].docx` (sustituyendo `[INICIALES]`) y seleccionar **Guardar**. En Word para la web, hacer clic en el nombre del documento en la parte superior, escribir el nombre y, en **Ubicación**, seleccionar la carpeta `Entregables`.
-
-- **Qué verás:** el nombre `Estado_Proyecto_INT-MDV_[INICIALES].docx` en la barra de título y el estado **Guardado**.
+**Paso 4.** Guardar el archivo en **OneDrive > Laboratorio_Copilot_ISA > Entregables** con el nombre `Estado_Proyecto_INT-MDV_[INICIALES].docx`: en Word de escritorio, **Archivo > Guardar como**; en Word para la web, hacer clic en el nombre del documento en la parte superior y elegir la carpeta.
 
 **Al terminar esta tarea debes tener:**
 

@@ -60,7 +60,6 @@ Al finalizar la práctica, el participante será capaz de:
 y los archivos /Plan_Intervencion_Mirador_del_Valle y /Matriz_Riesgos_Intervencion. Indica la fuente de cada dato.
 ```
 
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
 - **Qué verás:** una lista de fuentes con lo que aporta cada una.
 
 **Paso 5.** Comprobar que aparezcan las cinco fuentes: correo de **Operación** (ventana de 30 horas), correo de **Gestión Ambiental** (permiso en trámite), correo de **Comercial** (cliente sin acuse), el **plan** y la **matriz de riesgos**.
@@ -86,7 +85,6 @@ Prepara para esta reunión: 1) objetivo en una frase, 2) agenda de 45 minutos co
 3) contexto que todos deben conocer, 4) preguntas relevantes por área y 5) asuntos que deben resolverse durante la reunión.
 ```
 
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
 - **Qué verás:** cinco secciones: objetivo, agenda con tiempos que suman 45 minutos, contexto, preguntas por área y asuntos por resolver.
 
 **Paso 2.** Revisar el **contexto**: debe mencionar la ventana planeada de **36 h** frente a las **30 h** aprobadas preliminarmente, el permiso ambiental con respuesta estimada el **25-nov** y el cliente que pidió reprogramar.
@@ -118,7 +116,6 @@ Prepara para esta reunión: 1) objetivo en una frase, 2) agenda de 45 minutos co
 de las áreas y propón dos preguntas para conducir la conversación hacia una decisión.
 ```
 
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
 - **Qué verás:** una lista de desacuerdos o decisiones difíciles, con la posición probable de cada área y dos preguntas por cada uno.
 
 **Paso 2.** Confirmar que aparezcan al menos tres: **mantener o reprogramar la fecha** ante la solicitud del cliente, **re-secuenciar actividades** para 30 horas y **designar al vocero** ante medios.
@@ -138,14 +135,11 @@ de las áreas y propón dos preguntas para conducir la conversación hacia una d
 
 **Por qué:** Facilitator tomará las notas durante la reunión; ese tipo de notas es la base de la Práctica 5.
 
-**Paso 1.** Abrir una pestaña nueva, ingresar a [office.com](https://www.office.com/) y seleccionar **Word > Documento en blanco** (o abrir Word de escritorio > **Documento en blanco**). Regresar a Copilot y, debajo de las respuestas de las Tareas 2 y 3, seleccionar el icono **Copiar**. Volver a Word, hacer clic en el documento y pegar con **Ctrl+V**.
+**Paso 1.** Crear un **Documento en blanco** en Word (escritorio o [office.com](https://www.office.com/)). En Copilot, seleccionar **Copiar** debajo de las respuestas de las Tareas 2 y 3 y pegar en Word con **Ctrl+V**.
 
-- **Qué verás:** el texto con su formato (títulos, tablas y viñetas) dentro del documento.
-- **Alternativa:** Si la tabla se pega como texto plano, pegar con **Ctrl+Shift+V** > **Mantener formato de origen**, o pedir a Copilot: *"Entrega la tabla en formato de tabla"* y copiarla de nuevo.
+- **Alternativa:** Si una tabla se pega como texto plano, pegar con **Ctrl+Shift+V** o pedir a Copilot: *"Entrega la tabla en formato de tabla"*.
 
-**Paso 2.** Guardar el archivo: en Word de escritorio, seleccionar **Archivo > Guardar como > OneDrive - [su organización] > Laboratorio_Copilot_ISA > Entregables**, escribir el nombre `Guia_Reunion_INT-MDV_[INICIALES].docx` (sustituyendo `[INICIALES]`) y seleccionar **Guardar**. En Word para la web, hacer clic en el nombre del documento en la parte superior, escribir el nombre y, en **Ubicación**, seleccionar la carpeta `Entregables`.
-
-- **Qué verás:** el nombre `Guia_Reunion_INT-MDV_[INICIALES].docx` en la barra de título y el estado **Guardado**.
+**Paso 2.** Guardar el archivo en **OneDrive > Laboratorio_Copilot_ISA > Entregables** con el nombre `Guia_Reunion_INT-MDV_[INICIALES].docx`: en Word de escritorio, **Archivo > Guardar como**; en Word para la web, hacer clic en el nombre del documento en la parte superior y elegir la carpeta.
 
 **Paso 3.** Volver a Teams, abrir la reunión `Revisión de preparación INT-MDV-2026` y seleccionar **Opciones de reunión** (en el menú **…** o en la parte superior de los detalles). Localizar la sección **Copilot y agentes** (el nombre puede variar) y confirmar que **Facilitator** esté activado; si no lo está, activarlo y seleccionar **Guardar**.
 

@@ -39,15 +39,14 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Por qué:** Escribir un informe de estado de memoria toma tiempo y omite cosas. El agente lo construye desde la actividad real, pero hay que verificarlo.
 
-**Paso 1.** Abrir **Microsoft Edge**, escribir [m365.cloud.microsoft](https://m365.cloud.microsoft/) en la barra de direcciones y presionar **Enter**. Si se solicita, iniciar sesión con su cuenta corporativa.
+**Paso 1.** Abrir **Microsoft Edge**, ingresar a [m365.cloud.microsoft](https://m365.cloud.microsoft/) e iniciar sesión con su cuenta corporativa si se solicita.
 
-- **Qué verás:** la página de inicio de Microsoft 365 Copilot con un cuadro de mensaje al centro y un panel a la izquierda.
-- **Alternativa:** Si aparece la página de inicio de Microsoft 365 sin chat, seleccionar el icono **Copilot** en la barra lateral izquierda.
+- **Alternativa:** Si no aparece el chat, seleccionar el icono **Copilot** en la barra lateral izquierda.
 
-**Paso 2.** En el panel izquierdo, seleccionar **Agentes**. Escribir `Agente de actualización de estado` en el cuadro de búsqueda de agentes y hacer clic en el resultado.
+**Paso 2.** En el panel izquierdo, seleccionar **Agentes**, escribir `Agente de actualización de estado` en la búsqueda y abrir el agente.
 
-- **Qué verás:** el nombre **Agente de actualización de estado** encima del cuadro de mensaje y, a veces, sugerencias de inicio. A partir de aquí, todo lo que escriba lo procesa este agente.
-- **Si no ocurre así:** seleccionar **Todos los agentes** (u **Obtener agentes**) y buscarlo de nuevo. Si sigue sin aparecer, avisar al instructor: el agente no está habilitado para su cuenta.
+- **Qué verás:** el nombre **Agente de actualización de estado** encima del cuadro de mensaje.
+- **Si no ocurre así:** buscarlo en **Todos los agentes**; si no aparece, avisar al instructor.
 
 **Paso 3.** Pegar el siguiente prompt y enviarlo:
 
@@ -57,7 +56,6 @@ SharePoint y OneDrive. Organízalo en: logros relevantes, actividades en curso, 
 y prioridades para la siguiente semana. Indica la fuente de cada punto y no incluyas nada que no puedas sustentar.
 ```
 
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
 - **Qué verás:** un informe con cuatro secciones (logros relevantes, actividades en curso, colaboración y apoyo, y prioridades) y referencias a correos, chats, reuniones o archivos.
 
 **Paso 4.** Hacer clic en dos referencias del informe (correo, chat o archivo) y comprobar que lo que dice el informe coincide con la fuente.
@@ -85,8 +83,7 @@ Vincula las actividades y resultados del informe con cada objetivo y resultado c
 Para cada KR indica: progreso observado con evidencia, o "evidencia insuficiente" si no hay actividad que lo respalde.
 ```
 
-- **Cómo insertar los archivos:** en el prompt, cada texto que empieza con `/` es un archivo. Borrar ese texto, escribir `/` seguido de las primeras letras del nombre del archivo y seleccionarlo en la lista que aparece; el archivo queda resaltado como un vínculo. Si no aparece en la lista, seleccionar el botón **+** (Agregar) > **Cargar desde OneDrive** > `Laboratorio_Copilot_ISA/Practica06` y elegirlo.
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Cómo insertar los archivos:** cada texto que empieza con `/` es un archivo: borrarlo, escribir `/` y las primeras letras del nombre, y elegir el archivo en la lista. Si no aparece, usar **+** > **Cargar desde OneDrive** > `Laboratorio_Copilot_ISA/Practica06`.
 - **Qué verás:** una tabla con los 3 objetivos y sus 6 resultados clave (KR1.1 a KR3.2), con el progreso observado y la evidencia, o "evidencia insuficiente".
 
 **Paso 2.** Comprobar tres resultados: **KR2.1** (análisis de desviaciones) con evidencia de la Práctica 2, **KR3.1** (prompts en la galería) con evidencia de la Práctica 5 y **KR3.2** (agente personalizado) con **evidencia insuficiente**, porque ese agente se crea en la Práctica 13.
@@ -113,17 +110,13 @@ Transforma los principales resultados del periodo en un documento de logros. Par
 logro, impacto y colaboración. Luego genera una variante breve y compartible dirigida a mi responsable.
 ```
 
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
 - **Qué verás:** un documento de logros con tres partes por logro (logro, impacto, colaboración) y, al final, una versión breve dirigida al responsable.
 
-**Paso 2.** Abrir una pestaña nueva, ingresar a [office.com](https://www.office.com/) y seleccionar **Word > Documento en blanco** (o abrir Word de escritorio > **Documento en blanco**). Regresar a Copilot y, debajo de el informe de estado (Tarea 1) y la tabla de OKR (Tarea 2), seleccionar el icono **Copiar**. Volver a Word, hacer clic en el documento y pegar con **Ctrl+V**.
+**Paso 2.** Crear un **Documento en blanco** en Word (escritorio o [office.com](https://www.office.com/)). En Copilot, seleccionar **Copiar** debajo del informe de estado (Tarea 1) y la tabla de OKR (Tarea 2) y pegar en Word con **Ctrl+V**.
 
-- **Qué verás:** el texto con su formato (títulos, tablas y viñetas) dentro del documento.
-- **Alternativa:** Si la tabla se pega como texto plano, pegar con **Ctrl+Shift+V** > **Mantener formato de origen**, o pedir a Copilot: *"Entrega la tabla en formato de tabla"* y copiarla de nuevo.
+- **Alternativa:** Si una tabla se pega como texto plano, pegar con **Ctrl+Shift+V** o pedir a Copilot: *"Entrega la tabla en formato de tabla"*.
 
-**Paso 3.** Guardar el archivo: en Word de escritorio, seleccionar **Archivo > Guardar como > OneDrive - [su organización] > Laboratorio_Copilot_ISA > Entregables**, escribir el nombre `Informe_Estado_[INICIALES].docx` (sustituyendo `[INICIALES]`) y seleccionar **Guardar**. En Word para la web, hacer clic en el nombre del documento en la parte superior, escribir el nombre y, en **Ubicación**, seleccionar la carpeta `Entregables`.
-
-- **Qué verás:** el nombre `Informe_Estado_[INICIALES].docx` en la barra de título y el estado **Guardado**.
+**Paso 3.** Guardar el archivo en **OneDrive > Laboratorio_Copilot_ISA > Entregables** con el nombre `Informe_Estado_[INICIALES].docx`: en Word de escritorio, **Archivo > Guardar como**; en Word para la web, hacer clic en el nombre del documento en la parte superior y elegir la carpeta.
 
 **Paso 4.** Crear otro **Documento en blanco** en Word, copiar y pegar el documento de logros y su variante compartible y repetir el guardado con el nombre `Documento_Logros_[INICIALES].docx`.
 

@@ -83,7 +83,6 @@ Agrega las columnas Estado (Cumplido, Vencido, Próximo a vencer en 7 días, Sin
 y una columna "Acción de seguimiento". Ordena por estado y prioridad.
 ```
 
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
 - **Qué verás:** la tabla con tres columnas nuevas (Estado, Prioridad y Acción de seguimiento), ordenada por estado.
 
 **Paso 3.** Revisar en grupo los cinco casos esperados: **verificación de grúa** (vencida el 05-nov), **permiso de aceite** (vence el 10-nov), **notificación a clientes** (vence el 14-nov), **vocero ante medios** (sin responsable) y **plan con comunidades** (sin fecha).
@@ -110,7 +109,6 @@ Unifícalos en una sola fila indicando todas las reuniones de origen y la fecha 
 Luego muestra solo los compromisos que requieren atención: atrasados, próximos a vencer y sin responsable.
 ```
 
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
 - **Qué verás:** una sola fila para la actividad del cronograma con sus tres reuniones de origen (20-oct, 27-oct y 03-nov) y la fecha vigente del 07-nov, seguida de la vista de atención.
 
 **Paso 2.** Comprobar que la actividad unificada aparezca como compromiso **propio** de Coordinación de la intervención y que la vista de atención solo muestre lo atrasado, lo próximo a vencer o lo que no tiene responsable.
@@ -120,9 +118,7 @@ Luego muestra solo los compromisos que requieren atención: atrasados, próximos
 - **Qué verás:** la tabla en columnas de Excel.
 - **Alternativa:** Si todo queda en una sola columna, usar **Datos > Texto en columnas** o pegar con **Ctrl+Shift+V**.
 
-**Paso 4.** Guardar el archivo: en Excel de escritorio, seleccionar **Archivo > Guardar como > OneDrive - [su organización] > Laboratorio_Copilot_ISA > Entregables**, escribir el nombre `Vista_Compromisos_INT-MDV_[INICIALES].xlsx` (sustituyendo `[INICIALES]`) y seleccionar **Guardar**. En Excel para la web, hacer clic en el nombre del documento en la parte superior, escribir el nombre y, en **Ubicación**, seleccionar la carpeta `Entregables`.
-
-- **Qué verás:** el nombre `Vista_Compromisos_INT-MDV_[INICIALES].xlsx` en la barra de título y el estado **Guardado**.
+**Paso 4.** Guardar el archivo en **OneDrive > Laboratorio_Copilot_ISA > Entregables** con el nombre `Vista_Compromisos_INT-MDV_[INICIALES].xlsx`: en Excel de escritorio, **Archivo > Guardar como**; en Excel para la web, hacer clic en el nombre del documento en la parte superior y elegir la carpeta.
 
 **Al terminar esta tarea debes tener:**
 

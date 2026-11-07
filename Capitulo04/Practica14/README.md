@@ -46,10 +46,9 @@ Al finalizar la práctica, el participante será capaz de:
 
 - **Qué verás:** las dos copias en `Entregables`. En el resto de la práctica se trabaja solo con estas copias.
 
-**Paso 2.** Abrir **Microsoft Edge**, escribir [m365.cloud.microsoft](https://m365.cloud.microsoft/) en la barra de direcciones y presionar **Enter**. Si se solicita, iniciar sesión con su cuenta corporativa.
+**Paso 2.** Abrir **Microsoft Edge**, ingresar a [m365.cloud.microsoft](https://m365.cloud.microsoft/) e iniciar sesión con su cuenta corporativa si se solicita.
 
-- **Qué verás:** la página de inicio de Microsoft 365 Copilot con un cuadro de mensaje al centro y un panel a la izquierda.
-- **Alternativa:** Si aparece la página de inicio de Microsoft 365 sin chat, seleccionar el icono **Copilot** en la barra lateral izquierda.
+- **Alternativa:** Si no aparece el chat, seleccionar el icono **Copilot** en la barra lateral izquierda.
 
 Después, abrir el agente **Investigador** (panel izquierdo **Agentes** > buscar `Investigador`).
 
@@ -61,8 +60,7 @@ adoptaron monitoreo predictivo de transformadores, tecnologías más maduras, op
 (ciberseguridad, calidad de datos, capacidades). Cita cada fuente.
 ```
 
-- **Cómo insertar los archivos:** en el prompt, cada texto que empieza con `/` es un archivo. Borrar ese texto, escribir `/` seguido de las primeras letras del nombre del archivo y seleccionarlo en la lista que aparece; el archivo queda resaltado como un vínculo. Si no aparece en la lista, seleccionar el botón **+** (Agregar) > **Cargar desde OneDrive** > `Laboratorio_Copilot_ISA/Practica14` y elegirlo.
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Cómo insertar los archivos:** cada texto que empieza con `/` es un archivo: borrarlo, escribir `/` y las primeras letras del nombre, y elegir el archivo en la lista. Si no aparece, usar **+** > **Cargar desde OneDrive** > `Laboratorio_Copilot_ISA/Practica14`.
 - **Qué verás:** posibles preguntas de aclaración y luego el indicador de progreso de la investigación.
 
 **Paso 4.** Responder las preguntas de aclaración (por ejemplo: *"Empresas de transmisión de energía; enfoque en transformadores de potencia"*) y **dejar la pestaña abierta**: continuar con la Tarea 2 mientras Investigador trabaja.
@@ -90,7 +88,6 @@ en intervenciones correctivas, horas de indisponibilidad y costo de mantenimient
 y relaciones. Muestra una tabla y un gráfico.
 ```
 
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
 - **Qué verás:** una tabla comparativa y un gráfico. Puede tardar entre 1 y 3 minutos.
 
 **Paso 3.** Verificar los hallazgos: en los activos **con monitoreo** las intervenciones correctivas bajan de **2,16 a 0,96** por trimestre y las horas de indisponibilidad de **28,8 a 17,1**; en los activos **sin monitoreo** no mejoran; **TR-14** (sin monitoreo) es atípico por costos altos en 2026.
@@ -181,15 +178,12 @@ hallazgos de los datos, oportunidades, riesgos, propuesta y próximos pasos. Fra
 si amplía el monitoreo a 12 transformadores.
 ```
 
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
 - **Qué verás:** Copilot genera 7 diapositivas con títulos y viñetas. Puede tardar 1 o 2 minutos.
 - **Alternativa:** Si Copilot no encuentra el documento, comprobar que esté guardado en OneDrive y volver a referenciarlo.
 
 **Paso 3.** En Excel, seleccionar el gráfico de la Tarea 3, copiarlo (**Ctrl+C**) y pegarlo (**Ctrl+V**) en la diapositiva de **hallazgos de los datos**. Ajustar su tamaño.
 
-**Paso 4.** Guardar el archivo: en PowerPoint de escritorio, seleccionar **Archivo > Guardar como > OneDrive - [su organización] > Laboratorio_Copilot_ISA > Entregables**, escribir el nombre `Presentacion_MPA_[INICIALES].pptx` (sustituyendo `[INICIALES]`) y seleccionar **Guardar**. En PowerPoint para la web, hacer clic en el nombre del documento en la parte superior, escribir el nombre y, en **Ubicación**, seleccionar la carpeta `Entregables`.
-
-- **Qué verás:** el nombre `Presentacion_MPA_[INICIALES].pptx` en la barra de título y el estado **Guardado**.
+**Paso 4.** Guardar el archivo en **OneDrive > Laboratorio_Copilot_ISA > Entregables** con el nombre `Presentacion_MPA_[INICIALES].pptx`: en PowerPoint de escritorio, **Archivo > Guardar como**; en PowerPoint para la web, hacer clic en el nombre del documento en la parte superior y elegir la carpeta.
 
 **Al terminar esta tarea debes tener:**
 
@@ -212,7 +206,6 @@ Revisa esta presentación e identifica diapositivas con exceso de información, 
 o los datos, y aspectos que deberían enfatizarse para una audiencia ejecutiva.
 ```
 
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
 - **Qué verás:** una lista de diapositivas con sugerencias (texto excesivo, afirmaciones sin respaldo y puntos para enfatizar).
 
 **Paso 2.** Aplicar al menos dos sugerencias. Por ejemplo: reducir una diapositiva a 3 viñetas o eliminar una cifra sin fuente. Guardar con **Ctrl+S**.

@@ -39,15 +39,14 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Por qué:** No todas las comunicaciones requieren acción; clasificarlas ayuda a enfocarse en lo que cambia su trabajo.
 
-**Paso 1.** Abrir **Microsoft Edge**, escribir [m365.cloud.microsoft](https://m365.cloud.microsoft/) en la barra de direcciones y presionar **Enter**. Si se solicita, iniciar sesión con su cuenta corporativa.
+**Paso 1.** Abrir **Microsoft Edge**, ingresar a [m365.cloud.microsoft](https://m365.cloud.microsoft/) e iniciar sesión con su cuenta corporativa si se solicita.
 
-- **Qué verás:** la página de inicio de Microsoft 365 Copilot con un cuadro de mensaje al centro y un panel a la izquierda.
-- **Alternativa:** Si aparece la página de inicio de Microsoft 365 sin chat, seleccionar el icono **Copilot** en la barra lateral izquierda.
+- **Alternativa:** Si no aparece el chat, seleccionar el icono **Copilot** en la barra lateral izquierda.
 
-**Paso 2.** En el panel izquierdo, seleccionar **Agentes**. Escribir `Resumen personal de noticias` en el cuadro de búsqueda de agentes y hacer clic en el resultado.
+**Paso 2.** En el panel izquierdo, seleccionar **Agentes**, escribir `Resumen personal de noticias` en la búsqueda y abrir el agente.
 
-- **Qué verás:** el nombre **Resumen personal de noticias** encima del cuadro de mensaje y, a veces, sugerencias de inicio. A partir de aquí, todo lo que escriba lo procesa este agente.
-- **Si no ocurre así:** seleccionar **Todos los agentes** (u **Obtener agentes**) y buscarlo de nuevo. Si sigue sin aparecer, avisar al instructor: el agente no está habilitado para su cuenta.
+- **Qué verás:** el nombre **Resumen personal de noticias** encima del cuadro de mensaje.
+- **Si no ocurre así:** buscarlo en **Todos los agentes**; si no aparece, avisar al instructor.
 
 **Paso 3.** Si el agente pregunta por sus intereses o preferencias, responder: *"Proyectos de infraestructura, operación de subestaciones, procedimientos internos, sostenibilidad y seguridad de la información"*.
 
@@ -59,7 +58,6 @@ Agrúpalas por temática y clasifícalas como: cambio importante, información c
 Incluye la fuente de cada novedad.
 ```
 
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
 - **Qué verás:** novedades agrupadas por temática, cada una con su clasificación y su fuente.
 
 **Paso 5.** Comparar la clasificación con la esperada: **cambio de procedimiento de consignaciones** y **alerta de seguridad** como *cambio importante*; **prioridades del liderazgo**, **iniciativa de SF6** y **actualización operativa** como *importantes* o *contextuales* según su trabajo; **boletín de bienestar** como *recurrente*.
@@ -86,7 +84,6 @@ Profundiza en el cambio del procedimiento de solicitud de consignaciones: antece
 a quién aplica e implicaciones para Operación, Proyectos y Comunicaciones.
 ```
 
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
 - **Qué verás:** los antecedentes, qué cambia, desde cuándo, a quién aplica y las implicaciones por área.
 
 **Paso 2.** Comprobar tres datos: el plazo pasa de **15 a 20 días hábiles**, se exige un **plan de comunicación aprobado** y la vigencia comienza el **1 de diciembre de 2026**.
@@ -115,19 +112,15 @@ Estuve ausente del 2 al 6 de noviembre. ¿Qué cambió en ese periodo que debo c
 de mi parte e indica la fuente original para ampliar cada tema.
 ```
 
-- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
 - **Qué verás:** una síntesis priorizada que empieza por lo que requiere su acción (por ejemplo, la alerta de seguridad y el cambio de procedimiento), con un enlace o referencia a cada fuente original.
 
 **Paso 2.** Hacer clic en una de las fuentes de la síntesis para comprobar que abre la comunicación original.
 
-**Paso 3.** Abrir una pestaña nueva, ingresar a [office.com](https://www.office.com/) y seleccionar **Word > Documento en blanco** (o abrir Word de escritorio > **Documento en blanco**). Regresar a Copilot y, debajo de el panorama (Tarea 1), la profundización (Tarea 2) y la síntesis (Tarea 3), seleccionar el icono **Copiar**. Volver a Word, hacer clic en el documento y pegar con **Ctrl+V**.
+**Paso 3.** Crear un **Documento en blanco** en Word (escritorio o [office.com](https://www.office.com/)). En Copilot, seleccionar **Copiar** debajo del panorama (Tarea 1), la profundización (Tarea 2) y la síntesis (Tarea 3) y pegar en Word con **Ctrl+V**.
 
-- **Qué verás:** el texto con su formato (títulos, tablas y viñetas) dentro del documento.
-- **Alternativa:** Si la tabla se pega como texto plano, pegar con **Ctrl+Shift+V** > **Mantener formato de origen**, o pedir a Copilot: *"Entrega la tabla en formato de tabla"* y copiarla de nuevo.
+- **Alternativa:** Si una tabla se pega como texto plano, pegar con **Ctrl+Shift+V** o pedir a Copilot: *"Entrega la tabla en formato de tabla"*.
 
-**Paso 4.** Guardar el archivo: en Word de escritorio, seleccionar **Archivo > Guardar como > OneDrive - [su organización] > Laboratorio_Copilot_ISA > Entregables**, escribir el nombre `Panorama_Novedades_[INICIALES].docx` (sustituyendo `[INICIALES]`) y seleccionar **Guardar**. En Word para la web, hacer clic en el nombre del documento en la parte superior, escribir el nombre y, en **Ubicación**, seleccionar la carpeta `Entregables`.
-
-- **Qué verás:** el nombre `Panorama_Novedades_[INICIALES].docx` en la barra de título y el estado **Guardado**.
+**Paso 4.** Guardar el archivo en **OneDrive > Laboratorio_Copilot_ISA > Entregables** con el nombre `Panorama_Novedades_[INICIALES].docx`: en Word de escritorio, **Archivo > Guardar como**; en Word para la web, hacer clic en el nombre del documento en la parte superior y elegir la carpeta.
 
 **Al terminar esta tarea debes tener:**
 
