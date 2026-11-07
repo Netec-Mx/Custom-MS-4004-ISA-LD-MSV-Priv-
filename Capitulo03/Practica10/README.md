@@ -40,16 +40,28 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Por qué:** Un briefing con el formato o la audiencia equivocados no sirve; confirmar evita rehacer el trabajo.
 
-**Paso 1.** En la aplicación Microsoft 365 Copilot, abrir **Agentes** y seleccionar **Agente de informe ejecutivo**.
+**Paso 1.** Abrir **Microsoft Edge**, escribir [m365.cloud.microsoft](https://m365.cloud.microsoft/) en la barra de direcciones y presionar **Enter**. Si se solicita, iniciar sesión con su cuenta corporativa.
 
-**Paso 2.** Escribir, referenciando la ficha con `/`:
+- **Qué verás:** la página de inicio de Microsoft 365 Copilot con un cuadro de mensaje al centro y un panel a la izquierda.
+- **Alternativa:** Si aparece la página de inicio de Microsoft 365 sin chat, seleccionar el icono **Copilot** en la barra lateral izquierda.
+
+**Paso 2.** En el panel izquierdo, seleccionar **Agentes**. Escribir `Agente de informe ejecutivo` en el cuadro de búsqueda de agentes y hacer clic en el resultado.
+
+- **Qué verás:** el nombre **Agente de informe ejecutivo** encima del cuadro de mensaje y, a veces, sugerencias de inicio. A partir de aquí, todo lo que escriba lo procesa este agente.
+- **Si no ocurre así:** seleccionar **Todos los agentes** (u **Obtener agentes**) y buscarlo de nuevo. Si sigue sin aparecer, avisar al instructor: el agente no está habilitado para su cuenta.
+
+**Paso 3.** Pegar el siguiente prompt (insertar `/Ficha_Evento_Sector_Energetico` con el selector de archivos):
 
 ```text
 Voy a preparar la intervención de un líder de ISA INTERCOLOMBIA en el evento descrito en /Ficha_Evento_Sector_Energetico.
 Antes de empezar, confirma conmigo el evento, la fecha, el formato, la audiencia y el objetivo.
 ```
 
-**Paso 3.** Revisar el resumen del agente y confirmarlo o corregirlo.
+- **Cómo insertar los archivos:** en el prompt, cada texto que empieza con `/` es un archivo. Borrar ese texto, escribir `/` seguido de las primeras letras del nombre del archivo y seleccionarlo en la lista que aparece; el archivo queda resaltado como un vínculo. Si no aparece en la lista, seleccionar el botón **+** (Agregar) > **Cargar desde OneDrive** > `Laboratorio_Copilot_ISA/Practica10` y elegirlo.
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** un resumen del evento (Foro de Transmisión y Confiabilidad 2026, 3 de diciembre, Bogotá, panel de 45 minutos con 8 minutos de intervención) y una pregunta para que usted lo confirme.
+
+**Paso 4.** Revisar el resumen. Si es correcto, responder *"Confirmo, continúa"*; si algo no coincide con la ficha, corregirlo (por ejemplo, *"La intervención inicial es de 8 minutos"*).
 
 **Al terminar esta tarea debes tener:**
 
@@ -63,7 +75,7 @@ Antes de empezar, confirma conmigo el evento, la fecha, el formato, la audiencia
 
 **Por qué:** Lo que se dice en un evento público debe poder verificarse; una cifra sin fuente puede afectar la reputación.
 
-**Paso 1.** Escribir:
+**Paso 1.** Pegar el siguiente prompt:
 
 ```text
 Investiga avances, proyectos de modernización, innovaciones tecnológicas y mejoras de ISA INTERCOLOMBIA en transmisión de energía,
@@ -71,7 +83,12 @@ usando información pública de la organización y fuentes especializadas. Para 
 Identifica logros, beneficios documentados, tendencias del sector y oportunidades futuras.
 ```
 
-**Paso 2.** Hacer clic en al menos dos fuentes citadas y verificar que sean públicas (sitio oficial, informes publicados o medios especializados), que mencionen el dato y que tengan fecha. Descartar las que no cumplan.
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** una lista de avances y proyectos de ISA INTERCOLOMBIA, cada uno con una fuente y su fecha. La búsqueda puede tardar 1 o 2 minutos.
+
+**Paso 2.** Hacer clic en dos fuentes y verificar que sean públicas (sitio oficial, informes publicados o medios especializados), que mencionen el dato y que tengan una fecha visible.
+
+- **Alternativa:** Si una fuente no es pública o no tiene fecha, escribir: *"Descarta el hallazgo sobre [tema] porque su fuente no es verificable"*.
 
 **Al terminar esta tarea debes tener:**
 
@@ -86,7 +103,7 @@ Identifica logros, beneficios documentados, tendencias del sector y oportunidade
 
 **Por qué:** Las preguntas del público suelen ir a inversiones y resultados; preparar respuestas evita improvisar cifras.
 
-**Paso 1.** Escribir:
+**Paso 1.** Pegar el siguiente prompt:
 
 ```text
 Estructura 3 a 5 mensajes estratégicos para presentar la evolución de ISA INTERCOLOMBIA y su contribución a la confiabilidad,
@@ -94,7 +111,12 @@ eficiencia y sostenibilidad. Luego prepara 6 preguntas probables de los asistent
 innovación y proyectos futuros) con respuestas, marcando cada una como "respaldada por fuente pública" o "requiere validación".
 ```
 
-**Paso 2.** Revisar las respuestas: ninguna debe anunciar una inversión, fecha o proyecto que no esté en una fuente pública. Si aparece, escribir: *"Marca como requiere validación la respuesta sobre [tema]"*.
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** de 3 a 5 mensajes estratégicos y 6 preguntas con su respuesta, cada una marcada como "respaldada por fuente pública" o "requiere validación".
+
+**Paso 2.** Leer las 6 respuestas: ninguna debe anunciar una inversión, una fecha o un proyecto que no aparezca en una fuente pública.
+
+- **Si no ocurre así:** escribir: *"Marca como requiere validación la respuesta sobre [tema]"*.
 
 **Al terminar esta tarea debes tener:**
 
@@ -109,14 +131,24 @@ innovación y proyectos futuros) con respuestas, marcando cada una como "respald
 
 **Por qué:** El briefing se revisa con Comunicaciones antes del evento; señalar lo dudoso facilita esa revisión.
 
-**Paso 1.** Escribir:
+**Paso 1.** Pegar el siguiente prompt:
 
 ```text
 Revisa los mensajes y respuestas: identifica afirmaciones sin evidencia suficiente, información sensible y contenido que requiera
 aprobación antes de comunicarse públicamente. Luego genera el briefing completo como documento.
 ```
 
-**Paso 2.** Si el agente ofrece abrir el resultado en Word, seleccionarlo; si no, abrir Word (escritorio o web) y crear un **Documento en blanco**. En Copilot, seleccionar **Copiar** debajo de el briefing y pegar en Word con **Ctrl+V**. Seleccionar **Archivo > Guardar como**, elegir **OneDrive > Laboratorio_Copilot_ISA > Entregables** y guardar con el nombre `Briefing_Evento_[INICIALES].docx`.
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** una lista de afirmaciones sin evidencia, información sensible y contenidos por aprobar, seguida del briefing completo.
+
+**Paso 2.** Si el agente ofrece **Abrir en Word** o **Exportar**, seleccionarlo. Si no, abrir una pestaña nueva, ingresar a [office.com](https://www.office.com/) y seleccionar **Word > Documento en blanco** (o abrir Word de escritorio > **Documento en blanco**). Regresar a Copilot y, debajo de el briefing, seleccionar el icono **Copiar**. Volver a Word, hacer clic en el documento y pegar con **Ctrl+V**.
+
+- **Qué verás:** el texto con su formato (títulos, tablas y viñetas) dentro del documento.
+- **Alternativa:** Si la tabla se pega como texto plano, pegar con **Ctrl+Shift+V** > **Mantener formato de origen**, o pedir a Copilot: *"Entrega la tabla en formato de tabla"* y copiarla de nuevo.
+
+**Paso 3.** Guardar el archivo: en Word de escritorio, seleccionar **Archivo > Guardar como > OneDrive - [su organización] > Laboratorio_Copilot_ISA > Entregables**, escribir el nombre `Briefing_Evento_[INICIALES].docx` (sustituyendo `[INICIALES]`) y seleccionar **Guardar**. En Word para la web, hacer clic en el nombre del documento en la parte superior, escribir el nombre y, en **Ubicación**, seleccionar la carpeta `Entregables`.
+
+- **Qué verás:** el nombre `Briefing_Evento_[INICIALES].docx` en la barra de título y el estado **Guardado**.
 
 **Al terminar esta tarea debes tener:**
 

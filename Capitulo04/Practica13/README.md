@@ -40,13 +40,26 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Por qué:** Crear con lenguaje natural permite construir un agente sin configuración técnica.
 
-**Paso 1.** En la aplicación Microsoft 365 Copilot, seleccionar **Agentes** y luego **Crear agente**.
+**Paso 1.** Abrir **Microsoft Edge**, escribir [m365.cloud.microsoft](https://m365.cloud.microsoft/) en la barra de direcciones y presionar **Enter**. Si se solicita, iniciar sesión con su cuenta corporativa.
 
-**Paso 2.** Permanecer en la pestaña **Describir** y pegar el prompt de creación de `Diseno_Agente_[INICIALES].docx`.
+- **Qué verás:** la página de inicio de Microsoft 365 Copilot con un cuadro de mensaje al centro y un panel a la izquierda.
+- **Alternativa:** Si aparece la página de inicio de Microsoft 365 sin chat, seleccionar el icono **Copilot** en la barra lateral izquierda.
 
-**Paso 3.** Responder las preguntas del asistente de creación y, si propone un nombre, cambiarlo por `Revisor de Avance de Iniciativas - [INICIALES]`.
+**Paso 2.** En el panel izquierdo, seleccionar **Agentes > Crear agente** (o **Nuevo agente**).
 
-**Paso 4.** Seleccionar **Crear** y mantener el agente visible solo para el participante.
+- **Qué verás:** el asistente de creación con las pestañas **Describir** y **Configurar**, y un panel de prueba a la derecha.
+- **Alternativa:** Si no aparece la opción, avisar al instructor: la creación de agentes no está habilitada para su cuenta.
+
+**Paso 3.** Permanecer en la pestaña **Describir**. Abrir `Diseno_Agente_[INICIALES].docx`, copiar el **prompt de creación** y pegarlo en el cuadro de conversación del asistente. Enviar.
+
+- **Qué verás:** el asistente confirma lo que entendió y puede hacer preguntas (por ejemplo, el nombre o el tono).
+- **Importante:** no usar la pestaña Configurar en esta práctica.
+
+**Paso 4.** Responder las preguntas del asistente. Si propone un nombre, escribir: *"Nombre: Revisor de Avance de Iniciativas - [INICIALES]"*.
+
+**Paso 5.** Seleccionar **Crear** (arriba a la derecha). Si se pregunta con quién compartir, elegir **Solo yo**.
+
+- **Qué verás:** un mensaje de confirmación y el agente disponible en **Agentes**.
 
 **Al terminar esta tarea debes tener:**
 
@@ -60,15 +73,28 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Por qué:** Un agente se valida con casos difíciles; si solo se prueba con datos completos, fallará con reportes reales.
 
-**Paso 1.** Abrir `Reporte_Iniciativa_Completo.docx`, copiar su contenido y pegarlo en el agente con el texto "Revisa este reporte:". Verificar los 6 criterios y que la **decisión del 13-nov** aparezca como prioritaria.
+**Paso 1.** Abrir el agente creado. Abrir `Reporte_Iniciativa_Completo.docx` (en `Laboratorio_Copilot_ISA/Practica13`), seleccionar todo (**Ctrl+A**), copiar (**Ctrl+C**) y, en el agente, escribir *"Revisa este reporte:"* y pegar el contenido. Enviar.
 
-**Paso 2.** Repetir con `Reporte_Iniciativa_Incompleto.docx`. Verificar que el agente **pida los datos faltantes** (avance, fechas, costo, responsables) en lugar de suponerlos.
+- **Qué verás:** una tabla con los 6 criterios y la **decisión del 13-nov** marcada como **prioritaria** (vence dentro de los próximos 7 días).
 
-**Paso 3.** Repetir con `Reporte_Iniciativa_Contradictorio.docx`. Verificar que señale que el estado "en verde" contradice el avance de **45 % frente a 60 %** y que el hito "cumplido" contradice la instalación en **5 de 8** subestaciones.
+**Paso 2.** Repetir con `Reporte_Iniciativa_Incompleto.docx`.
 
-**Paso 4.** Escribir una solicitud fuera de propósito: `Escríbeme un poema sobre la energía`. Verificar que el agente explique su propósito.
+- **Qué verás:** el agente indica que faltan datos (avance, fechas, costos, responsables) y los pide en lugar de concluir el estado.
+- **Si no ocurre así:** anotar la prueba como "no cumple"; se corregirá en la Tarea 3.
 
-**Paso 5.** Crear un **Documento en blanco** de Word con una tabla de 4 filas (prueba, resultado esperado, resultado obtenido, ¿cumple?) y registrar cada prueba. Seleccionar **Archivo > Guardar como**, elegir **OneDrive > Laboratorio_Copilot_ISA > Entregables** y guardar con el nombre `Pruebas_Agente_[INICIALES].docx`.
+**Paso 3.** Repetir con `Reporte_Iniciativa_Contradictorio.docx`.
+
+- **Qué verás:** el agente señala que el estado "en verde" contradice el avance de **45 % frente a 60 %** y que el hito "cumplido" contradice la instalación en **5 de 8** subestaciones.
+
+**Paso 4.** Escribir en el agente: *"Escríbeme un poema sobre la energía"*.
+
+- **Qué verás:** el agente explica que su propósito es revisar el avance de iniciativas y no atiende la solicitud.
+
+**Paso 5.** Crear un **Documento en blanco** de Word con una tabla de 4 filas y 4 columnas (**Prueba**, **Resultado esperado**, **Resultado obtenido** y **¿Cumple?**) y registrar las cuatro pruebas.
+
+**Paso 6.** Guardar el archivo: en Word de escritorio, seleccionar **Archivo > Guardar como > OneDrive - [su organización] > Laboratorio_Copilot_ISA > Entregables**, escribir el nombre `Pruebas_Agente_[INICIALES].docx` (sustituyendo `[INICIALES]`) y seleccionar **Guardar**. En Word para la web, hacer clic en el nombre del documento en la parte superior, escribir el nombre y, en **Ubicación**, seleccionar la carpeta `Entregables`.
+
+- **Qué verás:** el nombre `Pruebas_Agente_[INICIALES].docx` en la barra de título y el estado **Guardado**.
 
 **Al terminar esta tarea debes tener:**
 
@@ -82,11 +108,13 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Por qué:** Los agentes se ajustan de forma iterativa con base en lo observado.
 
-**Paso 1.** Seleccionar el agente, abrir la opción para editarlo y, en **Describir**, escribir el ajuste necesario. Ejemplo: "Antes de la tabla, agrega una sección Alertas con las inconsistencias detectadas".
+**Paso 1.** Elegir la prueba con el resultado más débil según su tabla (por ejemplo, la incompleta, si el agente supuso datos).
 
-**Paso 2.** Guardar los cambios y repetir la prueba que tuvo el resultado más débil.
+**Paso 2.** En **Agentes**, pasar el puntero sobre su agente, seleccionar **…** > **Editar**. En la pestaña **Describir**, escribir el ajuste en lenguaje natural. Ejemplos: *"Si falta un dato, pídelo y no concluyas el estado"* o *"Antes de la tabla, agrega una sección Alertas con las inconsistencias detectadas"*. Seleccionar **Actualizar**.
 
-**Paso 3.** Registrar el antes y el después en el documento de pruebas.
+- **Qué verás:** un mensaje de que el agente se actualizó.
+
+**Paso 3.** Repetir la prueba elegida y registrar el resultado en su tabla en una nueva columna **Después del ajuste**.
 
 **Al terminar esta tarea debes tener:**
 
@@ -100,9 +128,13 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Por qué:** Justificar el agente frente al chat ayuda a decidir cuándo vale la pena crear otros.
 
-**Paso 1.** Abrir el chat de Copilot, pegar el reporte contradictorio con el texto "Revisa este reporte:" y comparar con el resultado del agente.
+**Paso 1.** En el panel izquierdo, seleccionar **Copilot** (el chat general, no un agente) y seleccionar **Nuevo chat**.
 
-**Paso 2.** Anotar en el documento qué aporta el agente (estructura constante, prioridades, alertas) y cuándo se justifica crearlo. Guardar en OneDrive, en `Laboratorio_Copilot_ISA/Entregables/`.
+- **Qué verás:** un chat vacío sin el nombre de ningún agente encima del cuadro de mensaje.
+
+**Paso 2.** Pegar *"Revisa este reporte:"* seguido del contenido de `Reporte_Iniciativa_Contradictorio.docx` y enviar.
+
+**Paso 3.** Comparar con la respuesta del agente y escribir en `Pruebas_Agente_[INICIALES].docx` una sección **Comparación con Copilot Chat** con al menos dos diferencias. Por ejemplo: *"El agente siempre usa la tabla de 6 criterios; el chat cambia la estructura"* o *"El agente marca prioridades y alertas"*. Guardar.
 
 **Al terminar esta tarea debes tener:**
 

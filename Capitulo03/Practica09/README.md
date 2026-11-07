@@ -40,9 +40,17 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Por qué:** Los colaboradores necesitan saber qué hacer, no la especificación técnica del transformador.
 
-**Paso 1.** En la aplicación Microsoft 365 Copilot, abrir **Agentes** y seleccionar **Diseñador de comunicaciones**.
+**Paso 1.** Abrir **Microsoft Edge**, escribir [m365.cloud.microsoft](https://m365.cloud.microsoft/) en la barra de direcciones y presionar **Enter**. Si se solicita, iniciar sesión con su cuenta corporativa.
 
-**Paso 2.** Escribir, referenciando la ficha con `/`:
+- **Qué verás:** la página de inicio de Microsoft 365 Copilot con un cuadro de mensaje al centro y un panel a la izquierda.
+- **Alternativa:** Si aparece la página de inicio de Microsoft 365 sin chat, seleccionar el icono **Copilot** en la barra lateral izquierda.
+
+**Paso 2.** En el panel izquierdo, seleccionar **Agentes**. Escribir `Diseñador de comunicaciones` en el cuadro de búsqueda de agentes y hacer clic en el resultado. En inglés puede aparecer como **Communications Designer**.
+
+- **Qué verás:** el nombre **Diseñador de comunicaciones** encima del cuadro de mensaje y, a veces, sugerencias de inicio. A partir de aquí, todo lo que escriba lo procesa este agente.
+- **Si no ocurre así:** seleccionar **Todos los agentes** (u **Obtener agentes**) y buscarlo de nuevo. Si sigue sin aparecer, avisar al instructor: el agente no está habilitado para su cuenta.
+
+**Paso 3.** Pegar el siguiente prompt (insertar `/Ficha_Tecnica_Intervencion` con el selector de archivos):
 
 ```text
 Con base en /Ficha_Tecnica_Intervencion, redacta un correo interno para colaboradores sobre la intervención.
@@ -50,7 +58,13 @@ Explica en lenguaje claro el propósito, el periodo, las posibles afectaciones y
 Máximo 200 palabras.
 ```
 
-**Paso 3.** Verificar que el mensaje incluya las tres acciones requeridas: no programar trabajos en la subestación, confirmar turnos y canalizar consultas externas a Comunicaciones.
+- **Cómo insertar los archivos:** en el prompt, cada texto que empieza con `/` es un archivo. Borrar ese texto, escribir `/` seguido de las primeras letras del nombre del archivo y seleccionarlo en la lista que aparece; el archivo queda resaltado como un vínculo. Si no aparece en la lista, seleccionar el botón **+** (Agregar) > **Cargar desde OneDrive** > `Laboratorio_Copilot_ISA/Practica09` y elegirlo.
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** un borrador de correo interno de hasta 200 palabras con asunto, propósito, fechas, afectaciones y una sección de acciones.
+
+**Paso 4.** Verificar que el correo incluya las tres acciones de la ficha técnica: **no programar trabajos** en la subestación esa semana, **confirmar turnos** de disponibilidad y **canalizar consultas externas** a Comunicaciones.
+
+- **Si no ocurre así:** escribir: *"Agrega una sección Qué debes hacer con las tres acciones requeridas de la ficha"*.
 
 **Al terminar esta tarea debes tener:**
 
@@ -64,16 +78,23 @@ Máximo 200 palabras.
 
 **Por qué:** El mismo hecho se comunica distinto a la comunidad: sin tecnicismos ni datos internos, pero con los mismos hechos.
 
-**Paso 1.** Escribir:
+**Paso 1.** Pegar el siguiente prompt:
 
 ```text
 Adapta el mismo acontecimiento para la comunidad y los usuarios externos, en una publicación breve para el sitio web
 (máximo 100 palabras). Sin tecnicismos ni datos de operación interna. Mantén fecha, propósito y afectaciones.
 ```
 
-**Paso 2.** Pedir una tabla que compare ambas versiones en lenguaje, extensión, tono y nivel de detalle.
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** una publicación de hasta 100 palabras sin términos técnicos (por ejemplo, sin "150 MVA" ni "bahía").
 
-**Paso 3.** Comprobar que fecha, propósito y afectaciones sean iguales en ambas versiones.
+**Paso 2.** Escribir: *"Compara la comunicación interna y la externa en una tabla con las filas lenguaje, extensión, tono y nivel de detalle"*.
+
+- **Qué verás:** una tabla de 4 filas y 2 columnas (interna y externa).
+
+**Paso 3.** Comprobar que la fecha (**28 y 29 de noviembre**), el propósito y las afectaciones sean los mismos en ambas versiones.
+
+- **Si no ocurre así:** escribir: *"Corrige la versión externa para que la fecha y las afectaciones coincidan con la interna"*.
 
 **Al terminar esta tarea debes tener:**
 
@@ -89,16 +110,29 @@ Adapta el mismo acontecimiento para la comunidad y los usuarios externos, en una
 
 **Por qué:** Publicar un costo interno o una duración no aprobada genera problemas legales y de reputación.
 
-**Paso 1.** Escribir, referenciando la nota con `/`:
+**Paso 1.** Pegar el siguiente prompt (insertar `/Nota_Interna_Datos_Sensibles` con el selector de archivos):
 
 ```text
 Incorpora /Nota_Interna_Datos_Sensibles al análisis. ¿Qué contenido debería protegerse, modificarse o someterse a revisión
 antes de publicar cada comunicación? Justifica cada punto e indica quién debería aprobarlo.
 ```
 
-**Paso 2.** Verificar que se protejan el **costo**, los **nombres de clientes** y la **compensación**, y que la **extensión a 48 h** no se publique por no estar aprobada.
+- **Cómo insertar los archivos:** en el prompt, cada texto que empieza con `/` es un archivo. Borrar ese texto, escribir `/` seguido de las primeras letras del nombre del archivo y seleccionarlo en la lista que aparece; el archivo queda resaltado como un vínculo. Si no aparece en la lista, seleccionar el botón **+** (Agregar) > **Cargar desde OneDrive** > `Laboratorio_Copilot_ISA/Practica09` y elegirlo.
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** una lista de contenidos que deben protegerse, modificarse o revisarse, con la justificación y el aprobador sugerido.
 
-**Paso 3.** Abrir Word (escritorio o web) y crear un **Documento en blanco**. En Copilot, seleccionar **Copiar** debajo de cada comunicación y de la revisión y pegar en Word con **Ctrl+V**. Seleccionar **Archivo > Guardar como**, elegir **OneDrive > Laboratorio_Copilot_ISA > Entregables** y guardar con el nombre `Comunicaciones_INT-MDV_[INICIALES].docx`. No enviar ni publicar.
+**Paso 2.** Verificar cuatro elementos: el **costo de 4.200 MCOP** y los **nombres de los clientes** se protegen, la **compensación** queda en revisión de Jurídica y la **extensión a 48 horas** no se publica porque no está aprobada.
+
+- **Si no ocurre así:** preguntar por el que falte: *"¿Puedo publicar [dato]?"*
+
+**Paso 3.** Abrir una pestaña nueva, ingresar a [office.com](https://www.office.com/) y seleccionar **Word > Documento en blanco** (o abrir Word de escritorio > **Documento en blanco**). Regresar a Copilot y, debajo de la comunicación interna, la externa, la tabla comparativa y la revisión, seleccionar el icono **Copiar**. Volver a Word, hacer clic en el documento y pegar con **Ctrl+V**.
+
+- **Qué verás:** el texto con su formato (títulos, tablas y viñetas) dentro del documento.
+- **Alternativa:** Si la tabla se pega como texto plano, pegar con **Ctrl+Shift+V** > **Mantener formato de origen**, o pedir a Copilot: *"Entrega la tabla en formato de tabla"* y copiarla de nuevo.
+
+**Paso 4.** Guardar el archivo: en Word de escritorio, seleccionar **Archivo > Guardar como > OneDrive - [su organización] > Laboratorio_Copilot_ISA > Entregables**, escribir el nombre `Comunicaciones_INT-MDV_[INICIALES].docx` (sustituyendo `[INICIALES]`) y seleccionar **Guardar**. En Word para la web, hacer clic en el nombre del documento en la parte superior, escribir el nombre y, en **Ubicación**, seleccionar la carpeta `Entregables`.
+
+- **Qué verás:** el nombre `Comunicaciones_INT-MDV_[INICIALES].docx` en la barra de título y el estado **Guardado**.
 
 **Al terminar esta tarea debes tener:**
 

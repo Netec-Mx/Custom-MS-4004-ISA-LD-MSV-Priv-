@@ -41,13 +41,27 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Por qué:** El resultado de un prompt vago es el punto de comparación para medir la mejora.
 
-**Paso 1.** Abrir el chat de **Copilot** en la aplicación Microsoft 365 Copilot y escribir exactamente:
+**Paso 1.** Abrir **Microsoft Edge**, escribir [m365.cloud.microsoft](https://m365.cloud.microsoft/) en la barra de direcciones y presionar **Enter**. Si se solicita, iniciar sesión con su cuenta corporativa.
+
+- **Qué verás:** la página de inicio de Microsoft 365 Copilot con un cuadro de mensaje al centro y un panel a la izquierda.
+- **Alternativa:** Si aparece la página de inicio de Microsoft 365 sin chat, seleccionar el icono **Copilot** en la barra lateral izquierda.
+
+**Paso 2.** En el panel izquierdo, seleccionar **Copilot** (el chat general, no un agente) y seleccionar **Nuevo chat**.
+
+- **Qué verás:** un chat vacío sin el nombre de ningún agente encima del cuadro de mensaje.
+
+**Paso 3.** Pegar exactamente este prompt, sin cambios, y enviarlo:
 
 ```text
 Revisa lo del proyecto de la subestación y dime los riesgos y qué hacer.
 ```
 
-**Paso 2.** En OneDrive, copiar `Plantilla_Comparacion_Prompts.docx` a `Entregables` con el nombre `Comparacion_Prompts_[INICIALES].docx`. Abrirlo, pegar el prompt en la sección 1 y el resultado en la columna "Resultado con prompt inicial" de la sección 4.
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** una respuesta general, probablemente sin fuentes concretas, sin prioridades claras o que pregunta a qué proyecto se refiere. Ese es el comportamiento esperado de un prompt vago.
+
+**Paso 4.** En OneDrive, abrir `Laboratorio_Copilot_ISA > Practica11`, seleccionar `Plantilla_Comparacion_Prompts.docx`, elegir **Copiar a > Entregables** y cambiar el nombre de la copia a `Comparacion_Prompts_[INICIALES].docx`. Abrir la copia.
+
+**Paso 5.** En la sección **1. Prompt inicial**, pegar el prompt. En la tabla de la sección **4**, columna **Resultado con prompt inicial**, escribir una frase por criterio. Por ejemplo, Precisión: *"no menciona riesgos concretos del proyecto"*.
 
 **Al terminar esta tarea debes tener:**
 
@@ -61,9 +75,12 @@ Revisa lo del proyecto de la subestación y dime los riesgos y qué hacer.
 
 **Por qué:** Saber qué le faltaba al prompt permite corregirlo con intención, no por prueba y error.
 
-**Paso 1.** Abrir **Agentes** y seleccionar **Prompt Coach**.
+**Paso 1.** En otra pestaña, abrir **Agentes** y buscar `Prompt Coach`. Hacer clic en el agente.
 
-**Paso 2.** Escribir:
+- **Qué verás:** el nombre **Prompt Coach** encima del cuadro de mensaje.
+- **Si no ocurre así:** buscar en **Todos los agentes** o avisar al instructor.
+
+**Paso 2.** Pegar el siguiente prompt y enviarlo:
 
 ```text
 Evalúa este prompt y dime cómo mejorarlo en claridad del objetivo, contexto, fuentes, criterios de análisis,
@@ -71,7 +88,10 @@ restricciones y formato de respuesta: "Revisa lo del proyecto de la subestación
 Contexto: soy analista y debo preparar recomendaciones priorizadas para mi líder sobre el proyecto INT-MDV-2026.
 ```
 
-**Paso 3.** Copiar el diagnóstico en la sección 2 de la plantilla.
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** recomendaciones organizadas por aspecto (objetivo, contexto, fuentes, criterios, restricciones y formato) y, a veces, una versión sugerida del prompt.
+
+**Paso 3.** Copiar el diagnóstico y pegarlo en la sección **2. Diagnóstico de Prompt Coach** de su documento.
 
 **Al terminar esta tarea debes tener:**
 
@@ -85,7 +105,7 @@ Contexto: soy analista y debo preparar recomendaciones priorizadas para mi líde
 
 **Por qué:** Comparar muestra qué cambios en la instrucción producen mejores resultados.
 
-**Paso 1.** Con base en el diagnóstico, construir el prompt optimizado. Ejemplo de referencia:
+**Paso 1.** Construir el prompt optimizado con las recomendaciones. Puede partir de este ejemplo y ajustarlo:
 
 ```text
 Actúa como analista de proyectos. Con base en /Plan_Intervencion_Mirador_del_Valle, /Matriz_Riesgos_Intervencion e
@@ -94,9 +114,12 @@ y por fecha de la intervención (28-nov-2026), y propone una recomendación por 
 No incluyas riesgos sin fuente. Entrega una tabla y un resumen de 5 líneas para mi líder.
 ```
 
-**Paso 2.** Ejecutar el prompt optimizado en el chat de Copilot.
+**Paso 2.** Volver al chat de **Copilot** (no a Prompt Coach), seleccionar **Nuevo chat**, pegar el prompt optimizado y reemplazar cada texto que inicia con `/` por el archivo correspondiente: escribir `/` y seleccionar `Plan_Intervencion_Mirador_del_Valle`, `Matriz_Riesgos_Intervencion` e `Informe_Avance_INT-MDV_Semana45`. Enviar.
 
-**Paso 3.** Completar la tabla de la sección 4 de la plantilla comparando precisión, estructura, profundidad y utilidad, e indicar qué cambio del prompt explica cada diferencia.
+- **Qué verás:** una tabla de riesgos priorizada con recomendación y responsable, seguida de un resumen de 5 líneas.
+- **Alternativa:** Si algún archivo no aparece, adjuntarlo con **+** desde `Laboratorio_Copilot_ISA/Practica04` o `Practica07`.
+
+**Paso 3.** Pegar el prompt optimizado en la sección **3** y completar la tabla de la sección **4**: para cada criterio (precisión, estructura, profundidad y utilidad), describir el resultado optimizado y el **cambio del prompt** que explica la diferencia. Por ejemplo: *"Estructura: tabla priorizada; cambio: se pidió formato de tabla"*.
 
 **Al terminar esta tarea debes tener:**
 
@@ -111,14 +134,19 @@ No incluyas riesgos sin fuente. Entrega una tabla y un resumen de 5 líneas para
 
 **Por qué:** Un buen prompt se adapta cambiando pocos elementos, sin reescribirlo.
 
-**Paso 1.** En Prompt Coach, escribir:
+**Paso 1.** Volver a **Prompt Coach** y pegar el siguiente prompt:
 
 ```text
 Quiero usar el prompt optimizado para producir una síntesis de un párrafo para liderazgo en lugar del análisis detallado.
 ¿Qué elementos debo modificar y cuáles conservar?
 ```
 
-**Paso 2.** Registrar los elementos modificados en la sección 5 de la plantilla. Guardar en OneDrive, en `Laboratorio_Copilot_ISA/Entregables/` con el nombre `Comparacion_Prompts_[INICIALES].docx`.
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** una lista de elementos para cambiar (por ejemplo, el formato y la extensión) y elementos para conservar (fuentes y criterios).
+
+**Paso 2.** Copiar la respuesta en la sección **5. Segunda optimización** de su documento.
+
+**Paso 3.** Guardar el documento con **Ctrl+S** (o, en Word para la web, comprobar que diga **Guardado**). El archivo debe llamarse `Comparacion_Prompts_[INICIALES].docx` y estar en `Entregables`.
 
 **Al terminar esta tarea debes tener:**
 

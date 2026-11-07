@@ -41,18 +41,31 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Por qué:** La información de una reunión rara vez está en un solo lugar. Si falta una fuente, la preparación queda incompleta.
 
-**Paso 1.** Abrir **Microsoft Teams**, seleccionar **Calendario** y abrir la reunión `Revisión de preparación INT-MDV-2026`.
+**Paso 1.** Abrir **Microsoft Teams** (aplicación de escritorio o [teams.microsoft.com](https://teams.microsoft.com/)) y seleccionar **Calendario** en la barra izquierda.
 
-**Paso 2.** Leer la invitación y su adjunto. Seleccionar la opción de preparación con Copilot disponible en el evento (por ejemplo, **Preparar con Copilot**).
+**Paso 2.** Buscar en el calendario la reunión `Revisión de preparación INT-MDV-2026` y hacer doble clic para abrir sus detalles.
 
-**Paso 3.** Si la opción no aparece, abrir **Copilot** en Teams y escribir, seleccionando la reunión con `/`:
+- **Qué verás:** la invitación con la descripción ("Revisaremos el estado de preparación…") y el adjunto `Plan_Intervencion_Mirador_del_Valle.docx`.
+- **Si no ocurre así:** usar la búsqueda del calendario con la palabra `INT-MDV`. Si no existe, avisar al instructor.
+
+**Paso 3.** En los detalles de la reunión, buscar la opción de Copilot para prepararse (por ejemplo, **Preparar con Copilot** o el icono de Copilot) y seleccionarla.
+
+- **Qué verás:** un resumen generado por Copilot con el contexto de la reunión y archivos o correos relacionados.
+- **Alternativa:** Si la opción no existe, cerrar los detalles, seleccionar **Copilot** en la barra izquierda de Teams y continuar con el paso siguiente.
+
+**Paso 4.** En el chat de Copilot de Teams, pegar el siguiente prompt (borrar el texto que inicia con `/` y seleccionar la reunión y cada archivo de la lista que aparece al escribir `/`):
 
 ```text
 ¿Qué información existe sobre /Revisión de preparación INT-MDV-2026? Revisa la invitación, mis correos con asunto INT-MDV
 y los archivos /Plan_Intervencion_Mirador_del_Valle y /Matriz_Riesgos_Intervencion. Indica la fuente de cada dato.
 ```
 
-**Paso 4.** Comparar la respuesta con lo esperado: correos de Operación (ventana de 30 h), Gestión Ambiental (permiso de aceite) y Comercial (cliente sin acuse), el plan y la matriz de riesgos. Si falta alguno, referenciarlo con `/` y repetir la pregunta.
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** una lista de fuentes con lo que aporta cada una.
+
+**Paso 5.** Comprobar que aparezcan las cinco fuentes: correo de **Operación** (ventana de 30 horas), correo de **Gestión Ambiental** (permiso en trámite), correo de **Comercial** (cliente sin acuse), el **plan** y la **matriz de riesgos**.
+
+- **Si no ocurre así:** escribir `/` y el asunto del correo que falte (por ejemplo, `/INT-MDV permiso`), seleccionarlo y preguntar: *"¿Qué dice este correo?"*
 
 **Al terminar esta tarea debes tener:**
 
@@ -66,16 +79,23 @@ y los archivos /Plan_Intervencion_Mirador_del_Valle y /Matriz_Riesgos_Intervenci
 
 **Por qué:** Una reunión sin agenda ni preguntas preparadas termina sin decisiones. La diferencia entre 36 y 30 horas debe resolverse en esta sesión.
 
-**Paso 1.** Escribir:
+**Paso 1.** Pegar el siguiente prompt en la misma conversación:
 
 ```text
 Prepara para esta reunión: 1) objetivo en una frase, 2) agenda de 45 minutos con tiempos,
 3) contexto que todos deben conocer, 4) preguntas relevantes por área y 5) asuntos que deben resolverse durante la reunión.
 ```
 
-**Paso 2.** Verificar que el contexto incluya la diferencia entre la ventana planeada (**36 h**) y la aprobada preliminarmente (**30 h**), el permiso ambiental con respuesta estimada el **25-nov** y el cliente sin acuse de recibo.
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** cinco secciones: objetivo, agenda con tiempos que suman 45 minutos, contexto, preguntas por área y asuntos por resolver.
 
-**Paso 3.** Revisar si los tres asuntos críticos (ventana, permiso ambiental y cliente) tienen tiempo en la agenda. Si alguno no lo tiene, escribir: *"Ajusta la agenda para dar 10 minutos a [asunto]"*.
+**Paso 2.** Revisar el **contexto**: debe mencionar la ventana planeada de **36 h** frente a las **30 h** aprobadas preliminarmente, el permiso ambiental con respuesta estimada el **25-nov** y el cliente que pidió reprogramar.
+
+- **Si no ocurre así:** escribir: *"Agrega al contexto lo que dicen los correos de Operación, Gestión Ambiental y Comercial"*.
+
+**Paso 3.** Revisar la **agenda**: los tres asuntos críticos (ventana, permiso y cliente) deben tener tiempo asignado.
+
+- **Si no ocurre así:** escribir: *"Ajusta la agenda para dar 10 minutos a [asunto]"*.
 
 **Al terminar esta tarea debes tener:**
 
@@ -91,14 +111,19 @@ Prepara para esta reunión: 1) objetivo en una frase, 2) agenda de 45 minutos co
 
 **Por qué:** Las decisiones difíciles (reprogramar, re-secuenciar, designar vocero) generan tensión entre áreas; las preguntas preparadas ayudan a llegar a una decisión.
 
-**Paso 1.** Escribir:
+**Paso 1.** Pegar el siguiente prompt:
 
 ```text
 ¿Qué desacuerdos o decisiones difíciles podrían surgir en esta reunión? Para cada uno indica las posiciones probables
 de las áreas y propón dos preguntas para conducir la conversación hacia una decisión.
 ```
 
-**Paso 2.** Confirmar que aparezcan al menos: mantener o reprogramar la fecha ante la solicitud del cliente, re-secuenciar para 30 h y designar vocero.
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** una lista de desacuerdos o decisiones difíciles, con la posición probable de cada área y dos preguntas por cada uno.
+
+**Paso 2.** Confirmar que aparezcan al menos tres: **mantener o reprogramar la fecha** ante la solicitud del cliente, **re-secuenciar actividades** para 30 horas y **designar al vocero** ante medios.
+
+- **Si no ocurre así:** preguntar directamente: *"¿Qué desacuerdo podría haber sobre [tema] y cómo lo conduzco?"*
 
 **Al terminar esta tarea debes tener:**
 
@@ -113,9 +138,18 @@ de las áreas y propón dos preguntas para conducir la conversación hacia una d
 
 **Por qué:** Facilitator tomará las notas durante la reunión; ese tipo de notas es la base de la Práctica 5.
 
-**Paso 1.** Abrir Word (escritorio o web) y crear un **Documento en blanco**. En Copilot, seleccionar **Copiar** debajo de cada respuesta de las Tareas 2 y 3 y pegar en Word con **Ctrl+V**. Seleccionar **Archivo > Guardar como**, elegir **OneDrive > Laboratorio_Copilot_ISA > Entregables** y guardar con el nombre `Guia_Reunion_INT-MDV_[INICIALES].docx`.
+**Paso 1.** Abrir una pestaña nueva, ingresar a [office.com](https://www.office.com/) y seleccionar **Word > Documento en blanco** (o abrir Word de escritorio > **Documento en blanco**). Regresar a Copilot y, debajo de las respuestas de las Tareas 2 y 3, seleccionar el icono **Copiar**. Volver a Word, hacer clic en el documento y pegar con **Ctrl+V**.
 
-**Paso 2.** En la reunión, abrir **Opciones de reunión**, localizar la configuración de **Copilot y agentes** y confirmar que **Facilitator** esté habilitado. No iniciar la reunión.
+- **Qué verás:** el texto con su formato (títulos, tablas y viñetas) dentro del documento.
+- **Alternativa:** Si la tabla se pega como texto plano, pegar con **Ctrl+Shift+V** > **Mantener formato de origen**, o pedir a Copilot: *"Entrega la tabla en formato de tabla"* y copiarla de nuevo.
+
+**Paso 2.** Guardar el archivo: en Word de escritorio, seleccionar **Archivo > Guardar como > OneDrive - [su organización] > Laboratorio_Copilot_ISA > Entregables**, escribir el nombre `Guia_Reunion_INT-MDV_[INICIALES].docx` (sustituyendo `[INICIALES]`) y seleccionar **Guardar**. En Word para la web, hacer clic en el nombre del documento en la parte superior, escribir el nombre y, en **Ubicación**, seleccionar la carpeta `Entregables`.
+
+- **Qué verás:** el nombre `Guia_Reunion_INT-MDV_[INICIALES].docx` en la barra de título y el estado **Guardado**.
+
+**Paso 3.** Volver a Teams, abrir la reunión `Revisión de preparación INT-MDV-2026` y seleccionar **Opciones de reunión** (en el menú **…** o en la parte superior de los detalles). Localizar la sección **Copilot y agentes** (el nombre puede variar) y confirmar que **Facilitator** esté activado; si no lo está, activarlo y seleccionar **Guardar**.
+
+- **Importante:** no iniciar la reunión. Si la opción no aparece o no se puede modificar, escribir en la guía: *"Facilitator no disponible: [motivo]"* y avisar al instructor.
 
 **Al terminar esta tarea debes tener:**
 

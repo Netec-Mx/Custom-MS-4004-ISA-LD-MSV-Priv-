@@ -41,16 +41,27 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Por qué:** Si el agente no entendió la propuesta, sus críticas no serán útiles.
 
-**Paso 1.** En la aplicación Microsoft 365 Copilot, abrir **Agentes** y seleccionar **Entrenador de ideas**.
+**Paso 1.** Abrir **Microsoft Edge**, escribir [m365.cloud.microsoft](https://m365.cloud.microsoft/) en la barra de direcciones y presionar **Enter**. Si se solicita, iniciar sesión con su cuenta corporativa.
 
-**Paso 2.** Escribir y adjuntar la propuesta con `/` o con el botón **+**:
+- **Qué verás:** la página de inicio de Microsoft 365 Copilot con un cuadro de mensaje al centro y un panel a la izquierda.
+- **Alternativa:** Si aparece la página de inicio de Microsoft 365 sin chat, seleccionar el icono **Copilot** en la barra lateral izquierda.
+
+**Paso 2.** En el panel izquierdo, seleccionar **Agentes**. Escribir `Entrenador de ideas` en el cuadro de búsqueda de agentes y hacer clic en el resultado. En inglés puede aparecer como **Idea Coach**.
+
+- **Qué verás:** el nombre **Entrenador de ideas** encima del cuadro de mensaje y, a veces, sugerencias de inicio. A partir de aquí, todo lo que escriba lo procesa este agente.
+- **Si no ocurre así:** seleccionar **Todos los agentes** (u **Obtener agentes**) y buscarlo de nuevo. Si sigue sin aparecer, avisar al instructor: el agente no está habilitado para su cuenta.
+
+**Paso 3.** Pegar el siguiente prompt y, antes de enviarlo, adjuntar la propuesta con el botón **+** > `Laboratorio_Copilot_ISA > Practica03 > Propuesta_Coordinacion_Intervencion.docx`:
 
 ```text
 Voy a presentar la propuesta adjunta para mejorar la coordinación entre áreas durante una intervención
 programada en una subestación. Resume en 4 líneas qué propone y qué beneficios promete. No la evalúes todavía.
 ```
 
-**Paso 3.** Si el agente no puede leer el archivo, copiar las secciones 1 a 4 del documento y pegarlas en el mensaje.
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** un resumen de 4 líneas que menciona el grupo de mensajería de 45 personas, la autoridad única de Mantenimiento, la eliminación de la reunión go/no-go, el aviso a clientes solo si se excede la duración y los beneficios prometidos (50 % menos tiempo de confirmaciones y terminar 2 horas antes).
+
+**Paso 4.** Si el agente indica que no puede leer el archivo, abrir el documento, seleccionar las secciones 1 a 4 (**Ctrl+A**, **Ctrl+C**), pegarlas en el cuadro de mensaje después del prompt y enviarlo de nuevo.
 
 **Al terminar esta tarea debes tener:**
 
@@ -64,14 +75,19 @@ programada en una subestación. Resume en 4 líneas qué propone y qué benefici
 
 **Por qué:** Las propuestas suelen fallar por supuestos no cuestionados, como que 45 personas leerán un grupo de mensajería en tiempo real.
 
-**Paso 1.** Escribir:
+**Paso 1.** Pegar el siguiente prompt:
 
 ```text
 Cuestiona cada supuesto de la propuesta: por qué podría no cumplirse y qué riesgo genera.
 Propón al menos dos perspectivas alternativas para lograr el mismo objetivo.
 ```
 
-**Paso 2.** Verificar que el agente cuestione, como mínimo: eliminar la reunión de verificación previa (go/no-go), avisar a clientes solo si se excede la duración, una única autoridad de decisión para todo y suponer que la ventana del operador y el permiso ambiental no cambiarán.
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** una lista de supuestos; cada uno con la razón por la que podría no cumplirse, el riesgo que genera y, al final, al menos dos perspectivas alternativas.
+
+**Paso 2.** Marcar en la respuesta los cuatro supuestos de la sección 3 de la propuesta: lectura en tiempo real del grupo, ventana del operador sin cambios, clientes sin aviso previo y permiso ambiental aprobado a tiempo. Comprobar además que se cuestionen la eliminación del go/no-go y la autoridad única.
+
+- **Si no ocurre así:** preguntar por el que falte. Ejemplo: *"¿Qué pasa si el permiso de aceite no llega antes del inicio?"*
 
 **Al terminar esta tarea debes tener:**
 
@@ -86,14 +102,19 @@ Propón al menos dos perspectivas alternativas para lograr el mismo objetivo.
 
 **Por qué:** Cada área se ve afectada de forma distinta. Anticipar sus objeciones evita que la propuesta se rechace en la reunión.
 
-**Paso 1.** Escribir:
+**Paso 1.** Pegar el siguiente prompt:
 
 ```text
 Adopta sucesivamente la perspectiva de Operación, Mantenimiento, Gestión Ambiental, Comercial y Comunicaciones.
 Para cada área formula su principal objeción y qué necesitaría para apoyar la propuesta.
 ```
 
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** cinco bloques, uno por área (Operación, Mantenimiento, Gestión Ambiental, Comercial y Comunicaciones), cada uno con su objeción principal y lo que necesitaría para apoyar la propuesta.
+
 **Paso 2.** Elegir la objeción más difícil de responder (por ejemplo, la de Comercial sobre avisar tarde a los clientes) y escribir: *"¿Cómo respondo a la objeción de [área]? Dame una respuesta y qué cambiaría en la propuesta"*.
+
+- **Qué verás:** una respuesta argumentada y un cambio concreto a la propuesta.
 
 **Al terminar esta tarea debes tener:**
 
@@ -108,16 +129,28 @@ Para cada área formula su principal objeción y qué necesitaría para apoyar l
 
 **Por qué:** Es la versión que se presentaría: debe mostrar que los riesgos ya fueron considerados.
 
-**Paso 1.** Escribir:
+**Paso 1.** Pegar el siguiente prompt:
 
 ```text
 Reescribe la propuesta incorporando lo anterior. Incluye: propuesta refinada, supuestos que se mantienen,
 riesgos con medida de mitigación y aspectos que requieren validación antes de presentarla, con el área responsable.
 ```
 
-**Paso 2.** Leer la propuesta refinada y cambiar al menos un punto con su criterio (por ejemplo, conservar la reunión go/no-go con menor duración). Indicarlo al agente: *"Ajusta la propuesta: [cambio]"*.
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** la propuesta reescrita con cuatro bloques: propuesta refinada, supuestos que se mantienen, riesgos con mitigación y aspectos por validar con área responsable.
 
-**Paso 3.** Abrir Word (escritorio o web) y crear un **Documento en blanco**. En Copilot, seleccionar **Copiar** debajo de la propuesta final y pegar en Word con **Ctrl+V**. Seleccionar **Archivo > Guardar como**, elegir **OneDrive > Laboratorio_Copilot_ISA > Entregables** y guardar con el nombre `Propuesta_Refinada_[INICIALES].docx`.
+**Paso 2.** Leer la propuesta refinada y decidir un ajuste propio (por ejemplo, conservar la reunión go/no-go en 30 minutos o avisar a clientes con 10 días hábiles). Escribirlo así: *"Ajusta la propuesta: [cambio]"*.
+
+- **Qué verás:** la versión final con su ajuste incorporado.
+
+**Paso 3.** Abrir una pestaña nueva, ingresar a [office.com](https://www.office.com/) y seleccionar **Word > Documento en blanco** (o abrir Word de escritorio > **Documento en blanco**). Regresar a Copilot y, debajo de la versión final de la propuesta, seleccionar el icono **Copiar**. Volver a Word, hacer clic en el documento y pegar con **Ctrl+V**.
+
+- **Qué verás:** el texto con su formato (títulos, tablas y viñetas) dentro del documento.
+- **Alternativa:** Si la tabla se pega como texto plano, pegar con **Ctrl+Shift+V** > **Mantener formato de origen**, o pedir a Copilot: *"Entrega la tabla en formato de tabla"* y copiarla de nuevo.
+
+**Paso 4.** Guardar el archivo: en Word de escritorio, seleccionar **Archivo > Guardar como > OneDrive - [su organización] > Laboratorio_Copilot_ISA > Entregables**, escribir el nombre `Propuesta_Refinada_[INICIALES].docx` (sustituyendo `[INICIALES]`) y seleccionar **Guardar**. En Word para la web, hacer clic en el nombre del documento en la parte superior, escribir el nombre y, en **Ubicación**, seleccionar la carpeta `Entregables`.
+
+- **Qué verás:** el nombre `Propuesta_Refinada_[INICIALES].docx` en la barra de título y el estado **Guardado**.
 
 **Al terminar esta tarea debes tener:**
 

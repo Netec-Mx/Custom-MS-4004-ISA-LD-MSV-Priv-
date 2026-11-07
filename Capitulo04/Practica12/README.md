@@ -41,9 +41,11 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Por qué:** Crear un agente toma tiempo; solo conviene cuando la tarea es recurrente y necesita los mismos criterios cada vez.
 
-**Paso 1.** Abrir `Escenario_Lider_Iniciativas.docx` y leer la necesidad de Laura. En OneDrive, copiar `Plantilla_Diseno_Agente.docx` a `Entregables` con el nombre `Diseno_Agente_[INICIALES].docx` y abrirlo.
+**Paso 1.** En OneDrive, abrir `Laboratorio_Copilot_ISA > Practica12 > Escenario_Lider_Iniciativas.docx` y leer la necesidad de Laura, sus 6 criterios y las 3 situaciones prioritarias.
 
-**Paso 2.** Completar en la plantilla una comparación breve:
+**Paso 2.** En la misma carpeta, seleccionar `Plantilla_Diseno_Agente.docx`, elegir **Copiar a > Entregables** y renombrar la copia como `Diseno_Agente_[INICIALES].docx`. Abrir la copia.
+
+**Paso 3.** Agregar al inicio del documento esta tabla y completar la columna **Conclusión** (por ejemplo, *"No garantiza criterios constantes"*):
 
 | Alternativa | ¿Aplica los mismos criterios cada vez? | ¿Requiere repetir instrucciones? | Conclusión |
 |---|---|---|---|
@@ -51,7 +53,7 @@ Al finalizar la práctica, el participante será capaz de:
 | Agente disponible | No conoce los criterios de Laura | Sí | |
 | Agente personalizado | Sí | No | |
 
-**Paso 3.** Registrar la alternativa elegida y su justificación en la primera fila de la plantilla.
+**Paso 4.** En la primera fila de la tabla de diseño (**Alternativa elegida y justificación**), escribir: *"Agente personalizado, porque la revisión es semanal (recurrente) y exige aplicar siempre los mismos 6 criterios con la misma estructura"*.
 
 **Al terminar esta tarea debes tener:**
 
@@ -66,13 +68,13 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Por qué:** Un agente se comporta según lo que se le define; lo que no se define queda a su criterio.
 
-**Paso 1.** Completar en la plantilla: propósito específico, información que podrá recibir (reportes de avance en texto o documentos), criterios de análisis (los 6 de Laura) y estructura de la respuesta (una tabla con los 6 criterios y un resumen).
+**Paso 1.** Completar las filas **Propósito específico** (por ejemplo, *"Revisar reportes de avance de iniciativas con 6 criterios fijos"*) e **Información que podrá recibir** (*"reportes de avance en texto o documentos de Word"*).
 
-**Paso 2.** Definir las situaciones prioritarias: desviación de plazo mayor a 10 días hábiles, bloqueo sin responsable y decisión con fecha límite en los próximos 7 días.
+**Paso 2.** Completar **Criterios de análisis** con los 6 criterios de Laura y **Estructura de la respuesta** con *"tabla de 6 filas (criterio, hallazgo, evidencia del reporte) y resumen de 3 líneas"*.
 
-**Paso 3.** Definir lo que el agente no debe asumir (fechas, responsables, cifras ausentes) y su conducta ante información incompleta, contradictoria o insuficiente: señalarla y pedir el dato antes de concluir.
+**Paso 3.** Completar **Situaciones prioritarias** con las tres del escenario: desviación de plazo mayor a 10 días hábiles, bloqueo sin responsable y decisión con fecha límite en los próximos 7 días.
 
-**Paso 4.** Definir límites: no tomar decisiones por la líder y responder solo sobre seguimiento de iniciativas.
+**Paso 4.** Completar **Información que no debe asumir** (fechas, responsables y cifras ausentes), **Conducta ante información incompleta, contradictoria o insuficiente** (señalarla y pedir el dato antes de concluir) y **Límites** (no decide por la líder; solo atiende el seguimiento de iniciativas).
 
 **Al terminar esta tarea debes tener:**
 
@@ -86,7 +88,7 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Por qué:** Este texto se pegará tal cual en Agent Builder, así que debe contener todo el diseño.
 
-**Paso 1.** Redactar el prompt en la sección final de la plantilla. Ejemplo de referencia:
+**Paso 1.** En la sección **Prompt de creación del agente**, redactar el prompt reuniendo todas las filas de la tabla. Puede partir de este ejemplo y ajustarlo con sus definiciones:
 
 ```text
 Crea un agente llamado "Revisor de Avance de Iniciativas" que ayude a una líder a revisar reportes de avance de las iniciativas de su equipo.
@@ -98,7 +100,9 @@ o hay contradicciones, debe señalarlas y pedir el dato antes de concluir. No to
 ajenas al seguimiento de iniciativas, debe explicar su propósito.
 ```
 
-**Paso 2.** Guardar en OneDrive, en `Laboratorio_Copilot_ISA/Entregables/` con el nombre `Diseno_Agente_[INICIALES].docx`. Se usará en la Práctica 13.
+**Paso 2.** Releer el prompt y comprobar que mencione los 6 criterios, el formato de tabla, las 3 situaciones prioritarias, qué hacer ante datos incompletos o contradictorios y qué hacer con solicitudes fuera de propósito.
+
+**Paso 3.** Guardar con **Ctrl+S** (o comprobar **Guardado** en Word para la web).
 
 **Al terminar esta tarea debes tener:**
 

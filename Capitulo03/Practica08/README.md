@@ -39,9 +39,19 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Por qué:** No todas las comunicaciones requieren acción; clasificarlas ayuda a enfocarse en lo que cambia su trabajo.
 
-**Paso 1.** En la aplicación Microsoft 365 Copilot, abrir **Agentes** y seleccionar **Resumen personal de noticias**.
+**Paso 1.** Abrir **Microsoft Edge**, escribir [m365.cloud.microsoft](https://m365.cloud.microsoft/) en la barra de direcciones y presionar **Enter**. Si se solicita, iniciar sesión con su cuenta corporativa.
 
-**Paso 2.** Escribir:
+- **Qué verás:** la página de inicio de Microsoft 365 Copilot con un cuadro de mensaje al centro y un panel a la izquierda.
+- **Alternativa:** Si aparece la página de inicio de Microsoft 365 sin chat, seleccionar el icono **Copilot** en la barra lateral izquierda.
+
+**Paso 2.** En el panel izquierdo, seleccionar **Agentes**. Escribir `Resumen personal de noticias` en el cuadro de búsqueda de agentes y hacer clic en el resultado.
+
+- **Qué verás:** el nombre **Resumen personal de noticias** encima del cuadro de mensaje y, a veces, sugerencias de inicio. A partir de aquí, todo lo que escriba lo procesa este agente.
+- **Si no ocurre así:** seleccionar **Todos los agentes** (u **Obtener agentes**) y buscarlo de nuevo. Si sigue sin aparecer, avisar al instructor: el agente no está habilitado para su cuenta.
+
+**Paso 3.** Si el agente pregunta por sus intereses o preferencias, responder: *"Proyectos de infraestructura, operación de subestaciones, procedimientos internos, sostenibilidad y seguridad de la información"*.
+
+**Paso 4.** Pegar el siguiente prompt y enviarlo:
 
 ```text
 Resume las novedades organizativas y operativas de la última semana relevantes para mi trabajo en proyectos de infraestructura.
@@ -49,7 +59,12 @@ Agrúpalas por temática y clasifícalas como: cambio importante, información c
 Incluye la fuente de cada novedad.
 ```
 
-**Paso 3.** Verificar la clasificación esperada: cambio de procedimiento de consignaciones y alerta de seguridad = **cambio importante**; prioridades del liderazgo, sostenibilidad y actualización operativa = **contextual o importante según el área**; boletín de bienestar = **recurrente**.
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** novedades agrupadas por temática, cada una con su clasificación y su fuente.
+
+**Paso 5.** Comparar la clasificación con la esperada: **cambio de procedimiento de consignaciones** y **alerta de seguridad** como *cambio importante*; **prioridades del liderazgo**, **iniciativa de SF6** y **actualización operativa** como *importantes* o *contextuales* según su trabajo; **boletín de bienestar** como *recurrente*.
+
+- **Alternativa:** Si falta alguna comunicación, escribir `/` y el nombre del documento (por ejemplo, `/Alerta_Seguridad_Correo`) y preguntar: *"¿Cómo clasificas esta comunicación?"*
 
 **Al terminar esta tarea debes tener:**
 
@@ -64,16 +79,21 @@ Incluye la fuente de cada novedad.
 
 **Por qué:** Un cambio de procedimiento desconocido puede retrasar intervenciones o hacer que se rechace una solicitud.
 
-**Paso 1.** Escribir:
+**Paso 1.** Pegar el siguiente prompt:
 
 ```text
 Profundiza en el cambio del procedimiento de solicitud de consignaciones: antecedentes, qué cambia, desde cuándo,
 a quién aplica e implicaciones para Operación, Proyectos y Comunicaciones.
 ```
 
-**Paso 2.** Comprobar que mencione el paso de **15 a 20 días hábiles** de anticipación, el plan de comunicación aprobado y la vigencia desde el **1-dic-2026**.
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** los antecedentes, qué cambia, desde cuándo, a quién aplica y las implicaciones por área.
 
-**Paso 3.** Preguntar si el cambio afecta la intervención INT-MDV-2026 (28-nov) y verificar que el agente note que inicia antes de la vigencia.
+**Paso 2.** Comprobar tres datos: el plazo pasa de **15 a 20 días hábiles**, se exige un **plan de comunicación aprobado** y la vigencia comienza el **1 de diciembre de 2026**.
+
+**Paso 3.** Escribir: *"¿Este cambio afecta a la intervención INT-MDV-2026 programada para el 28 de noviembre?"*
+
+- **Qué verás:** una respuesta que indique que la intervención inicia antes de la vigencia del cambio, aunque conviene aplicarlo para futuras intervenciones.
 
 **Al terminar esta tarea debes tener:**
 
@@ -88,14 +108,26 @@ a quién aplica e implicaciones para Operación, Proyectos y Comunicaciones.
 
 **Por qué:** Al volver de una ausencia, revisar decenas de comunicaciones toma horas.
 
-**Paso 1.** Escribir:
+**Paso 1.** Pegar el siguiente prompt:
 
 ```text
 Estuve ausente del 2 al 6 de noviembre. ¿Qué cambió en ese periodo que debo conocer al volver? Prioriza lo que requiere acción
 de mi parte e indica la fuente original para ampliar cada tema.
 ```
 
-**Paso 2.** Abrir Word (escritorio o web) y crear un **Documento en blanco**. En Copilot, seleccionar **Copiar** debajo de el panorama, la profundización y la síntesis y pegar en Word con **Ctrl+V**. Seleccionar **Archivo > Guardar como**, elegir **OneDrive > Laboratorio_Copilot_ISA > Entregables** y guardar con el nombre `Panorama_Novedades_[INICIALES].docx`.
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** una síntesis priorizada que empieza por lo que requiere su acción (por ejemplo, la alerta de seguridad y el cambio de procedimiento), con un enlace o referencia a cada fuente original.
+
+**Paso 2.** Hacer clic en una de las fuentes de la síntesis para comprobar que abre la comunicación original.
+
+**Paso 3.** Abrir una pestaña nueva, ingresar a [office.com](https://www.office.com/) y seleccionar **Word > Documento en blanco** (o abrir Word de escritorio > **Documento en blanco**). Regresar a Copilot y, debajo de el panorama (Tarea 1), la profundización (Tarea 2) y la síntesis (Tarea 3), seleccionar el icono **Copiar**. Volver a Word, hacer clic en el documento y pegar con **Ctrl+V**.
+
+- **Qué verás:** el texto con su formato (títulos, tablas y viñetas) dentro del documento.
+- **Alternativa:** Si la tabla se pega como texto plano, pegar con **Ctrl+Shift+V** > **Mantener formato de origen**, o pedir a Copilot: *"Entrega la tabla en formato de tabla"* y copiarla de nuevo.
+
+**Paso 4.** Guardar el archivo: en Word de escritorio, seleccionar **Archivo > Guardar como > OneDrive - [su organización] > Laboratorio_Copilot_ISA > Entregables**, escribir el nombre `Panorama_Novedades_[INICIALES].docx` (sustituyendo `[INICIALES]`) y seleccionar **Guardar**. En Word para la web, hacer clic en el nombre del documento en la parte superior, escribir el nombre y, en **Ubicación**, seleccionar la carpeta `Entregables`.
+
+- **Qué verás:** el nombre `Panorama_Novedades_[INICIALES].docx` en la barra de título y el estado **Guardado**.
 
 **Al terminar esta tarea debes tener:**
 

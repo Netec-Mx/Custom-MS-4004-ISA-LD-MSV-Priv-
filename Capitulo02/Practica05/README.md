@@ -42,9 +42,14 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Por qué:** Un prompt bien estructurado puede reutilizarse cada semana cambiando solo el periodo. **Rol del participante:** copiar el prompt en un documento propio.
 
-**Paso 1.** El instructor abre la aplicación Microsoft 365 Copilot, selecciona **Copilot** y muestra con `/` las dos páginas de Loop y la transcripción.
+**Paso 1.** **Instructor:** abrir [m365.cloud.microsoft](https://m365.cloud.microsoft/), seleccionar **Copilot** > **Nuevo chat** y proyectar la pantalla. **Participantes:** abrir un **Documento en blanco** de Word para copiar el prompt.
 
-**Paso 2.** El instructor explica las partes del prompt reutilizable: periodo, fuentes, campos, clasificación y formato. Los participantes copian el prompt:
+**Paso 2.** **Instructor:** escribir `/` y mostrar que aparecen las páginas de Loop `Notas Facilitator INT-MDV 27-oct` y `Notas Facilitator INT-MDV 03-nov` y el archivo `Transcripcion_Planeacion_2026-10-20.docx`.
+
+- **Qué verás:** las tres fuentes en la lista de sugerencias.
+- **Si no ocurre así:** abrir cada página de Loop una vez desde su enlace para que se indexe y repetir.
+
+**Paso 3.** Explicar las cinco partes del prompt reutilizable: **periodo** (20-oct a 6-nov), **fuentes** (notas de Loop y transcripciones), **campos** (descripción, reunión, responsable, fecha), **clasificación** (propio, asignado o sin responsable) y **formato** (tabla). **Participantes:** copiar el siguiente prompt en su documento:
 
 ```text
 Revisa las notas de Facilitator en Loop y las transcripciones de las reuniones del proyecto INT-MDV-2026
@@ -67,16 +72,23 @@ No inventes responsables ni fechas. Fecha de referencia: 6 de noviembre de 2026.
 
 **Por qué:** Revisar reunión por reunión oculta los atrasos; consolidar muestra qué está vencido y qué vence pronto. **Rol del participante:** comprobar en la pantalla del instructor (o en su propia ejecución) los 5 compromisos esperados.
 
-**Paso 1.** El instructor ejecuta el prompt referenciando las fuentes con `/` y revisa la tabla con el grupo.
+**Paso 1.** **Instructor:** pegar el prompt de la Tarea 1 en el chat, insertar las tres fuentes con `/` al final del prompt y enviarlo. **Participantes con acceso a las páginas de Loop:** hacer lo mismo en su propio chat.
 
-**Paso 2.** El instructor solicita:
+- **Qué verás:** una tabla con todos los acuerdos y compromisos de las tres reuniones, con su reunión de origen.
+
+**Paso 2.** **Instructor:** pegar el siguiente prompt en la misma conversación:
 
 ```text
 Agrega las columnas Estado (Cumplido, Vencido, Próximo a vencer en 7 días, Sin fecha) y Prioridad (Alta, Media, Baja),
 y una columna "Acción de seguimiento". Ordena por estado y prioridad.
 ```
 
-**Paso 3.** Comprobar con el grupo que aparezcan: verificación de grúa (**vencido** el 05-nov), permiso de aceite (**próximo**, 10-nov), notificación a clientes (**próximo**, 14-nov), vocero ante medios (**sin responsable**) y plan con comunidades (**sin fecha**).
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** la tabla con tres columnas nuevas (Estado, Prioridad y Acción de seguimiento), ordenada por estado.
+
+**Paso 3.** Revisar en grupo los cinco casos esperados: **verificación de grúa** (vencida el 05-nov), **permiso de aceite** (vence el 10-nov), **notificación a clientes** (vence el 14-nov), **vocero ante medios** (sin responsable) y **plan con comunidades** (sin fecha).
+
+- **Si no ocurre así:** preguntar: *"¿Qué estado tiene la verificación de la grúa al 6 de noviembre?"*
 
 **Al terminar esta tarea debes tener:**
 
@@ -90,7 +102,7 @@ y una columna "Acción de seguimiento". Ordena por estado y prioridad.
 
 **Por qué:** La misma tarea registrada en tres reuniones parece tres pendientes distintos; unificar evita duplicar el seguimiento. **Rol del participante:** guardar la vista final en su carpeta `Entregables`.
 
-**Paso 1.** El instructor escribe:
+**Paso 1.** **Instructor:** pegar el siguiente prompt:
 
 ```text
 Identifica compromisos que aparezcan en diferentes reuniones y que correspondan a la misma actividad.
@@ -98,9 +110,19 @@ Unifícalos en una sola fila indicando todas las reuniones de origen y la fecha 
 Luego muestra solo los compromisos que requieren atención: atrasados, próximos a vencer y sin responsable.
 ```
 
-**Paso 2.** Verificar que se unifiquen "Enviar cronograma consolidado" (20-oct, fecha 24-oct), "Enviar cronograma actualizado" (27-oct, fecha 31-oct) y "Compartir cronograma consolidado" (03-nov, fecha 07-nov) como una sola actividad **propia**.
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** una sola fila para la actividad del cronograma con sus tres reuniones de origen (20-oct, 27-oct y 03-nov) y la fecha vigente del 07-nov, seguida de la vista de atención.
 
-**Paso 3.** Copiar la tabla final (botón **Copiar**), abrir Excel, crear un **Libro en blanco** y pegar con **Ctrl+V** en la celda A1. Seleccionar **Archivo > Guardar como**, elegir **OneDrive > Laboratorio_Copilot_ISA > Entregables** y guardar con el nombre `Vista_Compromisos_INT-MDV_[INICIALES].xlsx`.
+**Paso 2.** Comprobar que la actividad unificada aparezca como compromiso **propio** de Coordinación de la intervención y que la vista de atención solo muestre lo atrasado, lo próximo a vencer o lo que no tiene responsable.
+
+**Paso 3.** **Todos:** seleccionar **Copiar** debajo de la tabla final, abrir Excel (escritorio o [office.com](https://www.office.com/) > **Excel > Libro en blanco**), hacer clic en la celda **A1** y pegar con **Ctrl+V**.
+
+- **Qué verás:** la tabla en columnas de Excel.
+- **Alternativa:** Si todo queda en una sola columna, usar **Datos > Texto en columnas** o pegar con **Ctrl+Shift+V**.
+
+**Paso 4.** Guardar el archivo: en Excel de escritorio, seleccionar **Archivo > Guardar como > OneDrive - [su organización] > Laboratorio_Copilot_ISA > Entregables**, escribir el nombre `Vista_Compromisos_INT-MDV_[INICIALES].xlsx` (sustituyendo `[INICIALES]`) y seleccionar **Guardar**. En Excel para la web, hacer clic en el nombre del documento en la parte superior, escribir el nombre y, en **Ubicación**, seleccionar la carpeta `Entregables`.
+
+- **Qué verás:** el nombre `Vista_Compromisos_INT-MDV_[INICIALES].xlsx` en la barra de título y el estado **Guardado**.
 
 **Al terminar esta tarea debes tener:**
 
@@ -115,11 +137,16 @@ Luego muestra solo los compromisos que requieren atención: atrasados, próximos
 
 **Por qué:** Guardarlo permite actualizar la vista cada semana en segundos. **Rol del participante:** guardar también el prompt en su propia galería.
 
-**Paso 1.** El instructor pasa el puntero sobre su mensaje con el prompt de la Tarea 1 y selecciona la opción **Guardar indicación** (el nombre puede variar).
+**Paso 1.** **Instructor:** en el chat, subir hasta el mensaje con el prompt de la Tarea 1, pasar el puntero sobre él y seleccionar la opción **Guardar indicación** (puede mostrarse como un icono de marcador o en el menú **…**).
 
-**Paso 2.** Asignar el nombre `Consolidar compromisos INT-MDV` y guardar.
+- **Qué verás:** un cuadro para nombrar la indicación.
 
-**Paso 3.** Abrir la [Galería de indicaciones](https://m365.cloud.microsoft/copilot-prompts), localizar la indicación en **Mis indicaciones** y mostrar cómo volver a ejecutarla cambiando el periodo.
+**Paso 2.** Escribir el nombre `Consolidar compromisos INT-MDV` y seleccionar **Guardar**. **Participantes:** repetir en su propio chat con el prompt que copiaron.
+
+**Paso 3.** Abrir la [Galería de indicaciones](https://m365.cloud.microsoft/copilot-prompts), seleccionar **Mis indicaciones** y localizar `Consolidar compromisos INT-MDV`. Mostrar cómo seleccionarla, cambiar el periodo en el texto (por ejemplo, *"entre el 7 y el 13 de noviembre"*) y ejecutarla de nuevo.
+
+- **Qué verás:** la indicación guardada lista para reutilizarse.
+- **Alternativa:** Si no existe la opción Guardar indicación, crearla desde la galería con **Crear indicación** y pegar el texto.
 
 **Al terminar esta tarea debes tener:**
 

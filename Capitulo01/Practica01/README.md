@@ -42,11 +42,17 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Por qué:** Investigador tarda varios minutos. Lanzarlo primero permite leer el contexto interno mientras trabaja, y definir el alcance evita un informe genérico.
 
-**Paso 1.** Abrir el navegador, ingresar a [m365.cloud.microsoft](https://m365.cloud.microsoft/) con la cuenta del laboratorio y seleccionar **Copilot**.
+**Paso 1.** Abrir **Microsoft Edge**, escribir [m365.cloud.microsoft](https://m365.cloud.microsoft/) en la barra de direcciones y presionar **Enter**. Si se solicita, iniciar sesión con su cuenta corporativa.
 
-**Paso 2.** Seleccionar **Agentes** en el panel izquierdo y abrir **Investigador**. Si no aparece, seleccionar **Todos los agentes** y buscarlo por nombre.
+- **Qué verás:** la página de inicio de Microsoft 365 Copilot con un cuadro de mensaje al centro y un panel a la izquierda.
+- **Alternativa:** Si aparece la página de inicio de Microsoft 365 sin chat, seleccionar el icono **Copilot** en la barra lateral izquierda.
 
-**Paso 3.** Escribir la siguiente instrucción:
+**Paso 2.** En el panel izquierdo, seleccionar **Agentes**. Escribir `Investigador` en el cuadro de búsqueda de agentes y hacer clic en el resultado. En inglés puede aparecer como **Researcher**.
+
+- **Qué verás:** el nombre **Investigador** encima del cuadro de mensaje y, a veces, sugerencias de inicio. A partir de aquí, todo lo que escriba lo procesa este agente.
+- **Si no ocurre así:** seleccionar **Todos los agentes** (u **Obtener agentes**) y buscarlo de nuevo. Si sigue sin aparecer, avisar al instructor: el agente no está habilitado para su cuenta.
+
+**Paso 3.** Hacer clic en el cuadro de mensaje del agente y pegar el siguiente prompt:
 
 ```text
 Investiga el uso de gemelos digitales para la gestión de activos en empresas de transmisión de energía eléctrica.
@@ -55,9 +61,19 @@ beneficios reportados, riesgos de implementación, nivel de madurez y fuentes ut
 Distingue entre resultados medidos y expectativas de proveedores. Cita cada afirmación.
 ```
 
-**Paso 4.** Responder las preguntas de aclaración del agente. Si pregunta por el alcance geográfico, indicar "Latinoamérica, Europa y Norteamérica"; si pregunta por el uso del resultado, indicar "decidir si proponer un piloto en 2027".
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** Investigador puede responder primero con preguntas de aclaración (por ejemplo, sobre el alcance geográfico o el uso del resultado) antes de empezar a investigar.
 
-**Paso 5.** Mientras el agente trabaja, abrir `Prioridades_Internas_2027.docx` y leer las secciones 2 y 3. Se usarán en la Tarea 2.
+**Paso 4.** Responder las preguntas de aclaración en el cuadro de mensaje. Usar estas respuestas: para el alcance geográfico, *"Latinoamérica, Europa y Norteamérica"*; para el uso del resultado, *"Decidir si proponer un piloto en 2027"*; para cualquier otra pregunta, *"Prioriza empresas de transmisión de energía"*.
+
+- **Qué verás:** un indicador de progreso con las búsquedas y fuentes que el agente va consultando. La investigación tarda entre 3 y 10 minutos.
+- **Importante:** no cerrar ni recargar la pestaña mientras el agente trabaja.
+
+**Paso 5.** Mientras Investigador trabaja, abrir una pestaña nueva, seleccionar el icono de **OneDrive** en Microsoft 365, entrar a `Laboratorio_Copilot_ISA > Practica01` y abrir `Prioridades_Internas_2027.docx`.
+
+**Paso 6.** Leer las secciones **2. Prioridades** y **3. Restricciones** y anotar en una nota rápida las 4 metas (por ejemplo, "-15 % desconexiones") y las 4 restricciones (2.500 MCOP, 40 % de datos no integrados, 3 personas con experiencia en analítica, evaluación de ciberseguridad OT).
+
+- **Importante:** estas cifras se usarán en la Tarea 2 para comprobar que el agente las tomó en cuenta.
 
 **Al terminar esta tarea debes tener:**
 
@@ -73,9 +89,17 @@ Distingue entre resultados medidos y expectativas de proveedores. Cita cada afir
 
 **Por qué:** El comité no decide con tendencias generales, sino con qué tanto ayuda la tecnología a sus metas (reducir 15 % las desconexiones, pasar a mantenimiento basado en condición) con sus límites (2.500 MCOP, 40 % de datos no integrados, 3 analistas).
 
-**Paso 1.** En el informe de Investigador, localizar los números de cita entre corchetes ([1], [2]…) y hacer clic en dos de ellos. Comprobar que la página abierta menciona el dato citado. Si una cita no lo respalda, anotarla para la sección Fuentes del entregable.
+**Paso 1.** Regresar a la pestaña de Investigador. Esperar a que el indicador de progreso desaparezca y se muestre el informe completo.
 
-**Paso 2.** Escribir en la misma conversación, referenciando el archivo con `/`:
+- **Qué verás:** un informe con un resumen inicial y secciones sobre evolución, casos de aplicación, beneficios, riesgos y madurez, con números de cita entre corchetes.
+- **Alternativa:** Si el informe no aparece después de 10 minutos, actualizar la página y abrir la conversación desde el historial del panel izquierdo; la investigación continúa en segundo plano.
+
+**Paso 2.** Localizar en el informe dos números de cita entre corchetes (por ejemplo, [1] y [4]) de secciones diferentes y hacer clic en cada uno. La fuente se abre en una pestaña nueva o en un panel lateral.
+
+- **Qué verás:** la página de origen. Buscar en ella (**Ctrl+F**) una palabra clave de la afirmación citada.
+- **Alternativa:** Si la página no menciona el dato, anotar *"Cita [n] no respalda: …"* para la sección Fuentes del entregable.
+
+**Paso 3.** Regresar al chat de Investigador y pegar el siguiente prompt en la misma conversación:
 
 ```text
 Contrasta tus hallazgos con /Prioridades_Internas_2027. Para cada una de las cuatro prioridades indica
@@ -84,7 +108,13 @@ restricciones (presupuesto de 2.500 MCOP, datos no integrados, 3 personas con ex
 evaluación de ciberseguridad OT) hacen viable un piloto. Marca como "inferencia" lo que no esté respaldado por una fuente.
 ```
 
-**Paso 3.** Revisar la tabla resultante: debe tener 4 filas (una por prioridad) y la columna de restricciones debe mencionar los datos no integrados. Si no aparece, escribir: *"¿Cómo afecta al piloto que el 40 % de los datos esté en hojas de cálculo?"*
+- **Cómo insertar los archivos:** en el prompt, cada texto que empieza con `/` es un archivo. Borrar ese texto, escribir `/` seguido de las primeras letras del nombre del archivo y seleccionarlo en la lista que aparece; el archivo queda resaltado como un vínculo. Si no aparece en la lista, seleccionar el botón **+** (Agregar) > **Cargar desde OneDrive** > `Laboratorio_Copilot_ISA/Practica01` y elegirlo.
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** una tabla o lista con las 4 prioridades del documento, un nivel de contribución (alto, medio o bajo) por prioridad, la evidencia y comentarios sobre las restricciones.
+
+**Paso 4.** Comparar la respuesta con su nota de la Tarea 1: debe haber **4 filas** (una por prioridad) y las restricciones deben mencionar los **datos no integrados**.
+
+- **Si no ocurre así:** escribir: *"¿Cómo afecta al piloto que el 40 % de los datos esté en hojas de cálculo?"* y revisar la nueva respuesta.
 
 **Al terminar esta tarea debes tener:**
 
@@ -100,7 +130,7 @@ evaluación de ciberseguridad OT) hacen viable un piloto. Marca como "inferencia
 
 **Por qué:** Un comité confía en la evidencia cuando sabe dónde no coinciden las fuentes. Ocultar contradicciones lleva a decidir con datos de proveedores.
 
-**Paso 1.** Escribir:
+**Paso 1.** En la misma conversación, pegar el siguiente prompt:
 
 ```text
 Identifica contradicciones entre las fuentes que consultaste (por ejemplo, beneficios o costos reportados
@@ -108,9 +138,15 @@ de forma distinta) y muestra quién afirma qué. Luego lista los aspectos para l
 evidencia suficiente para decidir un piloto en ISA INTERCOLOMBIA.
 ```
 
-**Paso 2.** Revisar si cada fuente aparece identificada como caso documentado de una empresa de transmisión o como material de un proveedor. Si no se distingue, escribir: *"Clasifica cada fuente como caso documentado o material de proveedor"*.
+- **Enviar:** presionar **Enter** o seleccionar el botón de envío (flecha).
+- **Qué verás:** una lista de contradicciones con el nombre de cada fuente y lo que afirma, seguida de una lista de aspectos sin evidencia suficiente.
+- **Alternativa:** Si el agente responde que no hay contradicciones, escribir: *"Compara específicamente los beneficios y costos reportados por cada fuente"*.
 
-**Paso 3.** Anotar al menos tres preguntas pendientes para el equipo. Ejemplos: qué calidad de datos se necesita, cuánto costaría un piloto, qué evaluación de ciberseguridad OT aplica.
+**Paso 2.** Revisar si cada fuente aparece identificada como **caso documentado** de una empresa de transmisión o como **material de un proveedor**.
+
+- **Si no ocurre así:** escribir: *"Clasifica cada fuente como caso documentado o material de proveedor"*.
+
+**Paso 3.** Anotar al menos tres preguntas que el equipo debe responder antes de proponer un piloto. Pueden tomarse de la respuesta del agente o redactarse a partir de ella. Ejemplos: *¿qué calidad de datos se necesita?*, *¿cuánto costaría un piloto en una subestación?*, *¿qué evaluación de ciberseguridad OT aplica?*
 
 **Al terminar esta tarea debes tener:**
 
@@ -126,11 +162,22 @@ evidencia suficiente para decidir un piloto en ISA INTERCOLOMBIA.
 
 **Por qué:** El reporte es el insumo para decidir si se propone un piloto y se reutiliza como referencia en la Práctica 14.
 
-**Paso 1.** Abrir Word (escritorio o web) y crear un **Documento en blanco**. En Copilot, seleccionar **Copiar** debajo de el informe y de las respuestas de las Tareas 2 y 3 y pegar en Word con **Ctrl+V**.
+**Paso 1.** Abrir una pestaña nueva, ingresar a [office.com](https://www.office.com/) y seleccionar **Word > Documento en blanco** (o abrir Word de escritorio > **Documento en blanco**). Regresar a Copilot y, debajo de el informe de Investigador, seleccionar el icono **Copiar**. Volver a Word, hacer clic en el documento y pegar con **Ctrl+V**.
 
-**Paso 2.** Agregar los títulos **Fuentes, Hallazgos, Oportunidades, Riesgos, Contradicciones entre fuentes y Preguntas pendientes** (estilo Título 1) y mover cada contenido bajo el título que corresponda.
+- **Qué verás:** el texto con su formato (títulos, tablas y viñetas) dentro del documento.
+- **Alternativa:** Si la tabla se pega como texto plano, pegar con **Ctrl+Shift+V** > **Mantener formato de origen**, o pedir a Copilot: *"Entrega la tabla en formato de tabla"* y copiarla de nuevo.
 
-**Paso 3.** Seleccionar **Archivo > Guardar como**, elegir **OneDrive > Laboratorio_Copilot_ISA > Entregables** y guardar con el nombre `Reporte_Investigacion_[INICIALES].docx`.
+**Paso 2.** Repetir la acción **Copiar > Ctrl+V** con la respuesta de la Tarea 2 (tabla de prioridades) y la de la Tarea 3 (contradicciones). Al final del documento, escribir las tres preguntas pendientes que anotó.
+
+**Paso 3.** Escribir estos títulos en el documento, uno por línea, y aplicarles el estilo **Título 1** (pestaña **Inicio > Estilos**): **Fuentes**, **Hallazgos**, **Oportunidades**, **Riesgos**, **Contradicciones entre fuentes** y **Preguntas pendientes**. Después, cortar (**Ctrl+X**) y pegar (**Ctrl+V**) cada contenido debajo del título que corresponde.
+
+- **Qué verás:** el panel **Navegación** (pestaña **Vista > Panel de navegación**) muestra los títulos en orden.
+
+**Paso 4.** En la sección **Fuentes**, dejar la lista de citas del informe y agregar las notas de verificación de la Tarea 2 (por ejemplo, *"Cita [4] verificada"*).
+
+**Paso 5.** Guardar el archivo: en Word de escritorio, seleccionar **Archivo > Guardar como > OneDrive - [su organización] > Laboratorio_Copilot_ISA > Entregables**, escribir el nombre `Reporte_Investigacion_[INICIALES].docx` (sustituyendo `[INICIALES]`) y seleccionar **Guardar**. En Word para la web, hacer clic en el nombre del documento en la parte superior, escribir el nombre y, en **Ubicación**, seleccionar la carpeta `Entregables`.
+
+- **Qué verás:** el nombre `Reporte_Investigacion_[INICIALES].docx` en la barra de título y el estado **Guardado**.
 
 **Al terminar esta tarea debes tener:**
 
