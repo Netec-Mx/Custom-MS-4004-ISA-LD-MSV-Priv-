@@ -37,9 +37,11 @@ Al finalizar la práctica, el participante será capaz de:
 
 ## Tarea 1. Elegir la alternativa adecuada (3 min)
 
-**Objetivo:** Justificar por qué la necesidad requiere un agente personalizado.
+**Objetivo:** Tener completa la tabla comparativa y la justificación de por qué la necesidad requiere un agente personalizado.
 
-**Paso 1.** Abrir `Escenario_Lider_Iniciativas.docx` y leer la necesidad.
+**Por qué:** Crear un agente toma tiempo; solo conviene cuando la tarea es recurrente y necesita los mismos criterios cada vez.
+
+**Paso 1.** Abrir `Escenario_Lider_Iniciativas.docx` y leer la necesidad de Laura. En OneDrive, copiar `Plantilla_Diseno_Agente.docx` a `Entregables` con el nombre `Diseno_Agente_[INICIALES].docx` y abrirlo.
 
 **Paso 2.** Completar en la plantilla una comparación breve:
 
@@ -51,11 +53,18 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Paso 3.** Registrar la alternativa elegida y su justificación en la primera fila de la plantilla.
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ La tabla comparativa completa.
+- ✔ La alternativa elegida y su justificación.
+
 ---
 
 ## Tarea 2. Definir el comportamiento del agente (4 min)
 
-**Objetivo:** Especificar cada elemento del diseño.
+**Objetivo:** Tener completa la tabla de diseño: propósito, entradas, criterios, estructura, prioridades, lo que no debe asumir, conducta ante datos incompletos y límites.
+
+**Por qué:** Un agente se comporta según lo que se le define; lo que no se define queda a su criterio.
 
 **Paso 1.** Completar en la plantilla: propósito específico, información que podrá recibir (reportes de avance en texto o documentos), criterios de análisis (los 6 de Laura) y estructura de la respuesta (una tabla con los 6 criterios y un resumen).
 
@@ -65,11 +74,17 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Paso 4.** Definir límites: no tomar decisiones por la líder y responder solo sobre seguimiento de iniciativas.
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ Las 9 filas de la tabla de diseño completas.
+
 ---
 
 ## Tarea 3. Redactar el prompt de creación (3 min)
 
-**Objetivo:** Integrar el diseño en un prompt para crear el agente con lenguaje natural.
+**Objetivo:** Tener el prompt de creación completo en la plantilla, listo para la Práctica 13.
+
+**Por qué:** Este texto se pegará tal cual en Agent Builder, así que debe contener todo el diseño.
 
 **Paso 1.** Redactar el prompt en la sección final de la plantilla. Ejemplo de referencia:
 
@@ -84,6 +99,11 @@ ajenas al seguimiento de iniciativas, debe explicar su propósito.
 ```
 
 **Paso 2.** Guardar en OneDrive, en `Laboratorio_Copilot_ISA/Entregables/` con el nombre `Diseno_Agente_[INICIALES].docx`. Se usará en la Práctica 13.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ El prompt de creación con propósito, criterios, formato, prioridades y límites.
+- ✔ `Diseno_Agente_[INICIALES].docx` guardado.
 
 ---
 

@@ -38,7 +38,9 @@ Al finalizar la práctica, el participante será capaz de:
 
 ## Tarea 1. Presentar las fuentes y el prompt reutilizable (3 min)
 
-**Objetivo:** Mostrar qué fuentes se consolidarán y la estructura de un prompt que pueda reutilizarse.
+**Objetivo:** Que todos tengan copiado el prompt reutilizable y entiendan sus 5 partes: periodo, fuentes, campos, clasificación y formato.
+
+**Por qué:** Un prompt bien estructurado puede reutilizarse cada semana cambiando solo el periodo. **Rol del participante:** copiar el prompt en un documento propio.
 
 **Paso 1.** El instructor abre la aplicación Microsoft 365 Copilot, selecciona **Copilot** y muestra con `/` las dos páginas de Loop y la transcripción.
 
@@ -52,11 +54,18 @@ decisiones y compromisos con: descripción, reunión de origen (fecha), responsa
 No inventes responsables ni fechas. Fecha de referencia: 6 de noviembre de 2026.
 ```
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ El prompt copiado en un documento propio.
+- ✔ Identificadas sus 5 partes.
+
 ---
 
 ## Tarea 2. Consolidar y clasificar los compromisos (5 min)
 
-**Objetivo:** Obtener la tabla consolidada con estado y prioridad.
+**Objetivo:** Ver la tabla consolidada con estado, prioridad y acción de seguimiento de cada compromiso.
+
+**Por qué:** Revisar reunión por reunión oculta los atrasos; consolidar muestra qué está vencido y qué vence pronto. **Rol del participante:** comprobar en la pantalla del instructor (o en su propia ejecución) los 5 compromisos esperados.
 
 **Paso 1.** El instructor ejecuta el prompt referenciando las fuentes con `/` y revisa la tabla con el grupo.
 
@@ -69,11 +78,17 @@ y una columna "Acción de seguimiento". Ordena por estado y prioridad.
 
 **Paso 3.** Comprobar con el grupo que aparezcan: verificación de grúa (**vencido** el 05-nov), permiso de aceite (**próximo**, 10-nov), notificación a clientes (**próximo**, 14-nov), vocero ante medios (**sin responsable**) y plan con comunidades (**sin fecha**).
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ Identificados el compromiso vencido, los dos próximos a vencer y los dos sin responsable o sin fecha.
+
 ---
 
 ## Tarea 3. Generar la vista de atención y detectar duplicados (4 min)
 
-**Objetivo:** Evitar dar seguimiento por separado a la misma actividad.
+**Objetivo:** Tener una sola fila por actividad y una vista que muestre solo lo atrasado, próximo a vencer o sin responsable.
+
+**Por qué:** La misma tarea registrada en tres reuniones parece tres pendientes distintos; unificar evita duplicar el seguimiento. **Rol del participante:** guardar la vista final en su carpeta `Entregables`.
 
 **Paso 1.** El instructor escribe:
 
@@ -85,19 +100,30 @@ Luego muestra solo los compromisos que requieren atención: atrasados, próximos
 
 **Paso 2.** Verificar que se unifiquen "Enviar cronograma consolidado" (20-oct, fecha 24-oct), "Enviar cronograma actualizado" (27-oct, fecha 31-oct) y "Compartir cronograma consolidado" (03-nov, fecha 07-nov) como una sola actividad **propia**.
 
-**Paso 3.** Copiar la tabla a Excel. Guardar en OneDrive, en `Laboratorio_Copilot_ISA/Entregables/` con el nombre `Vista_Compromisos_INT-MDV_[INICIALES].xlsx`.
+**Paso 3.** Copiar la tabla final (botón **Copiar**), abrir Excel, crear un **Libro en blanco** y pegar con **Ctrl+V** en la celda A1. Seleccionar **Archivo > Guardar como**, elegir **OneDrive > Laboratorio_Copilot_ISA > Entregables** y guardar con el nombre `Vista_Compromisos_INT-MDV_[INICIALES].xlsx`.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ La actividad del cronograma unificada en una fila.
+- ✔ `Vista_Compromisos_INT-MDV_[INICIALES].xlsx` guardada.
 
 ---
 
 ## Tarea 4. Guardar el prompt en la Galería de indicaciones (3 min)
 
-**Objetivo:** Dejar el prompt listo para ejecutarse periódicamente.
+**Objetivo:** Tener el prompt guardado como `Consolidar compromisos INT-MDV` en **Mis indicaciones**.
+
+**Por qué:** Guardarlo permite actualizar la vista cada semana en segundos. **Rol del participante:** guardar también el prompt en su propia galería.
 
 **Paso 1.** El instructor pasa el puntero sobre su mensaje con el prompt de la Tarea 1 y selecciona la opción **Guardar indicación** (el nombre puede variar).
 
 **Paso 2.** Asignar el nombre `Consolidar compromisos INT-MDV` y guardar.
 
 **Paso 3.** Abrir la [Galería de indicaciones](https://m365.cloud.microsoft/copilot-prompts), localizar la indicación en **Mis indicaciones** y mostrar cómo volver a ejecutarla cambiando el periodo.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ La indicación visible en la Galería de indicaciones.
 
 ---
 

@@ -36,7 +36,9 @@ Al finalizar la práctica, el participante será capaz de:
 
 ## Tarea 1. Crear la comunicación interna para colaboradores (5 min)
 
-**Objetivo:** Convertir la ficha técnica en un mensaje claro y accionable.
+**Objetivo:** Tener un correo interno de máximo 200 palabras con las 3 acciones que deben realizar los colaboradores.
+
+**Por qué:** Los colaboradores necesitan saber qué hacer, no la especificación técnica del transformador.
 
 **Paso 1.** En la aplicación Microsoft 365 Copilot, abrir **Agentes** y seleccionar **Diseñador de comunicaciones**.
 
@@ -50,11 +52,17 @@ Máximo 200 palabras.
 
 **Paso 3.** Verificar que el mensaje incluya las tres acciones requeridas: no programar trabajos en la subestación, confirmar turnos y canalizar consultas externas a Comunicaciones.
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ El correo con propósito, periodo, afectaciones y las 3 acciones.
+
 ---
 
 ## Tarea 2. Adaptar el mensaje a un público externo y otro canal (5 min)
 
-**Objetivo:** Cambiar lenguaje, tono y detalle sin alterar los hechos.
+**Objetivo:** Tener una publicación externa de máximo 100 palabras y una tabla que compare ambas versiones.
+
+**Por qué:** El mismo hecho se comunica distinto a la comunidad: sin tecnicismos ni datos internos, pero con los mismos hechos.
 
 **Paso 1.** Escribir:
 
@@ -67,11 +75,19 @@ Adapta el mismo acontecimiento para la comunidad y los usuarios externos, en una
 
 **Paso 3.** Comprobar que fecha, propósito y afectaciones sean iguales en ambas versiones.
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ La publicación externa.
+- ✔ La tabla comparativa.
+- ✔ Fecha, propósito y afectaciones iguales en ambas versiones.
+
 ---
 
 ## Tarea 3. Identificar contenido a proteger o revisar (5 min)
 
-**Objetivo:** Evitar publicar información interna o no aprobada.
+**Objetivo:** Tener la lista de contenido a proteger o revisar con su aprobador, y ambas comunicaciones guardadas sin enviar.
+
+**Por qué:** Publicar un costo interno o una duración no aprobada genera problemas legales y de reputación.
 
 **Paso 1.** Escribir, referenciando la nota con `/`:
 
@@ -82,7 +98,13 @@ antes de publicar cada comunicación? Justifica cada punto e indica quién deber
 
 **Paso 2.** Verificar que se protejan el **costo**, los **nombres de clientes** y la **compensación**, y que la **extensión a 48 h** no se publique por no estar aprobada.
 
-**Paso 3.** Copiar ambas comunicaciones y la revisión a Word. Guardar en OneDrive, en `Laboratorio_Copilot_ISA/Entregables/` con el nombre `Comunicaciones_INT-MDV_[INICIALES].docx`. No enviar ni publicar.
+**Paso 3.** Abrir Word (escritorio o web) y crear un **Documento en blanco**. En Copilot, seleccionar **Copiar** debajo de cada comunicación y de la revisión y pegar en Word con **Ctrl+V**. Seleccionar **Archivo > Guardar como**, elegir **OneDrive > Laboratorio_Copilot_ISA > Entregables** y guardar con el nombre `Comunicaciones_INT-MDV_[INICIALES].docx`. No enviar ni publicar.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ Costo, nombres de clientes y compensación marcados como protegidos.
+- ✔ La extensión a 48 h marcada como no aprobada.
+- ✔ El documento guardado.
 
 ---
 

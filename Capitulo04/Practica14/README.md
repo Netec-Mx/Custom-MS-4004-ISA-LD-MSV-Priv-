@@ -38,9 +38,11 @@ Al finalizar la práctica, el participante será capaz de:
 
 ## Tarea 1. Lanzar la investigación externa (3 min)
 
-**Objetivo:** Iniciar la investigación y dejarla trabajando en segundo plano.
+**Objetivo:** Tener Investigador trabajando en segundo plano y las copias de trabajo creadas en `Entregables`.
 
-**Paso 1.** Copiar `Caso_Monitoreo_Predictivo_Activos.docx` y `Datos_Activos_MPA.xlsx` a `Entregables` con los nombres `Caso_MPA_[INICIALES].docx` y `Datos_MPA_[INICIALES].xlsx`.
+**Por qué:** Investigador tarda varios minutos; lanzarlo primero permite aprovechar ese tiempo en el análisis de datos.
+
+**Paso 1.** En OneDrive, abrir `Laboratorio_Copilot_ISA/Practica14`, seleccionar cada archivo, elegir **Copiar a > Entregables** y renombrar las copias como `Caso_MPA_[INICIALES].docx` y `Datos_MPA_[INICIALES].xlsx`.
 
 **Paso 2.** Abrir **Investigador** y escribir, referenciando el caso con `/`:
 
@@ -52,11 +54,18 @@ adoptaron monitoreo predictivo de transformadores, tecnologías más maduras, op
 
 **Paso 3.** Responder las preguntas de aclaración y continuar con la Tarea 2 mientras el agente trabaja.
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ Las dos copias de trabajo en `Entregables`.
+- ✔ Investigador mostrando su progreso.
+
 ---
 
 ## Tarea 2. Analizar los datos con Analista (7 min)
 
-**Objetivo:** Identificar tendencias, desviaciones, atípicos y relaciones.
+**Objetivo:** Saber si los datos del piloto respaldan ampliar el monitoreo: comparación antes y después, con y sin monitoreo, y el valor atípico identificado.
+
+**Por qué:** Decidir una inversión de 3.600 MCOP requiere evidencia de los datos propios, no solo tendencias externas.
 
 **Paso 1.** En otra pestaña, abrir **Analista**, adjuntar `Datos_MPA_[INICIALES].xlsx` y escribir:
 
@@ -70,11 +79,19 @@ y relaciones. Muestra una tabla y un gráfico.
 
 **Paso 3.** Preguntar: "¿Qué información faltaría para atribuir la mejora al monitoreo y no a otros factores?" y anotar la respuesta.
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ La tabla comparativa y un gráfico.
+- ✔ TR-14 identificado como atípico.
+- ✔ La información faltante para atribuir la mejora al monitoreo.
+
 ---
 
 ## Tarea 3. Preparar la evidencia en Excel (5 min)
 
-**Objetivo:** Construir tablas y gráficos que servirán de evidencia.
+**Objetivo:** Tener en Excel una tabla dinámica y un gráfico listos para la presentación.
+
+**Por qué:** La presentación necesita una visualización clara y verificable de los datos.
 
 **Paso 1.** Abrir `Datos_MPA_[INICIALES].xlsx` en Excel y seleccionar **Copilot**.
 
@@ -82,11 +99,19 @@ y relaciones. Muestra una tabla y un gráfico.
 
 **Paso 3.** Escribir: "Crea un gráfico de columnas a partir de esa tabla" y guardar el libro.
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ Tabla dinámica por grupo y periodo.
+- ✔ Gráfico de columnas.
+- ✔ El libro guardado.
+
 ---
 
 ## Tarea 4. Integrar la investigación en Word (6 min)
 
-**Objetivo:** Enriquecer el documento del caso diferenciando evidencia externa de información ficticia.
+**Objetivo:** Tener la sección 6 del Word con los hallazgos externos etiquetados por origen, y la sección 7 con los hallazgos de datos.
+
+**Por qué:** Mezclar evidencia externa con los datos ficticios del caso confunde al lector; las etiquetas mantienen la trazabilidad.
 
 **Paso 1.** Revisar el informe de Investigador y abrir al menos una fuente.
 
@@ -100,11 +125,18 @@ para distinguir el origen. Hallazgos: [pegar aquí el resumen de Investigador]
 
 **Paso 3.** Agregar una sección 7 con los hallazgos de datos de la Tarea 2 y guardar el documento.
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ La sección 6 con etiquetas [Evidencia externa] e [Información del caso].
+- ✔ La sección 7 con los hallazgos de datos.
+
 ---
 
 ## Tarea 5. Construir la presentación ejecutiva (6 min)
 
-**Objetivo:** Sintetizar el caso en una presentación para un líder.
+**Objetivo:** Tener una presentación de 7 diapositivas con el gráfico de evidencia insertado.
+
+**Por qué:** El líder decidirá con base en la presentación, así que debe sintetizar solo lo necesario.
 
 **Paso 1.** Abrir PowerPoint, crear una **Presentación en blanco** y seleccionar **Copilot**.
 
@@ -120,11 +152,19 @@ si amplía el monitoreo a 12 transformadores.
 
 **Paso 4.** Guardar como `Presentacion_MPA_[INICIALES].pptx` en `Entregables`.
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ 7 diapositivas con la estructura solicitada.
+- ✔ El gráfico de Excel insertado.
+- ✔ `Presentacion_MPA_[INICIALES].pptx` guardada.
+
 ---
 
 ## Tarea 6. Revisar la presentación con Copilot (3 min)
 
-**Objetivo:** Ajustar la presentación para una audiencia ejecutiva.
+**Objetivo:** Tener la presentación ajustada con al menos dos mejoras sugeridas por Copilot.
+
+**Por qué:** Una revisión final elimina exceso de texto y afirmaciones sin respaldo antes de presentarla.
 
 **Paso 1.** En Copilot de PowerPoint, escribir:
 
@@ -134,6 +174,10 @@ o los datos, y aspectos que deberían enfatizarse para una audiencia ejecutiva.
 ```
 
 **Paso 2.** Aplicar al menos dos ajustes sugeridos y guardar.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ Dos ajustes aplicados y la presentación guardada.
 
 ---
 

@@ -36,7 +36,9 @@ Al finalizar la práctica, el participante será capaz de:
 
 ## Tarea 1. Crear el agente con lenguaje natural (4 min)
 
-**Objetivo:** Construir el agente a partir del prompt de diseño.
+**Objetivo:** Tener creado el agente `Revisor de Avance de Iniciativas - [INICIALES]` a partir del prompt de diseño.
+
+**Por qué:** Crear con lenguaje natural permite construir un agente sin configuración técnica.
 
 **Paso 1.** En la aplicación Microsoft 365 Copilot, seleccionar **Agentes** y luego **Crear agente**.
 
@@ -46,11 +48,17 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Paso 4.** Seleccionar **Crear** y mantener el agente visible solo para el participante.
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ El agente creado y visible en **Agentes**.
+
 ---
 
 ## Tarea 2. Probar el comportamiento del agente (6 min)
 
-**Objetivo:** Validar el agente en cuatro situaciones.
+**Objetivo:** Tener documentado el resultado de las 4 pruebas: completa, incompleta, contradictoria y fuera de propósito.
+
+**Por qué:** Un agente se valida con casos difíciles; si solo se prueba con datos completos, fallará con reportes reales.
 
 **Paso 1.** Abrir `Reporte_Iniciativa_Completo.docx`, copiar su contenido y pegarlo en el agente con el texto "Revisa este reporte:". Verificar los 6 criterios y que la **decisión del 13-nov** aparezca como prioritaria.
 
@@ -60,13 +68,19 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Paso 4.** Escribir una solicitud fuera de propósito: `Escríbeme un poema sobre la energía`. Verificar que el agente explique su propósito.
 
-**Paso 5.** Registrar cada resultado en `Pruebas_Agente_[INICIALES].docx`.
+**Paso 5.** Crear un **Documento en blanco** de Word con una tabla de 4 filas (prueba, resultado esperado, resultado obtenido, ¿cumple?) y registrar cada prueba. Seleccionar **Archivo > Guardar como**, elegir **OneDrive > Laboratorio_Copilot_ISA > Entregables** y guardar con el nombre `Pruebas_Agente_[INICIALES].docx`.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ Las 4 pruebas registradas con su resultado.
 
 ---
 
 ## Tarea 3. Ajustar las instrucciones y volver a probar (3 min)
 
-**Objetivo:** Mejorar el comportamiento con base en las pruebas.
+**Objetivo:** Tener una instrucción mejorada y evidencia de que la prueba más débil mejoró.
+
+**Por qué:** Los agentes se ajustan de forma iterativa con base en lo observado.
 
 **Paso 1.** Seleccionar el agente, abrir la opción para editarlo y, en **Describir**, escribir el ajuste necesario. Ejemplo: "Antes de la tabla, agrega una sección Alertas con las inconsistencias detectadas".
 
@@ -74,15 +88,25 @@ Al finalizar la práctica, el participante será capaz de:
 
 **Paso 3.** Registrar el antes y el después en el documento de pruebas.
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ El ajuste realizado y el resultado antes y después.
+
 ---
 
 ## Tarea 4. Comparar con Copilot Chat (2 min)
 
-**Objetivo:** Reconocer el valor de la especialización.
+**Objetivo:** Poder explicar qué aporta el agente frente a Copilot Chat.
+
+**Por qué:** Justificar el agente frente al chat ayuda a decidir cuándo vale la pena crear otros.
 
 **Paso 1.** Abrir el chat de Copilot, pegar el reporte contradictorio con el texto "Revisa este reporte:" y comparar con el resultado del agente.
 
 **Paso 2.** Anotar en el documento qué aporta el agente (estructura constante, prioridades, alertas) y cuándo se justifica crearlo. Guardar en OneDrive, en `Laboratorio_Copilot_ISA/Entregables/`.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ La comparación registrada en `Pruebas_Agente_[INICIALES].docx`.
 
 ---
 

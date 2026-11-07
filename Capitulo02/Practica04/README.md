@@ -37,7 +37,9 @@ Al finalizar la práctica, el participante será capaz de:
 
 ## Tarea 1. Revisar la reunión y reunir la información disponible (4 min)
 
-**Objetivo:** Identificar con Copilot toda la información relacionada con la reunión.
+**Objetivo:** Confirmar que Copilot encuentra las fuentes de la reunión: la invitación, los 3 correos y los 2 archivos.
+
+**Por qué:** La información de una reunión rara vez está en un solo lugar. Si falta una fuente, la preparación queda incompleta.
 
 **Paso 1.** Abrir **Microsoft Teams**, seleccionar **Calendario** y abrir la reunión `Revisión de preparación INT-MDV-2026`.
 
@@ -50,13 +52,19 @@ Al finalizar la práctica, el participante será capaz de:
 y los archivos /Plan_Intervencion_Mirador_del_Valle y /Matriz_Riesgos_Intervencion. Indica la fuente de cada dato.
 ```
 
-**Paso 4.** Verificar que Copilot encuentre los tres correos y los dos archivos.
+**Paso 4.** Comparar la respuesta con lo esperado: correos de Operación (ventana de 30 h), Gestión Ambiental (permiso de aceite) y Comercial (cliente sin acuse), el plan y la matriz de riesgos. Si falta alguno, referenciarlo con `/` y repetir la pregunta.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ Las 5 fuentes identificadas con lo que aporta cada una.
 
 ---
 
 ## Tarea 2. Preparar objetivo, agenda, contexto y preguntas (6 min)
 
-**Objetivo:** Construir la estructura de la reunión con base en la información recuperada.
+**Objetivo:** Tener el objetivo, una agenda de 45 minutos con tiempos, el contexto, las preguntas por área y los asuntos por resolver.
+
+**Por qué:** Una reunión sin agenda ni preguntas preparadas termina sin decisiones. La diferencia entre 36 y 30 horas debe resolverse en esta sesión.
 
 **Paso 1.** Escribir:
 
@@ -67,13 +75,21 @@ Prepara para esta reunión: 1) objetivo en una frase, 2) agenda de 45 minutos co
 
 **Paso 2.** Verificar que el contexto incluya la diferencia entre la ventana planeada (**36 h**) y la aprobada preliminarmente (**30 h**), el permiso ambiental con respuesta estimada el **25-nov** y el cliente sin acuse de recibo.
 
-**Paso 3.** Ajustar la agenda si un asunto crítico quedó sin tiempo.
+**Paso 3.** Revisar si los tres asuntos críticos (ventana, permiso ambiental y cliente) tienen tiempo en la agenda. Si alguno no lo tiene, escribir: *"Ajusta la agenda para dar 10 minutos a [asunto]"*.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ Objetivo en una frase.
+- ✔ Agenda de 45 minutos con los 3 asuntos críticos.
+- ✔ Preguntas por área.
 
 ---
 
 ## Tarea 3. Anticipar desacuerdos y decisiones difíciles (3 min)
 
-**Objetivo:** Preparar preguntas para conducir los temas en los que las áreas pueden no coincidir.
+**Objetivo:** Tener identificados los desacuerdos probables y dos preguntas para conducir cada uno.
+
+**Por qué:** Las decisiones difíciles (reprogramar, re-secuenciar, designar vocero) generan tensión entre áreas; las preguntas preparadas ayudan a llegar a una decisión.
 
 **Paso 1.** Escribir:
 
@@ -84,15 +100,27 @@ de las áreas y propón dos preguntas para conducir la conversación hacia una d
 
 **Paso 2.** Confirmar que aparezcan al menos: mantener o reprogramar la fecha ante la solicitud del cliente, re-secuenciar para 30 h y designar vocero.
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ Al menos 3 desacuerdos con las posiciones probables de las áreas.
+- ✔ Dos preguntas por desacuerdo.
+
 ---
 
 ## Tarea 4. Guardar la guía y confirmar Facilitator (2 min)
 
-**Objetivo:** Dejar la guía disponible y la reunión lista para usar Facilitator.
+**Objetivo:** Tener guardada la guía y confirmado que Facilitator está habilitado en la reunión.
 
-**Paso 1.** Copiar las respuestas a Word. Guardar en OneDrive, en `Laboratorio_Copilot_ISA/Entregables/` con el nombre `Guia_Reunion_INT-MDV_[INICIALES].docx`.
+**Por qué:** Facilitator tomará las notas durante la reunión; ese tipo de notas es la base de la Práctica 5.
+
+**Paso 1.** Abrir Word (escritorio o web) y crear un **Documento en blanco**. En Copilot, seleccionar **Copiar** debajo de cada respuesta de las Tareas 2 y 3 y pegar en Word con **Ctrl+V**. Seleccionar **Archivo > Guardar como**, elegir **OneDrive > Laboratorio_Copilot_ISA > Entregables** y guardar con el nombre `Guia_Reunion_INT-MDV_[INICIALES].docx`.
 
 **Paso 2.** En la reunión, abrir **Opciones de reunión**, localizar la configuración de **Copilot y agentes** y confirmar que **Facilitator** esté habilitado. No iniciar la reunión.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ `Guia_Reunion_INT-MDV_[INICIALES].docx` guardada.
+- ✔ Facilitator confirmado (o la limitación anotada en la guía).
 
 ---
 

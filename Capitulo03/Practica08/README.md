@@ -35,7 +35,9 @@ Al finalizar la práctica, el participante será capaz de:
 
 ## Tarea 1. Resumir las novedades de la semana por temática (4 min)
 
-**Objetivo:** Obtener un panorama clasificado de la semana.
+**Objetivo:** Tener las novedades de la semana agrupadas por temática y clasificadas como cambio importante, información contextual o comunicación recurrente, con su fuente.
+
+**Por qué:** No todas las comunicaciones requieren acción; clasificarlas ayuda a enfocarse en lo que cambia su trabajo.
 
 **Paso 1.** En la aplicación Microsoft 365 Copilot, abrir **Agentes** y seleccionar **Resumen personal de noticias**.
 
@@ -49,11 +51,18 @@ Incluye la fuente de cada novedad.
 
 **Paso 3.** Verificar la clasificación esperada: cambio de procedimiento de consignaciones y alerta de seguridad = **cambio importante**; prioridades del liderazgo, sostenibilidad y actualización operativa = **contextual o importante según el área**; boletín de bienestar = **recurrente**.
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ Las 6 comunicaciones agrupadas y clasificadas.
+- ✔ La fuente de cada novedad.
+
 ---
 
 ## Tarea 2. Profundizar en una temática (4 min)
 
-**Objetivo:** Comprender antecedentes, alcance e implicaciones de un cambio.
+**Objetivo:** Entender qué cambia en el procedimiento de consignaciones, desde cuándo, a quién aplica y si afecta a INT-MDV-2026.
+
+**Por qué:** Un cambio de procedimiento desconocido puede retrasar intervenciones o hacer que se rechace una solicitud.
 
 **Paso 1.** Escribir:
 
@@ -66,11 +75,18 @@ a quién aplica e implicaciones para Operación, Proyectos y Comunicaciones.
 
 **Paso 3.** Preguntar si el cambio afecta la intervención INT-MDV-2026 (28-nov) y verificar que el agente note que inicia antes de la vigencia.
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ El cambio de 15 a 20 días hábiles identificado.
+- ✔ La conclusión sobre si afecta a INT-MDV-2026.
+
 ---
 
 ## Tarea 3. Ponerse al día después de una ausencia (4 min)
 
-**Objetivo:** Identificar lo que cambió durante varios días fuera.
+**Objetivo:** Tener una síntesis de lo que requiere su acción tras una ausencia, con enlaces a las fuentes, y el entregable guardado.
+
+**Por qué:** Al volver de una ausencia, revisar decenas de comunicaciones toma horas.
 
 **Paso 1.** Escribir:
 
@@ -79,7 +95,12 @@ Estuve ausente del 2 al 6 de noviembre. ¿Qué cambió en ese periodo que debo c
 de mi parte e indica la fuente original para ampliar cada tema.
 ```
 
-**Paso 2.** Copiar el panorama, la profundización y la síntesis a Word. Guardar en OneDrive, en `Laboratorio_Copilot_ISA/Entregables/` con el nombre `Panorama_Novedades_[INICIALES].docx`.
+**Paso 2.** Abrir Word (escritorio o web) y crear un **Documento en blanco**. En Copilot, seleccionar **Copiar** debajo de el panorama, la profundización y la síntesis y pegar en Word con **Ctrl+V**. Seleccionar **Archivo > Guardar como**, elegir **OneDrive > Laboratorio_Copilot_ISA > Entregables** y guardar con el nombre `Panorama_Novedades_[INICIALES].docx`.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ La síntesis priorizada por acción.
+- ✔ `Panorama_Novedades_[INICIALES].docx` guardado.
 
 ---
 

@@ -36,7 +36,9 @@ Al finalizar la práctica, el participante será capaz de:
 
 ## Tarea 1. Cargar los datos y validar su interpretación (3 min)
 
-**Objetivo:** Asegurar que Analista interprete correctamente la estructura del archivo antes de analizarlo.
+**Objetivo:** Confirmar que Analista leyó correctamente el archivo: 12 proyectos, 9 meses y el significado de cada indicador.
+
+**Por qué:** Si el agente interpreta mal una columna (por ejemplo, el presupuesto acumulado), todo el análisis posterior será incorrecto.
 
 **Paso 1.** En la aplicación Microsoft 365 Copilot, abrir **Agentes** y seleccionar **Analista**.
 
@@ -51,11 +53,18 @@ Usa la hoja Diccionario para explicar cada indicador. No hagas análisis todaví
 
 **Paso 4.** Verificar que el agente reporte **12 proyectos** y **9 meses** (2026-01 a 2026-09). Si no coincide, pedirle que muestre el conteo.
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ Analista reporta 12 proyectos y el periodo 2026-01 a 2026-09.
+- ✔ La explicación de los indicadores coincide con la hoja `Diccionario`.
+
 ---
 
 ## Tarea 2. Analizar tendencias, desviaciones y valores atípicos (6 min)
 
-**Objetivo:** Obtener tablas y visualizaciones con las desviaciones y valores atípicos más relevantes.
+**Objetivo:** Obtener una tabla con los 5 proyectos más desviados y dos gráficos: brecha de avance y comportamiento anómalo por mes.
+
+**Por qué:** Los indicadores sueltos no muestran prioridades. La tabla y los gráficos permiten ver en segundos qué proyectos requieren atención.
 
 **Paso 1.** Escribir:
 
@@ -74,13 +83,21 @@ Muestra un gráfico de líneas por mes para los proyectos con comportamiento an�
 
 **Paso 3.** Comprobar los hallazgos esperados: **PRY-07** y **PRY-09** con -13 puntos de avance, **PRY-03** con 27 % más ejecución que lo planeado, un pico de **14 incidencias** en PRY-07 en 2026-06 y días de aprobación de **PRY-10** que crecen de 9 a 33.
 
-**Paso 4.** Descargar o copiar los gráficos para el entregable.
+**Paso 4.** Guardar cada gráfico: pasar el puntero sobre la imagen y seleccionar el icono de descarga (o clic derecho > **Copiar imagen**). Pegarlos en un **Documento en blanco** de Word que será el entregable.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ Tabla de los 5 proyectos más desviados.
+- ✔ Gráfico de barras de brecha de avance.
+- ✔ Gráfico de líneas con el pico de PRY-07 y la tendencia de PRY-10.
 
 ---
 
 ## Tarea 3. Profundizar distinguiendo hechos, explicaciones y faltantes (4 min)
 
-**Objetivo:** Separar lo que muestran los datos de las posibles causas y de la información necesaria para confirmarlas.
+**Objetivo:** Obtener una tabla de tres columnas (dato observado, posible explicación, información faltante) para los 3 hallazgos principales.
+
+**Por qué:** Un dato muestra qué pasó, no por qué. Confundir ambos lleva a culpar a un equipo o a corregir la causa equivocada.
 
 **Paso 1.** Escribir:
 
@@ -90,13 +107,20 @@ Para los tres hallazgos más relevantes, separa la respuesta en tres columnas:
 No presentes una explicación como hecho.
 ```
 
-**Paso 2.** Revisar que ninguna causa aparezca como confirmada. Si ocurre, pedir al agente que la reclasifique.
+**Paso 2.** Revisar la columna "Posible explicación": ninguna debe estar redactada como hecho confirmado (por ejemplo, "el retraso se debe a…"). Si alguna lo está, escribir: *"Reclasifica como hipótesis la explicación de [proyecto]"*.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ La tabla de tres columnas.
+- ✔ Ninguna explicación presentada como hecho.
 
 ---
 
 ## Tarea 4. Incorporar un segundo conjunto de datos (4 min)
 
-**Objetivo:** Determinar si la información complementaria fortalece o modifica las conclusiones iniciales.
+**Objetivo:** Saber, para cada conclusión inicial, si el segundo archivo la fortalece, la modifica o la descarta, y tener el reporte guardado.
+
+**Por qué:** Las conclusiones cambian con más contexto: el pico de incidencias de PRY-07 parecía un problema técnico y la sobreejecución de PRY-03 parecía mala gestión.
 
 **Paso 1.** Adjuntar `Datos_Complementarios_2026.xlsx` y escribir:
 
@@ -107,7 +131,13 @@ se fortalece, se modifica o se descarta, y por qué.
 
 **Paso 2.** Verificar que el agente detecte que el pico de PRY-07 coincide con un **cambio de contratista** y que la sobreejecución de PRY-03 se explica por un **cambio de alcance aprobado** sin actualizar la línea base.
 
-**Paso 3.** Copiar tablas, gráficos y conclusiones a Word. Guardar en OneDrive, en `Laboratorio_Copilot_ISA/Entregables/` con el nombre `Reporte_Analitico_[INICIALES].docx`.
+**Paso 3.** Pegar en el documento de Word las tablas, los gráficos y la respuesta de esta tarea. Seleccionar **Archivo > Guardar como**, elegir **OneDrive > Laboratorio_Copilot_ISA > Entregables** y guardar con el nombre `Reporte_Analitico_[INICIALES].docx`.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ Cada conclusión marcada como fortalecida, modificada o descartada.
+- ✔ PRY-07 relacionado con el cambio de contratista y PRY-03 con el cambio de alcance.
+- ✔ `Reporte_Analitico_[INICIALES].docx` guardado.
 
 ---
 

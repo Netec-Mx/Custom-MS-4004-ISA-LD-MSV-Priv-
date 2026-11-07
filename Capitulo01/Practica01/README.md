@@ -38,7 +38,9 @@ Al finalizar la práctica, el participante será capaz de:
 
 ## Tarea 1. Lanzar la investigación externa (5 min)
 
-**Objetivo:** Iniciar con Investigador una investigación sobre gemelos digitales en transmisión de energía, con un alcance y criterios claros.
+**Objetivo:** Tener en ejecución una investigación de Investigador sobre gemelos digitales con el alcance confirmado (regiones y propósito).
+
+**Por qué:** Investigador tarda varios minutos. Lanzarlo primero permite leer el contexto interno mientras trabaja, y definir el alcance evita un informe genérico.
 
 **Paso 1.** Abrir el navegador, ingresar a [m365.cloud.microsoft](https://m365.cloud.microsoft/) con la cuenta del laboratorio y seleccionar **Copilot**.
 
@@ -57,13 +59,21 @@ Distingue entre resultados medidos y expectativas de proveedores. Cita cada afir
 
 **Paso 5.** Mientras el agente trabaja, abrir `Prioridades_Internas_2027.docx` y leer las secciones 2 y 3. Se usarán en la Tarea 2.
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ Investigador mostrando el progreso de la investigación.
+- ✔ Las preguntas de aclaración respondidas.
+- ✔ Las secciones 2 y 3 de `Prioridades_Internas_2027.docx` leídas.
+
 ---
 
 ## Tarea 2. Contrastar tendencias externas con prioridades internas (6 min)
 
-**Objetivo:** Relacionar los hallazgos externos con las prioridades y restricciones ficticias de ISA INTERCOLOMBIA.
+**Objetivo:** Obtener una tabla que indique, para cada una de las 4 prioridades de Gestión de Activos, si los gemelos digitales contribuyen (alto, medio o bajo), con qué evidencia y qué restricción podría impedir un piloto.
 
-**Paso 1.** Revisar el informe de Investigador y abrir **al menos dos** citas para comprobar que la fuente existe y respalda la afirmación.
+**Por qué:** El comité no decide con tendencias generales, sino con qué tanto ayuda la tecnología a sus metas (reducir 15 % las desconexiones, pasar a mantenimiento basado en condición) con sus límites (2.500 MCOP, 40 % de datos no integrados, 3 analistas).
+
+**Paso 1.** En el informe de Investigador, localizar los números de cita entre corchetes ([1], [2]…) y hacer clic en dos de ellos. Comprobar que la página abierta menciona el dato citado. Si una cita no lo respalda, anotarla para la sección Fuentes del entregable.
 
 **Paso 2.** Escribir en la misma conversación, referenciando el archivo con `/`:
 
@@ -74,13 +84,21 @@ restricciones (presupuesto de 2.500 MCOP, datos no integrados, 3 personas con ex
 evaluación de ciberseguridad OT) hacen viable un piloto. Marca como "inferencia" lo que no esté respaldado por una fuente.
 ```
 
-**Paso 3.** Verificar que la respuesta considere el 40 % de datos no integrados como condición previa. Si no lo menciona, preguntarlo de forma explícita.
+**Paso 3.** Revisar la tabla resultante: debe tener 4 filas (una por prioridad) y la columna de restricciones debe mencionar los datos no integrados. Si no aparece, escribir: *"¿Cómo afecta al piloto que el 40 % de los datos esté en hojas de cálculo?"*
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ Dos citas verificadas.
+- ✔ Una tabla de 4 prioridades con nivel de contribución y evidencia.
+- ✔ La restricción de datos identificada.
 
 ---
 
 ## Tarea 3. Identificar contradicciones y evidencia insuficiente (5 min)
 
-**Objetivo:** Detectar dónde las fuentes no coinciden y qué aspectos aún carecen de evidencia para decidir.
+**Objetivo:** Obtener la lista de contradicciones entre fuentes (quién afirma qué) y al menos tres preguntas que el equipo debe responder antes de proponer un piloto.
+
+**Por qué:** Un comité confía en la evidencia cuando sabe dónde no coinciden las fuentes. Ocultar contradicciones lleva a decidir con datos de proveedores.
 
 **Paso 1.** Escribir:
 
@@ -90,21 +108,34 @@ de forma distinta) y muestra quién afirma qué. Luego lista los aspectos para l
 evidencia suficiente para decidir un piloto en ISA INTERCOLOMBIA.
 ```
 
-**Paso 2.** Revisar si el agente distingue entre estudios de caso de empresas de transmisión y materiales de proveedores. Si no lo hace, solicitarlo.
+**Paso 2.** Revisar si cada fuente aparece identificada como caso documentado de una empresa de transmisión o como material de un proveedor. Si no se distingue, escribir: *"Clasifica cada fuente como caso documentado o material de proveedor"*.
 
-**Paso 3.** Anotar al menos tres preguntas pendientes que debería responder el equipo antes de proponer un piloto.
+**Paso 3.** Anotar al menos tres preguntas pendientes para el equipo. Ejemplos: qué calidad de datos se necesita, cuánto costaría un piloto, qué evaluación de ciberseguridad OT aplica.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ Al menos una contradicción con las fuentes que la generan.
+- ✔ Las fuentes clasificadas como caso documentado o material de proveedor.
+- ✔ Tres preguntas pendientes.
 
 ---
 
 ## Tarea 4. Consolidar el reporte de investigación (4 min)
 
-**Objetivo:** Construir el entregable con fuentes, hallazgos, oportunidades, riesgos y preguntas pendientes.
+**Objetivo:** Tener guardado `Reporte_Investigacion_[INICIALES].docx` con las secciones Fuentes, Hallazgos, Oportunidades, Riesgos, Contradicciones y Preguntas pendientes.
 
-**Paso 1.** Copiar el informe y las respuestas de las Tareas 2 y 3 a un documento nuevo de Word (usar **Copiar** en cada respuesta o la opción para abrir el resultado en un documento, si está disponible).
+**Por qué:** El reporte es el insumo para decidir si se propone un piloto y se reutiliza como referencia en la Práctica 14.
 
-**Paso 2.** Organizar el documento con las secciones: Fuentes, Hallazgos, Oportunidades, Riesgos, Contradicciones entre fuentes y Preguntas pendientes.
+**Paso 1.** Abrir Word (escritorio o web) y crear un **Documento en blanco**. En Copilot, seleccionar **Copiar** debajo de el informe y de las respuestas de las Tareas 2 y 3 y pegar en Word con **Ctrl+V**.
 
-**Paso 3.** Guardar en OneDrive, en `Laboratorio_Copilot_ISA/Entregables/` con el nombre `Reporte_Investigacion_[INICIALES].docx`.
+**Paso 2.** Agregar los títulos **Fuentes, Hallazgos, Oportunidades, Riesgos, Contradicciones entre fuentes y Preguntas pendientes** (estilo Título 1) y mover cada contenido bajo el título que corresponda.
+
+**Paso 3.** Seleccionar **Archivo > Guardar como**, elegir **OneDrive > Laboratorio_Copilot_ISA > Entregables** y guardar con el nombre `Reporte_Investigacion_[INICIALES].docx`.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ El documento con las 6 secciones.
+- ✔ El archivo guardado en `Entregables`.
 
 ---
 

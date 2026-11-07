@@ -37,7 +37,9 @@ Al finalizar la práctica, el participante será capaz de:
 
 ## Tarea 1. Presentar la propuesta al agente (3 min)
 
-**Objetivo:** Lograr que el agente comprenda la propuesta antes de cuestionarla.
+**Objetivo:** Lograr que el agente resuma correctamente la propuesta (4 medidas y 2 beneficios) antes de evaluarla.
+
+**Por qué:** Si el agente no entendió la propuesta, sus críticas no serán útiles.
 
 **Paso 1.** En la aplicación Microsoft 365 Copilot, abrir **Agentes** y seleccionar **Entrenador de ideas**.
 
@@ -50,11 +52,17 @@ programada en una subestación. Resume en 4 líneas qué propone y qué benefici
 
 **Paso 3.** Si el agente no puede leer el archivo, copiar las secciones 1 a 4 del documento y pegarlas en el mensaje.
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ Un resumen que mencione el grupo de mensajería, la autoridad única, la eliminación del go/no-go y el aviso tardío a clientes.
+
 ---
 
 ## Tarea 2. Cuestionar supuestos y detectar riesgos (4 min)
 
-**Objetivo:** Identificar supuestos débiles, riesgos y perspectivas alternativas.
+**Objetivo:** Obtener cada supuesto de la propuesta con la razón por la que podría fallar y el riesgo que genera, más dos alternativas.
+
+**Por qué:** Las propuestas suelen fallar por supuestos no cuestionados, como que 45 personas leerán un grupo de mensajería en tiempo real.
 
 **Paso 1.** Escribir:
 
@@ -65,11 +73,18 @@ Propón al menos dos perspectivas alternativas para lograr el mismo objetivo.
 
 **Paso 2.** Verificar que el agente cuestione, como mínimo: eliminar la reunión de verificación previa (go/no-go), avisar a clientes solo si se excede la duración, una única autoridad de decisión para todo y suponer que la ventana del operador y el permiso ambiental no cambiarán.
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ Los 4 supuestos de la sección 3 cuestionados.
+- ✔ Al menos dos perspectivas alternativas.
+
 ---
 
 ## Tarea 3. Adoptar la perspectiva de las áreas afectadas (4 min)
 
-**Objetivo:** Anticipar las objeciones de cada área antes de presentar la propuesta.
+**Objetivo:** Tener la principal objeción de cada una de las 5 áreas y una respuesta preparada para la más difícil.
+
+**Por qué:** Cada área se ve afectada de forma distinta. Anticipar sus objeciones evita que la propuesta se rechace en la reunión.
 
 **Paso 1.** Escribir:
 
@@ -78,13 +93,20 @@ Adopta sucesivamente la perspectiva de Operación, Mantenimiento, Gestión Ambie
 Para cada área formula su principal objeción y qué necesitaría para apoyar la propuesta.
 ```
 
-**Paso 2.** Elegir la objeción más difícil de responder y preguntar al agente cómo abordarla.
+**Paso 2.** Elegir la objeción más difícil de responder (por ejemplo, la de Comercial sobre avisar tarde a los clientes) y escribir: *"¿Cómo respondo a la objeción de [área]? Dame una respuesta y qué cambiaría en la propuesta"*.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ Cinco objeciones, una por área.
+- ✔ Una respuesta preparada para la objeción más difícil.
 
 ---
 
 ## Tarea 4. Refinar la propuesta (4 min)
 
-**Objetivo:** Construir una versión mejorada con riesgos, supuestos y aspectos por validar.
+**Objetivo:** Tener `Propuesta_Refinada_[INICIALES].docx` con la propuesta refinada, los supuestos, los riesgos con mitigación y los aspectos por validar con su responsable.
+
+**Por qué:** Es la versión que se presentaría: debe mostrar que los riesgos ya fueron considerados.
 
 **Paso 1.** Escribir:
 
@@ -93,9 +115,15 @@ Reescribe la propuesta incorporando lo anterior. Incluye: propuesta refinada, su
 riesgos con medida de mitigación y aspectos que requieren validación antes de presentarla, con el área responsable.
 ```
 
-**Paso 2.** Revisar el resultado y ajustar al menos un elemento con su criterio.
+**Paso 2.** Leer la propuesta refinada y cambiar al menos un punto con su criterio (por ejemplo, conservar la reunión go/no-go con menor duración). Indicarlo al agente: *"Ajusta la propuesta: [cambio]"*.
 
-**Paso 3.** Copiar la versión final a Word. Guardar en OneDrive, en `Laboratorio_Copilot_ISA/Entregables/` con el nombre `Propuesta_Refinada_[INICIALES].docx`.
+**Paso 3.** Abrir Word (escritorio o web) y crear un **Documento en blanco**. En Copilot, seleccionar **Copiar** debajo de la propuesta final y pegar en Word con **Ctrl+V**. Seleccionar **Archivo > Guardar como**, elegir **OneDrive > Laboratorio_Copilot_ISA > Entregables** y guardar con el nombre `Propuesta_Refinada_[INICIALES].docx`.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ La propuesta refinada con un ajuste propio.
+- ✔ Riesgos con mitigación y aspectos por validar con responsable.
+- ✔ El archivo guardado.
 
 ---
 

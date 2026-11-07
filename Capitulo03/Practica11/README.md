@@ -37,7 +37,9 @@ Al finalizar la práctica, el participante será capaz de:
 
 ## Tarea 1. Ejecutar la solicitud original (3 min)
 
-**Objetivo:** Observar el resultado de un prompt poco específico.
+**Objetivo:** Tener registrados el prompt original y su resultado en la plantilla.
+
+**Por qué:** El resultado de un prompt vago es el punto de comparación para medir la mejora.
 
 **Paso 1.** Abrir el chat de **Copilot** en la aplicación Microsoft 365 Copilot y escribir exactamente:
 
@@ -45,13 +47,19 @@ Al finalizar la práctica, el participante será capaz de:
 Revisa lo del proyecto de la subestación y dime los riesgos y qué hacer.
 ```
 
-**Paso 2.** Copiar el prompt y el resultado en las secciones 1 y 4 de `Plantilla_Comparacion_Prompts.docx`.
+**Paso 2.** En OneDrive, copiar `Plantilla_Comparacion_Prompts.docx` a `Entregables` con el nombre `Comparacion_Prompts_[INICIALES].docx`. Abrirlo, pegar el prompt en la sección 1 y el resultado en la columna "Resultado con prompt inicial" de la sección 4.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ Prompt y resultado registrados en la plantilla.
 
 ---
 
 ## Tarea 2. Diagnosticar la solicitud con Prompt Coach (4 min)
 
-**Objetivo:** Identificar qué mejorar en el prompt.
+**Objetivo:** Tener el diagnóstico de Prompt Coach sobre objetivo, contexto, fuentes, criterios, restricciones y formato.
+
+**Por qué:** Saber qué le faltaba al prompt permite corregirlo con intención, no por prueba y error.
 
 **Paso 1.** Abrir **Agentes** y seleccionar **Prompt Coach**.
 
@@ -65,11 +73,17 @@ Contexto: soy analista y debo preparar recomendaciones priorizadas para mi líde
 
 **Paso 3.** Copiar el diagnóstico en la sección 2 de la plantilla.
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ El diagnóstico pegado en la sección 2.
+
 ---
 
 ## Tarea 3. Construir el prompt optimizado y comparar (5 min)
 
-**Objetivo:** Comprobar qué cambios del prompt mejoran el resultado.
+**Objetivo:** Tener el prompt optimizado, su resultado y la tabla de comparación completa.
+
+**Por qué:** Comparar muestra qué cambios en la instrucción producen mejores resultados.
 
 **Paso 1.** Con base en el diagnóstico, construir el prompt optimizado. Ejemplo de referencia:
 
@@ -84,11 +98,18 @@ No incluyas riesgos sin fuente. Entrega una tabla y un resumen de 5 líneas para
 
 **Paso 3.** Completar la tabla de la sección 4 de la plantilla comparando precisión, estructura, profundidad y utilidad, e indicar qué cambio del prompt explica cada diferencia.
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ El prompt optimizado en la sección 3.
+- ✔ La tabla de la sección 4 completa, con el cambio que explica cada diferencia.
+
 ---
 
 ## Tarea 4. Solicitar una segunda optimización (3 min)
 
-**Objetivo:** Cambiar el propósito de la respuesta sin reconstruir el prompt.
+**Objetivo:** Saber qué elementos del prompt cambiar para pasar del análisis detallado a una síntesis para liderazgo.
+
+**Por qué:** Un buen prompt se adapta cambiando pocos elementos, sin reescribirlo.
 
 **Paso 1.** En Prompt Coach, escribir:
 
@@ -98,6 +119,11 @@ Quiero usar el prompt optimizado para producir una síntesis de un párrafo para
 ```
 
 **Paso 2.** Registrar los elementos modificados en la sección 5 de la plantilla. Guardar en OneDrive, en `Laboratorio_Copilot_ISA/Entregables/` con el nombre `Comparacion_Prompts_[INICIALES].docx`.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ La sección 5 completa.
+- ✔ `Comparacion_Prompts_[INICIALES].docx` guardado.
 
 ---
 

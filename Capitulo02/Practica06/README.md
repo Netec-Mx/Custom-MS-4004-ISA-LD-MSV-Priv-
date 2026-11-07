@@ -35,7 +35,9 @@ Al finalizar la práctica, el participante será capaz de:
 
 ## Tarea 1. Generar el informe de estado semanal (5 min)
 
-**Objetivo:** Obtener un informe trazable de la actividad de la semana.
+**Objetivo:** Tener un informe de los últimos 7 días con logros, actividades en curso, colaboración y prioridades, y la fuente de cada punto.
+
+**Por qué:** Escribir un informe de estado de memoria toma tiempo y omite cosas. El agente lo construye desde la actividad real, pero hay que verificarlo.
 
 **Paso 1.** En la aplicación Microsoft 365 Copilot, abrir **Agentes** y seleccionar **Agente de actualización de estado**.
 
@@ -51,11 +53,19 @@ y prioridades para la siguiente semana. Indica la fuente de cada punto y no incl
 
 **Paso 4.** Si el agente incluye algo sin fuente, pedirle que lo elimine o lo marque como no verificable.
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ Informe con 4 secciones.
+- ✔ Dos fuentes abiertas y verificadas.
+- ✔ Nada incluido sin fuente.
+
 ---
 
 ## Tarea 2. Alinear actividades con los OKR (4 min)
 
-**Objetivo:** Relacionar el trabajo realizado con los objetivos del equipo.
+**Objetivo:** Tener una tabla con los 6 resultados clave (KR) del equipo, el progreso observado y su evidencia, o "evidencia insuficiente".
+
+**Por qué:** Un informe de actividades no dice si se avanza en los objetivos. Vincularlos muestra dónde falta evidencia.
 
 **Paso 1.** Escribir, referenciando el archivo con `/`:
 
@@ -66,11 +76,18 @@ Para cada KR indica: progreso observado con evidencia, o "evidencia insuficiente
 
 **Paso 2.** Verificar que KR2.1 (análisis de desviaciones) y KR3.1 (prompts en la galería) tengan evidencia de las prácticas 2 y 5, y que KR3.2 aparezca con evidencia insuficiente.
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ Los 6 KR en una tabla.
+- ✔ KR2.1 y KR3.1 con evidencia; KR3.2 con evidencia insuficiente.
+
 ---
 
 ## Tarea 3. Crear el documento de logros y su variante compartible (4 min)
 
-**Objetivo:** Transformar los resultados en logros con impacto y colaboración.
+**Objetivo:** Tener guardados dos documentos: el informe de estado con la alineación a OKR y el documento de logros con su variante para el responsable.
+
+**Por qué:** El documento de logros comunica impacto, no tareas, y sirve para evaluaciones y reconocimiento.
 
 **Paso 1.** Escribir:
 
@@ -79,17 +96,28 @@ Transforma los principales resultados del periodo en un documento de logros. Par
 logro, impacto y colaboración. Luego genera una variante breve y compartible dirigida a mi responsable.
 ```
 
-**Paso 2.** Copiar el informe de estado y la alineación con OKR a Word con el nombre `Informe_Estado_[INICIALES].docx`. Guardar en OneDrive, en `Laboratorio_Copilot_ISA/Entregables/`.
+**Paso 2.** Abrir Word (escritorio o web) y crear un **Documento en blanco**. En Copilot, seleccionar **Copiar** debajo de el informe de estado y la tabla de OKR y pegar en Word con **Ctrl+V**. Seleccionar **Archivo > Guardar como**, elegir **OneDrive > Laboratorio_Copilot_ISA > Entregables** y guardar con el nombre `Informe_Estado_[INICIALES].docx`.
 
-**Paso 3.** Copiar el documento de logros y su variante a Word con el nombre `Documento_Logros_[INICIALES].docx` y guardarlo en la misma carpeta, sin compartirlo todavía.
+**Paso 3.** Crear otro **Documento en blanco**, pegar el documento de logros y su variante compartible. Seleccionar **Archivo > Guardar como**, elegir **OneDrive > Laboratorio_Copilot_ISA > Entregables** y guardar con el nombre `Documento_Logros_[INICIALES].docx`. No compartirlo todavía.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ `Informe_Estado_[INICIALES].docx` guardado.
+- ✔ `Documento_Logros_[INICIALES].docx` con logro, impacto y colaboración, y la variante para el responsable.
 
 ---
 
 ## Tarea 4. Comparar formatos (2 min)
 
-**Objetivo:** Reconocer cuándo conviene cada formato.
+**Objetivo:** Poder explicar en una línea cuándo conviene cada formato.
 
-**Paso 1.** Comparar el informe de estado con el documento de logros y anotar en una línea para qué sirve cada uno (seguimiento semanal frente a reconocimiento de impacto).
+**Por qué:** Elegir el formato correcto evita enviar detalle operativo a quien solo necesita conocer el impacto.
+
+**Paso 1.** En `Informe_Estado_[INICIALES].docx`, agregar al final la sección **Cuándo usar cada formato** con una línea para el informe de estado (seguimiento semanal de actividades) y otra para el documento de logros (comunicar impacto y colaboración). Guardar.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ La sección "Cuándo usar cada formato" agregada.
 
 ---
 

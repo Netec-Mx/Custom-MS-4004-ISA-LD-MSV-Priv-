@@ -36,7 +36,9 @@ Al finalizar la práctica, el participante será capaz de:
 
 ## Tarea 1. Consultar el estado del proyecto (4 min)
 
-**Objetivo:** Obtener una revisión integral con fuentes.
+**Objetivo:** Tener la revisión del proyecto INT-MDV-2026 con avances, hitos, bloqueadores, elementos estancados, riesgos y decisiones, cada uno con su fuente.
+
+**Por qué:** La información del proyecto está repartida en correos, informes, notas y reuniones. El agente la reúne en un solo lugar.
 
 **Paso 1.** En la aplicación Microsoft 365 Copilot, abrir **Agentes** y seleccionar **Project Delta Digest**.
 
@@ -50,11 +52,18 @@ Indica la fuente de cada hallazgo.
 
 **Paso 3.** Verificar que aparezcan: ventana de **30 h** frente a 36 h, permiso ambiental con respuesta el **25-nov**, cliente que pide reprogramar y plan con comunidades **estancado** desde hace 2 semanas.
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ La revisión con fuentes.
+- ✔ Los 4 hallazgos clave identificados (ventana, permiso, cliente, plan con comunidades).
+
 ---
 
 ## Tarea 2. Generar la vista para liderazgo y revisar bloqueadores (4 min)
 
-**Objetivo:** Priorizar lo que necesita atención de liderazgo y clasificar la calidad de la información.
+**Objetivo:** Tener una vista breve para liderazgo y cada bloqueador clasificado como seguimiento, escalación o decisión, y como información confirmada o incompleta.
+
+**Por qué:** Liderazgo necesita saber qué decidir, no el detalle operativo, y debe saber qué información es confiable.
 
 **Paso 1.** Escribir:
 
@@ -69,11 +78,18 @@ Para cada bloqueador y riesgo indica si requiere seguimiento, escalación o deci
 confirmada, incompleta, desactualizada o no verificable.
 ```
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ La vista para liderazgo.
+- ✔ La clasificación de cada bloqueador y riesgo.
+
 ---
 
 ## Tarea 3. Generar la vista para el PM y comparar (3 min)
 
-**Objetivo:** Reconocer cómo el agente adapta profundidad y detalle según la audiencia.
+**Objetivo:** Tener la vista para el PM y tres diferencias anotadas frente a la vista de liderazgo.
+
+**Por qué:** El mismo proyecto se comunica distinto según quién debe actuar.
 
 **Paso 1.** Escribir:
 
@@ -81,13 +97,20 @@ confirmada, incompleta, desactualizada o no verificable.
 Genera ahora una versión para el gerente del proyecto (PM), con el detalle operativo necesario para gestionar las actividades.
 ```
 
-**Paso 2.** Anotar tres diferencias entre la vista de liderazgo y la del PM (extensión, nivel de detalle, tipo de acciones).
+**Paso 2.** Abrir un **Documento en blanco** de Word y anotar tres diferencias entre las vistas, por ejemplo: extensión, nivel de detalle (tareas o decisiones) y tipo de acciones (operativas o de escalación).
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ La vista para el PM.
+- ✔ Tres diferencias anotadas.
 
 ---
 
 ## Tarea 4. Preparar la agenda de seguimiento y comparar con el Agente de actualización de estado (4 min)
 
-**Objetivo:** Convertir bloqueadores y decisiones pendientes en una agenda y elegir el agente adecuado.
+**Objetivo:** Tener la agenda confirmada y el entregable guardado con la comparación entre agentes.
+
+**Por qué:** Los bloqueadores solo se resuelven si se tratan en la siguiente reunión con un responsable.
 
 **Paso 1.** Escribir:
 
@@ -98,9 +121,15 @@ Muéstramela primero para confirmarla antes de darla por final.
 
 **Paso 2.** Revisar la propuesta y confirmarla o pedir un ajuste.
 
-**Paso 3.** Copiar el resumen de liderazgo, la vista para PM y la agenda a Word. Guardar en OneDrive, en `Laboratorio_Copilot_ISA/Entregables/` con el nombre `Estado_Proyecto_INT-MDV_[INICIALES].docx`.
+**Paso 3.** Pegar en el mismo documento de Word la vista para liderazgo, la vista para el PM y la agenda confirmada. Seleccionar **Archivo > Guardar como**, elegir **OneDrive > Laboratorio_Copilot_ISA > Entregables** y guardar con el nombre `Estado_Proyecto_INT-MDV_[INICIALES].docx`.
 
 **Paso 4.** Escribir en el documento una línea que explique cuándo usar el Agente de actualización de estado (actividad de una persona o equipo) y cuándo Project Delta Digest (seguimiento integral de un proyecto).
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ La agenda confirmada por usted.
+- ✔ La línea de comparación entre agentes.
+- ✔ `Estado_Proyecto_INT-MDV_[INICIALES].docx` guardado.
 
 ---
 

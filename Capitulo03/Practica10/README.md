@@ -36,7 +36,9 @@ Al finalizar la práctica, el participante será capaz de:
 
 ## Tarea 1. Proporcionar y confirmar el contexto del evento (3 min)
 
-**Objetivo:** Asegurar que el agente trabaje con el contexto correcto.
+**Objetivo:** Que el agente confirme evento, fecha, formato, audiencia y objetivo antes de preparar el briefing.
+
+**Por qué:** Un briefing con el formato o la audiencia equivocados no sirve; confirmar evita rehacer el trabajo.
 
 **Paso 1.** En la aplicación Microsoft 365 Copilot, abrir **Agentes** y seleccionar **Agente de informe ejecutivo**.
 
@@ -49,11 +51,17 @@ Antes de empezar, confirma conmigo el evento, la fecha, el formato, la audiencia
 
 **Paso 3.** Revisar el resumen del agente y confirmarlo o corregirlo.
 
+**Al terminar esta tarea debes tener:**
+
+- ✔ El resumen del evento confirmado por usted.
+
 ---
 
 ## Tarea 2. Investigar avances y proyectos con información pública (4 min)
 
-**Objetivo:** Obtener hallazgos respaldados por fuentes públicas.
+**Objetivo:** Tener una lista de avances y proyectos de ISA INTERCOLOMBIA, cada uno con fuente pública y fecha.
+
+**Por qué:** Lo que se dice en un evento público debe poder verificarse; una cifra sin fuente puede afectar la reputación.
 
 **Paso 1.** Escribir:
 
@@ -63,13 +71,20 @@ usando información pública de la organización y fuentes especializadas. Para 
 Identifica logros, beneficios documentados, tendencias del sector y oportunidades futuras.
 ```
 
-**Paso 2.** Abrir al menos dos fuentes y comprobar que sean públicas y estén vigentes.
+**Paso 2.** Hacer clic en al menos dos fuentes citadas y verificar que sean públicas (sitio oficial, informes publicados o medios especializados), que mencionen el dato y que tengan fecha. Descartar las que no cumplan.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ Hallazgos con fuente y fecha.
+- ✔ Dos fuentes verificadas.
 
 ---
 
 ## Tarea 3. Estructurar mensajes y preguntas previstas (5 min)
 
-**Objetivo:** Preparar el contenido de la intervención.
+**Objetivo:** Tener de 3 a 5 mensajes estratégicos y 6 preguntas con respuesta, cada una marcada como respaldada o por validar.
+
+**Por qué:** Las preguntas del público suelen ir a inversiones y resultados; preparar respuestas evita improvisar cifras.
 
 **Paso 1.** Escribir:
 
@@ -79,13 +94,20 @@ eficiencia y sostenibilidad. Luego prepara 6 preguntas probables de los asistent
 innovación y proyectos futuros) con respuestas, marcando cada una como "respaldada por fuente pública" o "requiere validación".
 ```
 
-**Paso 2.** Revisar que ninguna respuesta anuncie inversiones o proyectos no publicados.
+**Paso 2.** Revisar las respuestas: ninguna debe anunciar una inversión, fecha o proyecto que no esté en una fuente pública. Si aparece, escribir: *"Marca como requiere validación la respuesta sobre [tema]"*.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ Los mensajes estratégicos.
+- ✔ Las 6 preguntas con respuesta clasificada.
 
 ---
 
 ## Tarea 4. Revisar afirmaciones y generar el documento (3 min)
 
-**Objetivo:** Detectar afirmaciones sin evidencia o sensibles y producir el briefing en Word.
+**Objetivo:** Tener guardado `Briefing_Evento_[INICIALES].docx` con las afirmaciones sin evidencia identificadas.
+
+**Por qué:** El briefing se revisa con Comunicaciones antes del evento; señalar lo dudoso facilita esa revisión.
 
 **Paso 1.** Escribir:
 
@@ -94,7 +116,12 @@ Revisa los mensajes y respuestas: identifica afirmaciones sin evidencia suficien
 aprobación antes de comunicarse públicamente. Luego genera el briefing completo como documento.
 ```
 
-**Paso 2.** Abrir o copiar el briefing en Word. Guardar en OneDrive, en `Laboratorio_Copilot_ISA/Entregables/` con el nombre `Briefing_Evento_[INICIALES].docx`.
+**Paso 2.** Si el agente ofrece abrir el resultado en Word, seleccionarlo; si no, abrir Word (escritorio o web) y crear un **Documento en blanco**. En Copilot, seleccionar **Copiar** debajo de el briefing y pegar en Word con **Ctrl+V**. Seleccionar **Archivo > Guardar como**, elegir **OneDrive > Laboratorio_Copilot_ISA > Entregables** y guardar con el nombre `Briefing_Evento_[INICIALES].docx`.
+
+**Al terminar esta tarea debes tener:**
+
+- ✔ La lista de afirmaciones sin evidencia o sensibles.
+- ✔ El briefing guardado.
 
 ---
 
