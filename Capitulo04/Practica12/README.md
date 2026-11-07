@@ -2,37 +2,13 @@
 
 **Capítulo 4. Combinar capacidades para resolver una necesidad completa**
 
----
+⏱️ **Duración:** 10 min · 🛠️ **Herramienta:** Diseño de agentes personalizados (Agent Builder) · 📄 **Entregable:** Prompt de creación del agente con propósito, instrucciones, criterios, formato y límites
 
-# Metadatos
-
-| Campo | Valor |
-|---|---|
-| Duración | 10 minutos |
-| Complejidad | Intermedia |
-| Nivel de Bloom | Crear |
-| Tecnología Principal | Diseño de agentes personalizados (Agent Builder) |
-
-**Distribución del tiempo**
-
-| Actividad | Tiempo |
-|---|---|
-| Tarea 1. Elegir la alternativa adecuada | 3 min |
-| Tarea 2. Definir el comportamiento del agente | 4 min |
-| Tarea 3. Redactar el prompt de creación | 3 min |
-| **Total** | **10 min** |
-
-> Antes de esta práctica el instructor dedica 5 minutos (tiempo del temario) a explicar cuándo una actividad recurrente justifica crear un agente personalizado.
-
----
-
-# Descripción General
+## Descripción
 
 Laura, líder de un equipo (ficticia), revisa cada semana el avance de 5 iniciativas con solicitudes distintas a Copilot y obtiene análisis inconsistentes. El participante decidirá si la necesidad se resuelve mejor con Copilot Chat, un agente disponible o un agente personalizado y, tras compararlos, diseñará el prompt de creación de un agente que aplique siempre los mismos criterios: avance, desviaciones, riesgos, bloqueos, decisiones requeridas y próximos pasos.
 
----
-
-# Objetivos de Aprendizaje
+## Objetivos de aprendizaje
 
 Al finalizar la práctica, el participante será capaz de:
 
@@ -41,91 +17,31 @@ Al finalizar la práctica, el participante será capaz de:
 - Definir qué no debe asumir el agente y cómo actuar ante información incompleta o contradictoria.
 - Redactar el prompt de creación del agente con propósito, instrucciones, criterios, formato y límites.
 
----
+<img src="../../images/p12-objetivo.svg" alt="Diagrama de la Práctica 12" width="720"/>
 
-# Objetivo Visual
-
-El diagrama resume los insumos, las tareas y el entregable de la práctica.
-
-![Diagrama de la Práctica 12](../../images/p12-objetivo.svg)
-
----
-
-# Prerrequisitos
-
-## Conocimientos
-
-- Uso de Microsoft 365 Copilot en el trabajo cotidiano, incluida la construcción de prompts.
-- Diferencia entre Copilot Chat, agentes preconstruidos y agentes personalizados (exposición del instructor).
-
-## Accesos Requeridos
-
-- Licencia de Microsoft 365 Copilot (Premium) asignada a la cuenta del participante.
-- Permiso para crear agentes (se usará en la Práctica 13).
-
----
-
-# Tabla de Ayuda
-
-Utilice esta información durante el desarrollo de la práctica.
+## Antes de empezar
 
 | Elemento | Valor |
 |---|---|
-| Entorno | Tenant de Microsoft 365 de ISA INTERCOLOMBIA habilitado para el curso |
-| URL | [m365.cloud.microsoft](https://m365.cloud.microsoft/) |
-| Usuario | Cuenta corporativa del participante |
-| Contraseña | La del participante; no se publica en este repositorio |
-| Aplicación | Microsoft Word (plantilla de diseño) |
+| Dónde trabajar | Microsoft Word (plantilla de diseño) |
+| Archivos de la práctica | [Escenario_Lider_Iniciativas.docx](recursos/Escenario_Lider_Iniciativas.docx)<br>[Plantilla_Diseno_Agente.docx](recursos/Plantilla_Diseno_Agente.docx) |
+| Ubicación en OneDrive | `Laboratorio_Copilot_ISA/Practica12/` |
 | Criterios de Laura | Avance, desviaciones, riesgos, bloqueos, decisiones requeridas, próximos pasos |
-| Recurso adicional | Nombre del entregable: `Diseno_Agente_[INICIALES].docx` |
+| Nombre del entregable | `Diseno_Agente_[INICIALES].docx` |
+
+> Sustituya `[INICIALES]` por sus iniciales en nombres de archivo y prompts (por ejemplo, `Reporte_LMR.docx`). Todos los datos de la práctica son ficticios; la fecha de referencia del escenario es el 6 de noviembre de 2026.
+
+> **Nota:** Antes de esta práctica el instructor dedica 5 minutos (tiempo del temario) a explicar cuándo una actividad recurrente justifica crear un agente personalizado.
 
 ---
 
-# Entorno de Laboratorio
+## Tarea 1. Elegir la alternativa adecuada (3 min)
 
-| Componente | Versión | Uso | Fuente Oficial |
-|---|---|---|---|
-| Aplicación Microsoft 365 Copilot | Servicio administrado | Chat de Copilot y agentes | [https://m365.cloud.microsoft/](https://m365.cloud.microsoft/) |
-| Microsoft Edge | Versión estable vigente | Navegador del laboratorio | [https://www.microsoft.com/es-es/edge](https://www.microsoft.com/es-es/edge) |
-| Microsoft Word con Copilot | Microsoft 365 Apps, Canal Actual | Consolidar entregables | [https://learn.microsoft.com/es-es/copilot/plan/copilot-overview](https://learn.microsoft.com/es-es/copilot/plan/copilot-overview) |
+**Objetivo:** Justificar por qué la necesidad requiere un agente personalizado.
 
----
+**Paso 1.** Abrir `Escenario_Lider_Iniciativas.docx` y leer la necesidad.
 
-# Recursos
-
-Utilice los siguientes recursos durante el desarrollo de la práctica.
-
-| Recurso | Descripción |
-|---|---|
-| [Escenario_Lider_Iniciativas.docx](recursos/Escenario_Lider_Iniciativas.docx) | Necesidad recurrente de la líder, criterios y situaciones prioritarias |
-| [Plantilla_Diseno_Agente.docx](recursos/Plantilla_Diseno_Agente.docx) | Plantilla para documentar el diseño y el prompt de creación |
-
-## Archivos de la práctica
-
-```text
-Capitulo04/Practica12/recursos/Escenario_Lider_Iniciativas.docx
-Capitulo04/Practica12/recursos/Plantilla_Diseno_Agente.docx
-```
-
-Antes de la práctica, estos archivos deben estar en OneDrive, en `Laboratorio_Copilot_ISA/Practica12/` (ver [Setup_Guide.md](../../Setup_Guide.md)).
-
----
-
-# Tarea 1. Elegir la alternativa adecuada
-
-## Objetivo
-
-Justificar por qué la necesidad requiere un agente personalizado.
-
-## Instrucciones
-
-### Paso 1
-
-Abrir `Escenario_Lider_Iniciativas.docx` y leer la necesidad.
-
-### Paso 2
-
-Completar en la plantilla una comparación breve:
+**Paso 2.** Completar en la plantilla una comparación breve:
 
 | Alternativa | ¿Aplica los mismos criterios cada vez? | ¿Requiere repetir instrucciones? | Conclusión |
 |---|---|---|---|
@@ -133,49 +49,29 @@ Completar en la plantilla una comparación breve:
 | Agente disponible | No conoce los criterios de Laura | Sí | |
 | Agente personalizado | Sí | No | |
 
-### Paso 3
-
-Registrar la alternativa elegida y su justificación en la primera fila de la plantilla.
+**Paso 3.** Registrar la alternativa elegida y su justificación en la primera fila de la plantilla.
 
 ---
 
-# Tarea 2. Definir el comportamiento del agente
+## Tarea 2. Definir el comportamiento del agente (4 min)
 
-## Objetivo
+**Objetivo:** Especificar cada elemento del diseño.
 
-Especificar cada elemento del diseño.
+**Paso 1.** Completar en la plantilla: propósito específico, información que podrá recibir (reportes de avance en texto o documentos), criterios de análisis (los 6 de Laura) y estructura de la respuesta (una tabla con los 6 criterios y un resumen).
 
-## Instrucciones
+**Paso 2.** Definir las situaciones prioritarias: desviación de plazo mayor a 10 días hábiles, bloqueo sin responsable y decisión con fecha límite en los próximos 7 días.
 
-### Paso 1
+**Paso 3.** Definir lo que el agente no debe asumir (fechas, responsables, cifras ausentes) y su conducta ante información incompleta, contradictoria o insuficiente: señalarla y pedir el dato antes de concluir.
 
-Completar en la plantilla: propósito específico, información que podrá recibir (reportes de avance en texto o documentos), criterios de análisis (los 6 de Laura) y estructura de la respuesta (una tabla con los 6 criterios y un resumen).
-
-### Paso 2
-
-Definir las situaciones prioritarias: desviación de plazo mayor a 10 días hábiles, bloqueo sin responsable y decisión con fecha límite en los próximos 7 días.
-
-### Paso 3
-
-Definir lo que el agente no debe asumir (fechas, responsables, cifras ausentes) y su conducta ante información incompleta, contradictoria o insuficiente: señalarla y pedir el dato antes de concluir.
-
-### Paso 4
-
-Definir límites: no tomar decisiones por la líder y responder solo sobre seguimiento de iniciativas.
+**Paso 4.** Definir límites: no tomar decisiones por la líder y responder solo sobre seguimiento de iniciativas.
 
 ---
 
-# Tarea 3. Redactar el prompt de creación
+## Tarea 3. Redactar el prompt de creación (3 min)
 
-## Objetivo
+**Objetivo:** Integrar el diseño en un prompt para crear el agente con lenguaje natural.
 
-Integrar el diseño en un prompt para crear el agente con lenguaje natural.
-
-## Instrucciones
-
-### Paso 1
-
-Redactar el prompt en la sección final de la plantilla. Ejemplo de referencia:
+**Paso 1.** Redactar el prompt en la sección final de la plantilla. Ejemplo de referencia:
 
 ```text
 Crea un agente llamado "Revisor de Avance de Iniciativas" que ayude a una líder a revisar reportes de avance de las iniciativas de su equipo.
@@ -187,28 +83,20 @@ o hay contradicciones, debe señalarlas y pedir el dato antes de concluir. No to
 ajenas al seguimiento de iniciativas, debe explicar su propósito.
 ```
 
-### Paso 2
-
-Guardar en OneDrive, en `Laboratorio_Copilot_ISA/Entregables/` con el nombre `Diseno_Agente_[INICIALES].docx`. Se usará en la Práctica 13.
+**Paso 2.** Guardar en OneDrive, en `Laboratorio_Copilot_ISA/Entregables/` con el nombre `Diseno_Agente_[INICIALES].docx`. Se usará en la Práctica 13.
 
 ---
 
-# Validación y Pruebas
+## Validación y pruebas
 
-Realice las siguientes pruebas para comprobar el funcionamiento de la solución.
-
-| Caso | Acción o Prompt | Resultado Esperado |
+| Caso | Acción o prompt | Resultado esperado |
 |---|---|---|
 | Caso 1 | Revisar la plantilla | Todos los elementos del diseño están completos |
 | Caso 2 | Revisar el prompt | Incluye propósito, criterios, formato, prioridades y límites |
 | Caso 3 | Revisar la justificación | Explica por qué la recurrencia y la consistencia requieren un agente personalizado |
 | Caso adversarial | Verificar si el prompt dice qué hacer ante datos contradictorios | El prompt indica señalarlos antes de concluir |
 
----
-
-# Resultado Esperado
-
-Al finalizar la práctica, el participante deberá haber construido correctamente la solución solicitada.
+## Resultado esperado
 
 - Alternativa elegida y justificada.
 - Diseño completo del agente.
@@ -216,54 +104,25 @@ Al finalizar la práctica, el participante deberá haber construido correctament
 
 **Entregable:** prompt de creación del agente, incluyendo propósito, instrucciones, criterios de análisis, formato esperado y límites (`Diseno_Agente_[INICIALES].docx`).
 
-## Imagen del Resultado Final
+<img src="../../images/p12-resultado.svg" alt="Resultado final de la Práctica 12" width="640"/>
 
-![Resultado final de la Práctica 12](../../images/p12-resultado.svg)
+## Solución de problemas
 
----
+**El diseño es demasiado general**
+- *Síntoma:* El propósito admite cualquier tarea.
+- *Causa:* No se delimitó el alcance.
+- *Solución:* (1) Limitar el propósito al seguimiento de iniciativas. (2) Agregar qué hacer con solicitudes fuera de propósito.
 
-# Solución de Problemas
+## Limpieza
 
-## Problema 1: El diseño es demasiado general
+- Conservar la plantilla completada; es insumo de la Práctica 13.
 
-### Síntomas
-
-El propósito admite cualquier tarea.
-
-### Causa
-
-No se delimitó el alcance.
-
-### Solución
-
-1. Limitar el propósito al seguimiento de iniciativas.
-2. Agregar qué hacer con solicitudes fuera de propósito.
-
----
-
-# Limpieza
-
-1. Conservar la plantilla completada; es insumo de la Práctica 13.
-
----
-
-# Resumen
-
-Durante esta práctica se realizó:
-
-- Comparación de alternativas para una necesidad recurrente.
-- Diseño del comportamiento de un agente.
-
-Como resultado se obtuvo:
-
-- Un prompt de creación de agente listo para usarse.
-
----
-
-# Recursos Opcionales
+## Recursos opcionales
 
 - [Agent Builder](https://learn.microsoft.com/es-es/microsoft-365/copilot/extensibility/agent-builder)
 - [Crear agentes con Agent Builder](https://learn.microsoft.com/es-es/microsoft-365/copilot/extensibility/agent-builder-build-agents)
+
+<sub>Complejidad: Intermedia · Nivel de Bloom: Crear</sub>
 
 ---
 
