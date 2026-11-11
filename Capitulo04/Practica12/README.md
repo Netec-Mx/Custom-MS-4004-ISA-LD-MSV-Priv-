@@ -1,153 +1,68 @@
 # Práctica 12. Diseñar un agente para dar seguimiento a una necesidad recurrente
 
-**Capítulo 4. Combinar capacidades para resolver una necesidad completa**
+## Objetivo de la práctica:
 
-⏱️ **Duración:** 10 min · 🛠️ **Herramienta:** Diseño de agentes personalizados (Agent Builder) · 📄 **Entregable:** Prompt de creación del agente con propósito, instrucciones, criterios, formato y límites
+Al finalizar la práctica, serás capaz de:
 
-## Descripción
+- Comparar Copilot Chat, agentes de plantilla disponibles y un agente personalizado para una tarea recurrente.
+- Definir propósito, datos de entrada, criterios, prioridades, formato y límites para el nuevo agente.
+- Redactar el prompt de creación que se ejecutará en la práctica 13.
 
-Laura, líder de un equipo (ficticia), revisa cada semana el avance de 5 iniciativas con solicitudes distintas a Copilot y obtiene análisis inconsistentes. El participante decidirá si la necesidad se resuelve mejor con Copilot Chat, un agente disponible o un agente personalizado y, tras compararlos, diseñará el prompt de creación de un agente que aplique siempre los mismos criterios: avance, desviaciones, riesgos, bloqueos, decisiones requeridas y próximos pasos.
+<img src="../../images/p12-objetivo.svg" alt="Mapa visual de la práctica 12" width="720"/>
 
-## Objetivos de aprendizaje
+## Duración aproximada:
 
-Al finalizar la práctica, el participante será capaz de:
+- 10 minutos.
 
-- Comparar Copilot Chat, un agente disponible y un agente personalizado para una necesidad recurrente.
-- Definir propósito, información de entrada, criterios, estructura de respuesta y situaciones prioritarias del agente.
-- Definir qué no debe asumir el agente y cómo actuar ante información incompleta o contradictoria.
-- Redactar el prompt de creación del agente con propósito, instrucciones, criterios, formato y límites.
-
-<img src="../../images/p12-objetivo.svg" alt="Diagrama de la Práctica 12" width="720"/>
-
-## Antes de empezar
+## Tabla de ayuda:
 
 | Elemento | Valor |
 |---|---|
-| Dónde trabajar | Microsoft Word (plantilla de diseño) |
-| Archivos de la práctica | [Escenario_Lider_Iniciativas.docx](recursos/Escenario_Lider_Iniciativas.docx)<br>[Plantilla_Diseno_Agente.docx](recursos/Plantilla_Diseno_Agente.docx) |
-| Ubicación en OneDrive | `Laboratorio_Copilot_ISA/Practica12/` |
-| Criterios de Laura | Avance, desviaciones, riesgos, bloqueos, decisiones requeridas, próximos pasos |
-| Nombre del entregable | `Diseno_Agente_[INICIALES].docx` |
+| Escenario | Laura lidera seis personas y recibe cada semana informes de cinco iniciativas |
+| Criterios de revisión | Avance, desviaciones, riesgos, bloqueos, decisiones requeridas y próximos pasos |
+| Prioridades | Retraso mayor a 10 días hábiles; bloqueo sin responsable; decisión que vence en siete días |
+| Entregable de diseño | `Entregables/Diseno_Agente.docx` |
 
-> Sustituya `[INICIALES]` por sus iniciales en nombres de archivo y prompts (por ejemplo, `Reporte_LMR.docx`). Todos los datos de la práctica son ficticios; la fecha de referencia del escenario es el 6 de noviembre de 2026.
+## Instrucciones
 
-> **Nota:** Antes de esta práctica el instructor dedica 5 minutos (tiempo del temario) a explicar cuándo una actividad recurrente justifica crear un agente personalizado.
+Laura necesita revisar semanalmente reportes con criterios consistentes. En la actualidad realiza solicitudes distintas a Copilot y obtiene respuestas de estructuras diferentes. Los informes contienen porcentajes, plazos, riesgos y decisiones, pero pueden llegar incompletos o con contradicciones.
 
----
+### Tarea 1. Seleccionar la alternativa para la necesidad (3 min)
 
-## Tarea 1. Elegir la alternativa adecuada (3 min)
+**Paso 1.** Comparar tres opciones para la revisión semanal: Copilot Chat (peticiones independientes), un agente de plantilla (objetivos predeterminados) y uno personalizado (mismos criterios y estructura en cada ejecución).
 
-**Objetivo:** Tener completa la tabla comparativa y la justificación de por qué la necesidad requiere un agente personalizado.
+**Paso 2.** Crear un documento de Word en blanco y guardarlo como `Diseno_Agente.docx` en `Laboratorio_Copilot_ISA/Entregables`. Anotar en una frase por qué la recurrencia y los seis criterios justifican el agente personalizado.
 
-**Por qué:** Crear un agente toma tiempo; solo conviene cuando la tarea es recurrente y necesita los mismos criterios cada vez.
+### Tarea 2. Definir instrucciones y límites (4 min)
 
-**Paso 1.** En OneDrive, abrir `Laboratorio_Copilot_ISA > Practica12 > Escenario_Lider_Iniciativas.docx` y leer la necesidad de Laura, sus 6 criterios y las 3 situaciones prioritarias.
+**Paso 1.** Especificar en el documento **propósito** (revisar informes), **entrada** (texto del reporte), **criterios** (seis), **salida** (tabla con hallazgo y evidencia) y **prioridades** (tres umbrales del escenario).
 
-**Paso 2.** En la misma carpeta, seleccionar `Plantilla_Diseno_Agente.docx`, elegir **Copiar a > Entregables** y renombrar la copia como `Diseno_Agente_[INICIALES].docx`. Abrir la copia.
+**Paso 2.** Escribir la conducta para datos faltantes (indicar lo que falta, solicitar aclaración y no inventar) y contradicciones (mostrar ambas afirmaciones y no declarar una verdadera sin evidencia). Limitarlo al seguimiento de iniciativas y prohibir tomar decisiones en nombre de Laura.
 
-**Paso 3.** Agregar al inicio del documento esta tabla y completar la columna **Conclusión** (por ejemplo, *"No garantiza criterios constantes"*):
+### Tarea 3. Construir el prompt del agente (3 min)
 
-| Alternativa | ¿Aplica los mismos criterios cada vez? | ¿Requiere repetir instrucciones? | Conclusión |
-|---|---|---|---|
-| Copilot Chat | No garantizado | Sí | |
-| Agente disponible | No conoce los criterios de Laura | Sí | |
-| Agente personalizado | Sí | No | |
+**Paso 1.** Copiar en Word el siguiente prompt de referencia; revisarlo para confirmar que incluye todas las reglas definidas.
 
-**Paso 4.** En la primera fila de la tabla de diseño (**Alternativa elegida y justificación**), escribir: *"Agente personalizado, porque la revisión es semanal (recurrente) y exige aplicar siempre los mismos 6 criterios con la misma estructura"*.
-
-**Al terminar esta tarea debes tener:**
-
-- ✔ La tabla comparativa completa.
-- ✔ La alternativa elegida y su justificación.
-
----
-
-## Tarea 2. Definir el comportamiento del agente (4 min)
-
-**Objetivo:** Tener completa la tabla de diseño: propósito, entradas, criterios, estructura, prioridades, lo que no debe asumir, conducta ante datos incompletos y límites.
-
-**Por qué:** Un agente se comporta según lo que se le define; lo que no se define queda a su criterio.
-
-**Paso 1.** Completar las filas **Propósito específico** (por ejemplo, *"Revisar reportes de avance de iniciativas con 6 criterios fijos"*) e **Información que podrá recibir** (*"reportes de avance en texto o documentos de Word"*).
-
-**Paso 2.** Completar **Criterios de análisis** con los 6 criterios de Laura y **Estructura de la respuesta** con *"tabla de 6 filas (criterio, hallazgo, evidencia del reporte) y resumen de 3 líneas"*.
-
-**Paso 3.** Completar **Situaciones prioritarias** con las tres del escenario: desviación de plazo mayor a 10 días hábiles, bloqueo sin responsable y decisión con fecha límite en los próximos 7 días.
-
-**Paso 4.** Completar **Información que no debe asumir** (fechas, responsables y cifras ausentes), **Conducta ante información incompleta, contradictoria o insuficiente** (señalarla y pedir el dato antes de concluir) y **Límites** (no decide por la líder; solo atiende el seguimiento de iniciativas).
-
-**Al terminar esta tarea debes tener:**
-
-- ✔ Las 9 filas de la tabla de diseño completas.
-
----
-
-## Tarea 3. Redactar el prompt de creación (3 min)
-
-**Objetivo:** Tener el prompt de creación completo en la plantilla, listo para la Práctica 13.
-
-**Por qué:** Este texto se pegará tal cual en Agent Builder, así que debe contener todo el diseño.
-
-**Paso 1.** En la sección **Prompt de creación del agente**, redactar el prompt reuniendo todas las filas de la tabla. Puede partir de este ejemplo y ajustarlo con sus definiciones:
+**Prompt 1 - Crear el Revisor de Avance de Iniciativas**
 
 ```text
-Crea un agente llamado "Revisor de Avance de Iniciativas" que ayude a una líder a revisar reportes de avance de las iniciativas de su equipo.
-Cada vez que reciba un reporte debe analizar siempre: avance frente a lo planeado, desviaciones de plazo, costo o alcance, riesgos,
-bloqueos, decisiones requeridas y próximos pasos. Debe responder con una tabla de esos 6 criterios (criterio, hallazgo, evidencia del reporte)
-y un resumen de 3 líneas. Debe marcar como PRIORITARIO: desviaciones mayores a 10 días hábiles, bloqueos sin responsable y decisiones
-con fecha límite en los próximos 7 días. No debe asumir fechas, responsables ni cifras que no estén en el reporte: si falta información
-o hay contradicciones, debe señalarlas y pedir el dato antes de concluir. No toma decisiones en nombre de la líder y, si recibe solicitudes
-ajenas al seguimiento de iniciativas, debe explicar su propósito.
+Crea un agente llamado Revisor de Avance de Iniciativas para analizar semanalmente reportes de las
+iniciativas de mi equipo. Para cada reporte revisa seis criterios: avance real frente al planeado,
+desviaciones de plazo/costo/alcance, riesgos, bloqueos, decisiones requeridas y próximos pasos.
+Responde con una tabla de columnas criterio, hallazgo, evidencia textual y estado de verificación;
+termina con una síntesis breve. Marca PRIORITARIO cuando un retraso supere 10 días hábiles,
+exista un bloqueo sin responsable o una decisión deba tomarse en los siguientes siete días.
+No inventes fechas, cifras, responsables o resultados. Cuando falten datos, solicita la aclaración
+necesaria; si hay contradicciones, identifica los fragmentos en conflicto y suspende esa conclusión.
+No tomes decisiones por la persona usuaria. Para solicitudes ajenas al seguimiento de iniciativas,
+explica tu finalidad y pide un informe de avance pertinente.
 ```
 
-**Paso 2.** Releer el prompt y comprobar que mencione los 6 criterios, el formato de tabla, las 3 situaciones prioritarias, qué hacer ante datos incompletos o contradictorios y qué hacer con solicitudes fuera de propósito.
+**Paso 2.** Verificar que el prompt distingue el comportamiento del agente de las decisiones humanas, guardar el documento y conservarlo para la práctica 13.
 
-**Paso 3.** Guardar con **Ctrl+S** (o comprobar **Guardado** en Word para la web).
+### Resultado esperado
 
-**Al terminar esta tarea debes tener:**
+<img src="../../images/p12-resultado.svg" alt="Resultado esperado de la práctica 12" width="720"/>
 
-- ✔ El prompt de creación con propósito, criterios, formato, prioridades y límites.
-- ✔ `Diseno_Agente_[INICIALES].docx` guardado.
 
----
-
-## Validación y pruebas
-
-| Caso | Acción o prompt | Resultado esperado |
-|---|---|---|
-| Caso 1 | Revisar la plantilla | Todos los elementos del diseño están completos |
-| Caso 2 | Revisar el prompt | Incluye propósito, criterios, formato, prioridades y límites |
-| Caso 3 | Revisar la justificación | Explica por qué la recurrencia y la consistencia requieren un agente personalizado |
-| Caso adversarial | Verificar si el prompt dice qué hacer ante datos contradictorios | El prompt indica señalarlos antes de concluir |
-
-## Resultado esperado
-
-- Alternativa elegida y justificada.
-- Diseño completo del agente.
-- Prompt de creación listo para la Práctica 13.
-
-**Entregable:** prompt de creación del agente, incluyendo propósito, instrucciones, criterios de análisis, formato esperado y límites (`Diseno_Agente_[INICIALES].docx`).
-
-<img src="../../images/p12-resultado.svg" alt="Resultado final de la Práctica 12" width="640"/>
-
-## Solución de problemas
-
-**El diseño es demasiado general**
-- *Síntoma:* El propósito admite cualquier tarea.
-- *Causa:* No se delimitó el alcance.
-- *Solución:* (1) Limitar el propósito al seguimiento de iniciativas. (2) Agregar qué hacer con solicitudes fuera de propósito.
-
-## Limpieza
-
-- Conservar la plantilla completada; es insumo de la Práctica 13.
-
-## Recursos opcionales
-
-- [Agent Builder](https://learn.microsoft.com/es-es/microsoft-365/copilot/extensibility/agent-builder)
-- [Crear agentes con Agent Builder](https://learn.microsoft.com/es-es/microsoft-365/copilot/extensibility/agent-builder-build-agents)
-
-<sub>Complejidad: Intermedia · Nivel de Bloom: Crear</sub>
-
----
-
-[⬅ Anterior: Práctica 11](../../Capitulo03/Practica11/README.md) | [Inicio](../../README.md) | [Siguiente: Práctica 13 ➡](../../Capitulo04/Practica13/README.md)
+Queda preparado un prompt de creación completo con propósito, seis criterios, estructura de respuesta, prioridades y restricciones frente a datos ausentes, contradicciones y solicitudes fuera del alcance. El archivo `Diseno_Agente.docx` se reutiliza directamente para crear el agente.

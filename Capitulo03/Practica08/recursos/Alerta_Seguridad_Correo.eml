@@ -1,0 +1,31 @@
+From: Seguridad de la =?utf-8?q?Informaci=C3=B3n?=
+ <seguridad@laboratorio.example.org>
+To: Equipo de seguimiento <equipo@laboratorio.example.org>
+Subject: Alerta de seguridad: mensajes con enlaces de =?utf-8?q?reprogramaci?=
+ =?utf-8?q?=C3=B3n?=
+Date: Wed, 04 Nov 2026 15:40:00 -0500
+Message-ID: <Alerta_Seguridad_Correo@laboratorio.example.org>
+X-Training-Scenario: INT-MDV-2026
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Se han identificado intentos de suplantaci=C3=B3n mediante mensajes que hacen=
+ referencia a cambios urgentes en cronogramas de mantenimiento y solicitan ab=
+rir v=C3=ADnculos para confirmar turnos o registrar credenciales.
+
+Ning=C3=BAn correo leg=C3=ADtimo de coordinaci=C3=B3n solicitar=C3=A1 contras=
+e=C3=B1as ni c=C3=B3digos de verificaci=C3=B3n. Antes de abrir un v=C3=ADncul=
+o sobre una intervenci=C3=B3n, comprobar remitente, dominio y contexto en Tea=
+ms o en el repositorio autorizado. No descargar adjuntos ejecutables ni envia=
+r informaci=C3=B3n operativa desde cuentas no verificadas.
+
+Si recibe un mensaje sospechoso, utilice la opci=C3=B3n de reportar phishing =
+de Outlook y avise al canal establecido por Seguridad de la Informaci=C3=B3n.=
+ Si se introdujeron credenciales en un sitio dudoso, activar inmediatamente e=
+l procedimiento de respuesta de incidentes indicado por su organizaci=C3=B3n.
+
+Esta alerta exige atenci=C3=B3n prioritaria; no debe confundirse con un cambi=
+o aprobado de fecha de alguna intervenci=C3=B3n.
+
+Seguridad de la Informaci=C3=B3n

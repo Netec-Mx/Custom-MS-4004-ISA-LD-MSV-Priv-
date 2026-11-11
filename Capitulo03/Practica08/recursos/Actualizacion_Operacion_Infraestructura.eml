@@ -1,0 +1,32 @@
+From: =?utf-8?q?Operaci=C3=B3n?= de Infraestructura
+ <infraestructura@laboratorio.example.org>
+To: Equipo de seguimiento <equipo@laboratorio.example.org>
+Subject: Estado de infraestructura y =?utf-8?q?coordinaci=C3=B3n?= de
+ mantenimientos
+Date: Thu, 05 Nov 2026 11:00:00 -0500
+Message-ID: <Actualizacion_Operacion_Infraestructura@laboratorio.example.org>
+X-Training-Scenario: INT-MDV-2026
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+La revisi=C3=B3n operativa de la semana confirma que los recursos de protecci=
+ones est=C3=A1n disponibles para las pruebas planificadas y que contin=C3=BAa=
+ la gesti=C3=B3n de transporte de un transformador destinado a la intervenci=
+=C3=B3n INT-MDV-2026.
+
+En el proyecto se mantiene la diferencia entre una secuencia de trabajo de 36=
+ horas y la ventana preliminar de 30 horas comunicada por el operador. El =C3=
+=A1rea t=C3=A9cnica debe actualizar el an=C3=A1lisis de dependencias antes de=
+l comit=C3=A9 del 12 de noviembre. No existe todav=C3=ADa una decisi=C3=B3n d=
+efinitiva de reprogramaci=C3=B3n.
+
+Para los dem=C3=A1s equipos, se solicita registrar en el repositorio comparti=
+do los riesgos que puedan afectar consignaciones y recursos de campo. Cuando =
+exista una condici=C3=B3n sin respuesta, utilizar el estado =C2=ABpendiente d=
+e confirmaci=C3=B3n=C2=BB y adjuntar la fuente de la =C3=BAltima actualizaci=
+=C3=B3n.
+
+La pr=C3=B3xima revisi=C3=B3n operativa se realizar=C3=A1 el 13 de noviembre.
+
+Operaci=C3=B3n de Infraestructura

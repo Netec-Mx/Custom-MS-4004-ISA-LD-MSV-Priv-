@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="602" viewBox="0 0 1440 602" role="img">
+<rect x="0" y="0" width="1440" height="602" rx="0" fill="#F7F9FC"/>
+<rect x="0" y="0" width="1440" height="108" rx="0" fill="#184568"/>
+<text x="42" y="44" font-family="Liberation Sans, Arial, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="start">Práctica 6. Seguimiento ejecutivo de Conecta+</text>
+<text x="42" y="78" font-family="Liberation Sans, Arial, sans-serif" font-size="19" font-weight="normal" fill="#DDEAF5" text-anchor="start">Herramienta principal: Project Delta Digest</text>
+<rect x="36" y="138" width="333" height="431" rx="16" fill="#FFFFFF" stroke="#D5E0E8" stroke-width="1.7"/>
+<rect x="393" y="138" width="638" height="431" rx="16" fill="#FFFFFF" stroke="#D5E0E8" stroke-width="1.7"/>
+<rect x="1057" y="138" width="347" height="431" rx="16" fill="#F1F8F5" stroke="#107A70" stroke-width="1.7"/>
+<rect x="36" y="138" width="333" height="8" rx="4" fill="#2B6598"/>
+<rect x="393" y="138" width="638" height="8" rx="4" fill="#2B6598"/>
+<rect x="1057" y="138" width="347" height="8" rx="4" fill="#107A70"/>
+<text x="60" y="181" font-family="Liberation Sans, Arial, sans-serif" font-size="21" font-weight="bold" fill="#184568" text-anchor="start">Insumos</text>
+<text x="418" y="181" font-family="Liberation Sans, Arial, sans-serif" font-size="21" font-weight="bold" fill="#184568" text-anchor="start">Secuencia operativa</text>
+<text x="1081" y="181" font-family="Liberation Sans, Arial, sans-serif" font-size="21" font-weight="bold" fill="#107A70" text-anchor="start">Resultado esperado</text>
+<rect x="55" y="200" width="295" height="72" rx="10" fill="#F3F7FB" stroke="#D5E0E8" stroke-width="1"/>
+<rect x="55" y="200" width="5" height="72" rx="1" fill="#2B6598"/>
+<text x="69" y="228" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="normal" fill="#243345" text-anchor="start">Estado_ConectaMas_</text>
+<text x="69" y="250" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="normal" fill="#243345" text-anchor="start">Consolidado.docx</text>
+<rect x="55" y="285" width="295" height="72" rx="10" fill="#F3F7FB" stroke="#D5E0E8" stroke-width="1"/>
+<rect x="55" y="285" width="5" height="72" rx="1" fill="#2B6598"/>
+<text x="69" y="313" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="normal" fill="#243345" text-anchor="start">Preguntas de seguimiento del</text>
+<text x="69" y="335" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="normal" fill="#243345" text-anchor="start">comité</text>
+<rect x="55" y="370" width="295" height="72" rx="10" fill="#F3F7FB" stroke="#D5E0E8" stroke-width="1"/>
+<rect x="55" y="370" width="5" height="72" rx="1" fill="#2B6598"/>
+<text x="69" y="398" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="normal" fill="#243345" text-anchor="start">Cronología de semanas 43 a 45</text>
+<text x="69" y="420" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="normal" fill="#243345" text-anchor="start">consolidada</text>
+<rect x="411" y="201" width="602" height="73" rx="11" fill="#F8FAFC" stroke="#D5E0E8" stroke-width="1"/>
+<circle cx="443" cy="237.5" r="19" fill="#2B6598"/>
+<text x="443" y="243.5" font-family="Liberation Sans, Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="479" y="243.5" font-family="Liberation Sans, Arial, sans-serif" font-size="19" font-weight="normal" fill="#243345" text-anchor="start">Abrir el agente y delimitar las fuentes del proyecto</text>
+<rect x="411" y="286" width="602" height="83" rx="11" fill="#F8FAFC" stroke="#D5E0E8" stroke-width="1"/>
+<circle cx="443" cy="327.5" r="19" fill="#2B6598"/>
+<text x="443" y="333.5" font-family="Liberation Sans, Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="479" y="320.5" font-family="Liberation Sans, Arial, sans-serif" font-size="19" font-weight="normal" fill="#243345" text-anchor="start">Identificar avances, hitos, bloqueadores, dependencias y</text>
+<text x="479" y="346.5" font-family="Liberation Sans, Arial, sans-serif" font-size="19" font-weight="normal" fill="#243345" text-anchor="start">riesgos</text>
+<rect x="411" y="381" width="602" height="73" rx="11" fill="#F8FAFC" stroke="#D5E0E8" stroke-width="1"/>
+<circle cx="443" cy="417.5" r="19" fill="#2B6598"/>
+<text x="443" y="423.5" font-family="Liberation Sans, Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="479" y="423.5" font-family="Liberation Sans, Arial, sans-serif" font-size="19" font-weight="normal" fill="#243345" text-anchor="start">Solicitar el resumen ejecutivo diferenciado</text>
+<rect x="411" y="466" width="602" height="73" rx="11" fill="#F8FAFC" stroke="#D5E0E8" stroke-width="1"/>
+<circle cx="443" cy="502.5" r="19" fill="#2B6598"/>
+<text x="443" y="508.5" font-family="Liberation Sans, Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+<text x="479" y="508.5" font-family="Liberation Sans, Arial, sans-serif" font-size="19" font-weight="normal" fill="#243345" text-anchor="start">Formular preguntas de seguimiento y temas para el comité</text>
+<text x="1081" y="211" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="bold" fill="#536679" text-anchor="start">ENTREGABLE</text>
+<text x="1081" y="244" font-family="DejaVu Sans Mono, monospace" font-size="16" font-weight="bold" fill="#184568" text-anchor="start">Diagnostico_ConectaMas_</text>
+<text x="1081" y="270" font-family="DejaVu Sans Mono, monospace" font-size="16" font-weight="bold" fill="#184568" text-anchor="start">[INICIALES].docx</text>
+<line x1="1081" y1="310" x2="1380" y2="310" stroke="#D5E0E8" stroke-width="1.5" stroke-linecap="round"/>
+<text x="1081" y="346" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="bold" fill="#107A70" text-anchor="start">COMPROBAR</text>
+<circle cx="1087" cy="385" r="4" fill="#107A70"/>
+<text x="1101" y="388" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="normal" fill="#243345" text-anchor="start">Avances y cambios entre semanas</text>
+<circle cx="1087" cy="432" r="4" fill="#107A70"/>
+<text x="1101" y="435" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="normal" fill="#243345" text-anchor="start">Bloqueadores y dependencias</text>
+<circle cx="1087" cy="479" r="4" fill="#107A70"/>
+<text x="1101" y="482" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="normal" fill="#243345" text-anchor="start">Decisiones y preguntas directivas</text>
+</svg>
