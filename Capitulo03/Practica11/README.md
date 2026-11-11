@@ -1,193 +1,100 @@
 # Práctica 11. Optimizar una solicitud compleja con Prompt Coach
 
-**Capítulo 3. Transformar información en comunicación e inteligencia ejecutiva**
+## Objetivo de la práctica:
 
-⏱️ **Duración:** 15 min · 🛠️ **Herramienta:** Prompt Coach · 📄 **Entregable:** Prompt inicial, diagnóstico, prompt optimizado y comparación de resultados
+Al finalizar la práctica, serás capaz de:
 
-## Descripción
+- Comparar la respuesta a una solicitud inicial poco precisa con una versión mejorada.
+- Diagnosticar un prompt mediante Prompt Coach atendiendo a objetivo, contexto, fuentes, criterios, restricciones y formato.
+- Reformular la misma solicitud para una síntesis dirigida a liderazgo.
 
-Un analista necesita identificar los riesgos de INT-MDV-2026, priorizarlos y preparar recomendaciones para su líder. Su primera solicitud a Copilot es vaga. El participante ejecutará esa solicitud, usará Prompt Coach para diagnosticarla, construirá una versión optimizada, comparará los resultados y pedirá una segunda optimización para cambiar el propósito a una síntesis para liderazgo.
+<img src="../../images/p11-objetivo.svg" alt="Mapa visual de la práctica 11" width="720"/>
 
-## Objetivos de aprendizaje
+## Duración aproximada:
 
-Al finalizar la práctica, el participante será capaz de:
+- 15 minutos.
 
-- Ejecutar una solicitud compleja mejorable y evaluar su resultado.
-- Usar Prompt Coach para diagnosticar claridad, contexto, fuentes, criterios, restricciones y formato.
-- Construir y ejecutar un prompt optimizado y comparar resultados.
-- Ajustar el prompt para un propósito distinto sin reconstruirlo desde cero.
-
-<img src="../../images/p11-objetivo.svg" alt="Diagrama de la Práctica 11" width="720"/>
-
-## Antes de empezar
+## Tabla de ayuda:
 
 | Elemento | Valor |
 |---|---|
-| Dónde trabajar | Aplicación Microsoft 365 Copilot > Agentes > Prompt Coach |
-| Archivos de la práctica | [Plantilla_Comparacion_Prompts.docx](recursos/Plantilla_Comparacion_Prompts.docx)<br>[Plan_Intervencion_Mirador_del_Valle.docx](../../Capitulo02/Practica04/recursos/Plan_Intervencion_Mirador_del_Valle.docx) — Fuente del análisis (Práctica 4)<br>[Matriz_Riesgos_Intervencion.xlsx](../../Capitulo02/Practica04/recursos/Matriz_Riesgos_Intervencion.xlsx) — Fuente del análisis (Práctica 4)<br>[Informe_Avance_INT-MDV_Semana45.docx](../../Capitulo02/Practica07/recursos/Informe_Avance_INT-MDV_Semana45.docx) — Fuente del análisis (Práctica 7) |
-| Ubicación en OneDrive | `Laboratorio_Copilot_ISA/Practica11/` |
-| Fuentes del análisis | `Plan_Intervencion_Mirador_del_Valle`, `Matriz_Riesgos_Intervencion`, `Informe_Avance_INT-MDV_Semana45` |
-| Nombre del entregable | `Comparacion_Prompts_[INICIALES].docx` |
+| Servicio | Copilot Chat y agente Prompt Coach |
+| Contexto | Proyecto `INT-MDV-2026`, intervención en Subestación Mirador del Valle |
+| Archivos ya preparados | [Plan de intervención](../../Capitulo02/Practica04/recursos/Plan_Intervencion_Mirador_del_Valle.docx), [matriz de riesgos](../../Capitulo02/Practica04/recursos/Matriz_Riesgos_Intervencion.xlsx), [informe de avance](../../Capitulo02/Practica07/recursos/Evolucion_INT-MDV_Semanas44_45.docx) |
+| Producto | `Comparacion_Prompts.docx` creado durante la práctica |
 
-> Sustituya `[INICIALES]` por sus iniciales en nombres de archivo y prompts (por ejemplo, `Reporte_LMR.docx`). Todos los datos de la práctica son ficticios; la fecha de referencia del escenario es el 6 de noviembre de 2026.
+## Instrucciones
 
-> **Nota:** Al terminar esta práctica, el instructor dedica 3 minutos (tiempo del temario) al cierre del módulo: cuándo conviene un agente especializado para mantenerse actualizado, comunicar, preparar información ejecutiva u optimizar solicitudes.
+Se revisará una solicitud deliberadamente ambigua sobre riesgos del proyecto INT-MDV-2026. Se usarán las **mismas fuentes** en la revisión final para identificar qué mejoras provienen de la instrucción y cuáles del contexto adicional.
 
----
+### Tarea 1. Ejecutar la solicitud inicial (3 min)
 
-## Tarea 1. Ejecutar la solicitud original (3 min)
+**Paso 1.** Abrir [Microsoft Copilot](https://www.microsoft365.com/) con la cuenta autorizada, seleccionar **Copilot Chat** y abrir **Nuevo chat**.
 
-**Objetivo:** Tener registrados el prompt original y su resultado en la plantilla.
+**Paso 2.** Pegar y ejecutar el siguiente texto **sin adjuntar fuentes**, para observar cómo interpreta la solicitud ambigua.
 
-**Por qué:** El resultado de un prompt vago es el punto de comparación para medir la mejora.
-
-**Paso 1.** Abrir **Microsoft Edge**, ingresar a [m365.cloud.microsoft](https://m365.cloud.microsoft/) e iniciar sesión con su cuenta corporativa si se solicita.
-
-- **Alternativa:** Si no aparece el chat, seleccionar el icono **Copilot** en la barra lateral izquierda.
-
-**Paso 2.** En el panel izquierdo, seleccionar **Copilot** (el chat general, sin agente) y luego **Nuevo chat**.
-
-**Paso 3.** Pegar exactamente este prompt, sin cambios, y enviarlo:
+**Prompt 1 - Solicitud inicial**
 
 ```text
 Revisa lo del proyecto de la subestación y dime los riesgos y qué hacer.
 ```
 
-- **Qué verás:** una respuesta general, probablemente sin fuentes concretas, sin prioridades claras o que pregunta a qué proyecto se refiere. Ese es el comportamiento esperado de un prompt vago.
+**Paso 3.** Leer la respuesta e identificar si reconoce el proyecto, aporta fuentes comprobables, prioriza riesgos o define una salida para liderazgo. No presuponer que será idéntica a la de otros participantes.
 
-**Paso 4.** En OneDrive, abrir `Laboratorio_Copilot_ISA > Practica11`, seleccionar `Plantilla_Comparacion_Prompts.docx`, elegir **Copiar a > Entregables** y cambiar el nombre de la copia a `Comparacion_Prompts_[INICIALES].docx`. Abrir la copia.
+### Tarea 2. Diagnosticar con Prompt Coach (4 min)
 
-**Paso 5.** En la sección **1. Prompt inicial**, pegar el prompt. En la tabla de la sección **4**, columna **Resultado con prompt inicial**, escribir una frase por criterio. Por ejemplo, Precisión: *"no menciona riesgos concretos del proyecto"*.
+**Paso 1.** Seleccionar **Agentes** en Copilot y abrir el agente **Prompt Coach** previamente habilitado.
 
-**Al terminar esta tarea debes tener:**
+**Paso 2.** Pegar el siguiente diagnóstico y revisar su explicación criterio por criterio.
 
-- ✔ Prompt y resultado registrados en la plantilla.
-
----
-
-## Tarea 2. Diagnosticar la solicitud con Prompt Coach (4 min)
-
-**Objetivo:** Tener el diagnóstico de Prompt Coach sobre objetivo, contexto, fuentes, criterios, restricciones y formato.
-
-**Por qué:** Saber qué le faltaba al prompt permite corregirlo con intención, no por prueba y error.
-
-**Paso 1.** En otra pestaña, abrir **Agentes** y buscar `Prompt Coach`. Hacer clic en el agente.
-
-- **Qué verás:** el nombre **Prompt Coach** encima del cuadro de mensaje.
-- **Si no ocurre así:** buscar en **Todos los agentes** o avisar al instructor.
-
-**Paso 2.** Pegar el siguiente prompt y enviarlo:
+**Prompt 2 - Diagnóstico**
 
 ```text
-Evalúa este prompt y dime cómo mejorarlo en claridad del objetivo, contexto, fuentes, criterios de análisis,
-restricciones y formato de respuesta: "Revisa lo del proyecto de la subestación y dime los riesgos y qué hacer."
-Contexto: soy analista y debo preparar recomendaciones priorizadas para mi líder sobre el proyecto INT-MDV-2026.
+Evalúa esta indicación: "Revisa lo del proyecto de la subestación y dime los riesgos y qué hacer".
+Necesito preparar recomendaciones para liderazgo sobre la intervención INT-MDV-2026.
+Indica qué falta en objetivo, contexto, fuentes, criterios de análisis, restricciones y formato.
+Propón cambios concretos; no inventes hechos del proyecto.
 ```
 
-- **Qué verás:** recomendaciones organizadas por aspecto (objetivo, contexto, fuentes, criterios, restricciones y formato) y, a veces, una versión sugerida del prompt.
+**Paso 3.** Comprobar que el diagnóstico propone identificar fuentes, fechas, criterios de prioridad, reglas contra suposiciones y formato ejecutivo.
 
-**Paso 3.** Copiar el diagnóstico y pegarlo en la sección **2. Diagnóstico de Prompt Coach** de su documento.
+### Tarea 3. Ejecutar la versión mejorada (5 min)
 
-**Al terminar esta tarea debes tener:**
+**Paso 1.** Abrir otro **Nuevo chat** en Copilot Chat; adjuntar desde OneDrive los archivos `Plan_Intervencion_Mirador_del_Valle.docx`, `Matriz_Riesgos_Intervencion.xlsx` e `Evolucion_INT-MDV_Semanas44_45.docx` (carpetas `Practica04` y `Practica07`).
 
-- ✔ El diagnóstico pegado en la sección 2.
+**Paso 2.** Pegar la versión de referencia; modificarla únicamente si las recomendaciones de Prompt Coach exigen una precisión adicional.
 
----
-
-## Tarea 3. Construir el prompt optimizado y comparar (5 min)
-
-**Objetivo:** Tener el prompt optimizado, su resultado y la tabla de comparación completa.
-
-**Por qué:** Comparar muestra qué cambios en la instrucción producen mejores resultados.
-
-**Paso 1.** Construir el prompt optimizado con las recomendaciones. Puede partir de este ejemplo y ajustarlo:
+**Prompt 3 - Solicitud mejorada**
 
 ```text
-Actúa como analista de proyectos. Con base en /Plan_Intervencion_Mirador_del_Valle, /Matriz_Riesgos_Intervencion e
-/Informe_Avance_INT-MDV_Semana45, identifica los riesgos del proyecto INT-MDV-2026, priorízalos por probabilidad e impacto
-y por fecha de la intervención (28-nov-2026), y propone una recomendación por riesgo con responsable sugerido.
-No incluyas riesgos sin fuente. Entrega una tabla y un resumen de 5 líneas para mi líder.
+Actúa como analista de proyectos. A partir de los tres archivos adjuntos, analiza riesgos de INT-MDV-2026
+para la intervención prevista desde el 28 de noviembre de 2026. Prioriza por probabilidad,
+impacto y cercanía de fecha. Entrega una tabla: riesgo, dato fuente, estado confirmado/no confirmado,
+prioridad, posible responsable y acción sugerida. Distingue los hechos observados de las recomendaciones,
+no asumas permisos ni decisiones y termina con una síntesis de cinco líneas dirigida a un líder.
 ```
 
-**Paso 2.** Volver al chat de **Copilot** (no a Prompt Coach), seleccionar **Nuevo chat**, pegar el prompt optimizado y reemplazar cada texto que inicia con `/` por el archivo correspondiente: escribir `/` y seleccionar `Plan_Intervencion_Mirador_del_Valle`, `Matriz_Riesgos_Intervencion` e `Informe_Avance_INT-MDV_Semana45`. Enviar.
+**Paso 3.** Comparar el resultado con la respuesta inicial en **precisión, estructura, profundidad y utilidad**, verificando las referencias a la ventana, el permiso ambiental, los clientes y el vocero; distinguir el efecto de **haber adjuntado fuentes** del efecto de **cambiar la redacción**.
 
-- **Qué verás:** una tabla de riesgos priorizada con recomendación y responsable, seguida de un resumen de 5 líneas.
-- **Alternativa:** Si algún archivo no aparece, adjuntarlo con **+** desde `Laboratorio_Copilot_ISA/Practica04` o `Practica07`.
+**Paso 4.** Crear un Word nuevo en `Entregables/Comparacion_Prompts.docx` e incorporar el prompt inicial, el diagnóstico, la versión mejorada y un breve contraste de los cuatro criterios. Este documento es el producto de la actividad, no una plantilla de control.
 
-**Paso 3.** Pegar el prompt optimizado en la sección **3** y completar la tabla de la sección **4**: para cada criterio (precisión, estructura, profundidad y utilidad), describir el resultado optimizado y el **cambio del prompt** que explica la diferencia. Por ejemplo: *"Estructura: tabla priorizada; cambio: se pidió formato de tabla"*.
+### Tarea 4. Optimizar la solicitud para liderazgo (3 min)
 
-**Al terminar esta tarea debes tener:**
+**Paso 1.** Volver a Prompt Coach y ejecutar la siguiente segunda solicitud.
 
-- ✔ El prompt optimizado en la sección 3.
-- ✔ La tabla de la sección 4 completa, con el cambio que explica cada diferencia.
-
----
-
-## Tarea 4. Solicitar una segunda optimización (3 min)
-
-**Objetivo:** Saber qué elementos del prompt cambiar para pasar del análisis detallado a una síntesis para liderazgo.
-
-**Por qué:** Un buen prompt se adapta cambiando pocos elementos, sin reescribirlo.
-
-**Paso 1.** Volver a **Prompt Coach** y pegar el siguiente prompt:
+**Prompt 4 - Cambio de propósito**
 
 ```text
-Quiero usar el prompt optimizado para producir una síntesis de un párrafo para liderazgo en lugar del análisis detallado.
-¿Qué elementos debo modificar y cuáles conservar?
+Conserva las fuentes, los criterios de prioridad y la prohibición de suponer datos del prompt mejorado,
+pero cambia el resultado para obtener un solo párrafo de síntesis para el director. Indica exactamente
+qué modificar y qué mantener sin rehacer el prompt desde cero.
 ```
 
-- **Qué verás:** una lista de elementos para cambiar (por ejemplo, el formato y la extensión) y elementos para conservar (fuentes y criterios).
+**Paso 2.** Aplicar la recomendación al prompt mejorado, ejecutarlo en Copilot Chat con las mismas fuentes y guardar en Word la comparación del resultado ejecutivo con el informe detallado.
 
-**Paso 2.** Copiar la respuesta en la sección **5. Segunda optimización** de su documento.
+### Resultado esperado
 
-**Paso 3.** Guardar el documento con **Ctrl+S** (o, en Word para la web, comprobar que diga **Guardado**). El archivo debe llamarse `Comparacion_Prompts_[INICIALES].docx` y estar en `Entregables`.
+<img src="../../images/p11-resultado.svg" alt="Resultado esperado de la práctica 11" width="720"/>
 
-**Al terminar esta tarea debes tener:**
 
-- ✔ La sección 5 completa.
-- ✔ `Comparacion_Prompts_[INICIALES].docx` guardado.
-
----
-
-## Validación y pruebas
-
-| Caso | Acción o prompt | Resultado esperado |
-|---|---|---|
-| Caso 1 | Comparar ambos resultados | El prompt optimizado produce una tabla priorizada con fuentes |
-| Caso 2 | Revisar el diagnóstico | Cubre objetivo, contexto, fuentes, criterios, restricciones y formato |
-| Caso 3 | Revisar la segunda optimización | Cambia formato y extensión y conserva fuentes y criterios |
-| Caso adversarial | Pedir a Prompt Coach: "Responde tú los riesgos del proyecto" | El agente se enfoca en mejorar el prompt o aclara su propósito |
-
-## Resultado esperado
-
-- Prompt inicial y su resultado.
-- Diagnóstico de Prompt Coach.
-- Prompt optimizado con comparación de resultados y segunda optimización.
-
-**Entregable:** prompt inicial, diagnóstico de Prompt Coach, prompt optimizado y comparación de resultados (`Comparacion_Prompts_[INICIALES].docx`).
-
-<img src="../../images/p11-resultado.svg" alt="Resultado final de la Práctica 11" width="640"/>
-
-## Solución de problemas
-
-**Copilot no usa las fuentes indicadas**
-- *Síntoma:* El resultado es genérico.
-- *Causa:* Los archivos no se referenciaron con `/`.
-- *Solución:* (1) Escribir `/` y seleccionar cada archivo. (2) Volver a ejecutar el prompt optimizado.
-
-## Limpieza
-
-- Conservar la plantilla completada en `Entregables`.
-- Opcional: guardar el prompt optimizado en la Galería de indicaciones.
-
-## Recursos opcionales
-
-- [Galería de indicaciones](https://m365.cloud.microsoft/copilot-prompts)
-- [Información general de Microsoft 365 Copilot](https://learn.microsoft.com/es-es/copilot/plan/copilot-overview)
-- [Mejores prácticas para escribir prompts](https://support.microsoft.com/es-es/microsoft-365-copilot/get-better-copilot-responses-with-great-prompting)
-
-<sub>Complejidad: Intermedia · Nivel de Bloom: Evaluar</sub>
-
----
-
-[⬅ Anterior: Práctica 10](../../Capitulo03/Practica10/README.md) | [Inicio](../../README.md) | [Siguiente: Práctica 12 ➡](../../Capitulo04/Practica12/README.md)
+El documento de comparación contiene la solicitud inicial, su diagnóstico, una versión con contexto y fuentes verificables, las diferencias observadas en cuatro criterios y la adaptación para liderazgo. Ninguna afirmación sobre el proyecto se acepta sin contrastarla con un archivo de origen.

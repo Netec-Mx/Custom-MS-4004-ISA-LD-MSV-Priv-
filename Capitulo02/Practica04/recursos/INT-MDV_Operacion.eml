@@ -1,0 +1,33 @@
+From: Camila Torres <operacion@laboratorio.example.org>
+To: Equipo de seguimiento <equipo@laboratorio.example.org>
+Subject: INT-MDV | =?utf-8?q?Confirmaci=C3=B3n?= preliminar de ventana
+Date: Mon, 09 Nov 2026 08:30:00 -0500
+Message-ID: <INT-MDV_Operacion@laboratorio.example.org>
+X-Training-Scenario: INT-MDV-2026
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Equipo de coordinaci=C3=B3n:
+
+El operador nos comunic=C3=B3 una disponibilidad preliminar de 30 horas para =
+INT-MDV-2026. El plan de intervenci=C3=B3n remitido la semana pasada contempl=
+a 36 horas, entre el 28 de noviembre a las 05:00 y el 29 de noviembre a las 1=
+7:00. La reducci=C3=B3n no constituye todav=C3=ADa una autorizaci=C3=B3n defi=
+nitiva de la ventana.
+
+Mantenimiento debe presentar, antes del 12 de noviembre, una secuencia altern=
+ativa que identifique qu=C3=A9 actividades pueden realizarse en paralelo sin =
+comprometer seguridad, controles de aislamiento o pruebas de protecciones. Op=
+eraci=C3=B3n validar=C3=A1 el orden y los puntos de control; cualquier reducc=
+i=C3=B3n de pruebas obligatorias debe descartarse. Tambi=C3=A9n se requiere a=
+clarar la duraci=C3=B3n de normalizaci=C3=B3n y la disponibilidad de carga al=
+ternativa.
+
+Para la reuni=C3=B3n de preparaci=C3=B3n propongo comparar ambas secuencias y=
+ definir un responsable para solicitar confirmaci=C3=B3n formal al operador. =
+Evitemos comunicar a clientes una duraci=C3=B3n definitiva hasta cerrar esta =
+diferencia.
+
+Camila Torres
+Coordinaci=C3=B3n de Operaci=C3=B3n

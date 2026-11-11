@@ -1,39 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="498" viewBox="0 0 1100 498">
-<rect width="1100" height="498" fill="#FFFFFF"/>
-<rect width="1100" height="70" fill="#1F4E79"/>
-<text x="30" y="32" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="20" fill="#FFFFFF" font-weight="bold" text-anchor="start">Práctica 13. Crear, probar y ajustar el agente</text>
-<text x="30" y="56" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#DDE8F5" font-weight="normal" text-anchor="start">Tecnología principal: Agent Builder (creación con lenguaje natural)</text>
-<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#595959"/></marker></defs>
-<rect x="25" y="100" width="250" height="368" rx="10" fill="#EAF1FB" stroke="#2E75B6" stroke-width="2"/>
-<text x="45" y="130" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="17" fill="#1F4E79" font-weight="bold" text-anchor="start">Insumos</text>
-<text x="45" y="160" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#222" font-weight="normal" text-anchor="start">•</text>
-<text x="45" y="177" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#222" font-weight="normal" text-anchor="start">Diseno_Agente_[INICIALES].docx</text>
-<text x="45" y="194" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#222" font-weight="normal" text-anchor="start">(Práctica 12)</text>
-<text x="45" y="219" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#222" font-weight="normal" text-anchor="start">• Tres reportes de prueba</text>
-<rect x="325" y="100" width="470" height="70" rx="10" fill="#FFFFFF" stroke="#2E75B6" stroke-width="2"/>
-<circle cx="357" cy="135.0" r="17" fill="#2E75B6"/>
-<text x="357" y="141.0" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle">1</text>
-<text x="387" y="140.0" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">Crear el agente con lenguaje natural</text>
-<line x1="560.0" y1="170" x2="560.0" y2="180" stroke="#595959" stroke-width="2" marker-end="url(#a)"/>
-<rect x="325" y="182" width="470" height="70" rx="10" fill="#FFFFFF" stroke="#2E75B6" stroke-width="2"/>
-<circle cx="357" cy="217.0" r="17" fill="#2E75B6"/>
-<text x="357" y="223.0" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle">2</text>
-<text x="387" y="222.0" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">Probar el comportamiento del agente</text>
-<line x1="560.0" y1="252" x2="560.0" y2="262" stroke="#595959" stroke-width="2" marker-end="url(#a)"/>
-<rect x="325" y="264" width="470" height="70" rx="10" fill="#FFFFFF" stroke="#2E75B6" stroke-width="2"/>
-<circle cx="357" cy="299.0" r="17" fill="#2E75B6"/>
-<text x="357" y="305.0" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle">3</text>
-<text x="387" y="304.0" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">Ajustar las instrucciones y volver a probar</text>
-<line x1="560.0" y1="334" x2="560.0" y2="344" stroke="#595959" stroke-width="2" marker-end="url(#a)"/>
-<rect x="325" y="346" width="470" height="70" rx="10" fill="#FFFFFF" stroke="#2E75B6" stroke-width="2"/>
-<circle cx="357" cy="381.0" r="17" fill="#2E75B6"/>
-<text x="357" y="387.0" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle">4</text>
-<text x="387" y="386.0" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">Comparar con Copilot Chat</text>
-<line x1="277" y1="264.0" x2="319" y2="264.0" stroke="#595959" stroke-width="2" marker-end="url(#a)"/>
-<line x1="797" y1="264.0" x2="837" y2="264.0" stroke="#595959" stroke-width="2" marker-end="url(#a)"/>
-<rect x="845" y="100" width="230" height="368" rx="10" fill="#E8F6F3" stroke="#0F7B6C" stroke-width="2"/>
-<text x="865" y="130" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="17" fill="#0F7B6C" font-weight="bold" text-anchor="start">Entregable</text>
-<text x="865" y="162" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">Agente personalizado</text>
-<text x="865" y="180" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">funcional y validado con</text>
-<text x="865" y="198" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">instrucciones refinadas</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="916" viewBox="0 0 1280 916">
+<defs><style><![CDATA[text { font-family: Arial, Helvetica, sans-serif; }]]></style></defs>
+<rect width="100%" height="100%" fill="#f5f8fb"/>
+<rect x="0" y="0" width="100%" height="88" fill="#0b3a63"/>
+<text x="36" y="38" font-size="26" font-weight="700" fill="#ffffff">Práctica 13</text>
+<text x="36" y="70" font-size="28" font-weight="700" fill="#ffffff">Crear, probar y ajustar el agente personalizado</text>
+<text x="1244" y="40" text-anchor="end" font-size="18" font-weight="700" fill="#b7d4ea">MS-4004 · ISA INTERCOLOMBIA</text>
+<text x="36" y="126" font-size="26" font-weight="700" fill="#0b3a63">Objetivo y flujo de trabajo</text>
+<rect x="36" y="146" rx="18" ry="18" width="1208" height="215" fill="#ffffff" stroke="#c8d8e8" stroke-width="2"/>
+<text x="58" y="180" font-size="24" font-weight="700" fill="#0b3a63">Entradas</text>
+<text x="64" y="214" font-size="18" fill="#1d2b36">• Diseno_Agente.docx generado en la práctica 12.</text>
+<text x="64" y="246" font-size="18" fill="#1d2b36">• Casos_Prueba_Agente.docx con reporte completo, incompleto y</text>
+<text x="64" y="270" font-size="18" fill="#1d2b36">  contradictorio.</text>
+<text x="64" y="302" font-size="18" fill="#1d2b36">• Entorno Microsoft 365 Copilot &gt; Nuevo agente &gt; Describir.</text>
+<rect x="36" y="387" rx="18" ry="18" width="1208" height="239" fill="#ffffff" stroke="#c8d8e8" stroke-width="2"/>
+<text x="58" y="421" font-size="24" font-weight="700" fill="#0b3a63">Trabajo con el agente</text>
+<text x="64" y="455" font-size="18" fill="#1d2b36">• Crear el agente usando lenguaje natural, sin diseño manual.</text>
+<text x="64" y="487" font-size="18" fill="#1d2b36">• Ejecutar cuatro pruebas: tres casos y una solicitud fuera de</text>
+<text x="64" y="511" font-size="18" fill="#1d2b36">  propósito.</text>
+<text x="64" y="543" font-size="18" fill="#1d2b36">• Ajustar las instrucciones y comparar luego con Copilot Chat</text>
+<text x="64" y="567" font-size="18" fill="#1d2b36">  general.</text>
+<rect x="36" y="652" rx="18" ry="18" width="1208" height="184" fill="#ffffff" stroke="#c8d8e8" stroke-width="2"/>
+<text x="58" y="686" font-size="24" font-weight="700" fill="#0b3a63">Validar</text>
+<text x="64" y="720" font-size="18" fill="#1d2b36">• El agente debe mantener estructura, prioridades y límites.</text>
+<text x="64" y="752" font-size="18" fill="#1d2b36">• Debe detectar contradicciones y pedir aclaraciones cuando falten</text>
+<text x="64" y="776" font-size="18" fill="#1d2b36">  datos.</text>
+<rect x="36" y="872" rx="10" ry="10" width="1208" height="34" fill="#dcecf7"/>
+<text x="52" y="894" font-size="15" fill="#3a5a76">Imagen de apoyo de la guía práctica. Resume entradas, flujo de trabajo, validación y resultados esperados.</text>
 </svg>

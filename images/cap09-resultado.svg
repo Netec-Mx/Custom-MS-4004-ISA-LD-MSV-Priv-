@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="791" viewBox="0 0 1120 791" role="img">
+<rect x="0" y="0" width="1120" height="791" rx="0" fill="#F7F9FC"/>
+<rect x="0" y="0" width="1120" height="128" rx="0" fill="#184568"/>
+<text x="55" y="46" font-family="Liberation Sans, Arial, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="start">Estructura del entregable - Práctica 9</text>
+<text x="55" y="83" font-family="DejaVu Sans Mono, monospace" font-size="19" font-weight="normal" fill="#DEEBF4" text-anchor="start">Comunicaciones_ConectaMas_[INICIALES].docx</text>
+<rect x="55" y="163" width="1010" height="587" rx="18" fill="#FFFFFF" stroke="#D5E0E8" stroke-width="2"/>
+<rect x="79" y="187" width="962" height="100" rx="10" fill="#F5F9FC" stroke="#D5E0E8" stroke-width="1"/>
+<rect x="79" y="187" width="7" height="100" rx="2" fill="#107A70"/>
+<circle cx="130" cy="237.0" r="22" fill="#2B6598"/>
+<text x="130" y="244.0" font-family="Liberation Sans, Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="168" y="220" font-family="Liberation Sans, Arial, sans-serif" font-size="20" font-weight="bold" fill="#184568" text-anchor="start">1. Estrategia de comunicación</text>
+<text x="168" y="250" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="normal" fill="#536679" text-anchor="start">Objetivo, audiencias, mensajes clave y aprobaciones</text>
+<rect x="79" y="297" width="962" height="100" rx="10" fill="#F5F9FC" stroke="#D5E0E8" stroke-width="1"/>
+<rect x="79" y="297" width="7" height="100" rx="2" fill="#107A70"/>
+<circle cx="130" cy="347.0" r="22" fill="#2B6598"/>
+<text x="130" y="354.0" font-family="Liberation Sans, Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="168" y="330" font-family="Liberation Sans, Arial, sans-serif" font-size="20" font-weight="bold" fill="#184568" text-anchor="start">2. Comunicación interna</text>
+<text x="168" y="360" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="normal" fill="#536679" text-anchor="start">Cambios operativos, responsabilidades y coordinación</text>
+<rect x="79" y="407" width="962" height="100" rx="10" fill="#F5F9FC" stroke="#D5E0E8" stroke-width="1"/>
+<rect x="79" y="407" width="7" height="100" rx="2" fill="#107A70"/>
+<circle cx="130" cy="457.0" r="22" fill="#2B6598"/>
+<text x="130" y="464.0" font-family="Liberation Sans, Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="168" y="440" font-family="Liberation Sans, Arial, sans-serif" font-size="20" font-weight="bold" fill="#184568" text-anchor="start">3. Comunicación externa</text>
+<text x="168" y="470" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="normal" fill="#536679" text-anchor="start">Beneficios, seguimiento y canales de atención</text>
+<rect x="79" y="517" width="962" height="100" rx="10" fill="#F5F9FC" stroke="#D5E0E8" stroke-width="1"/>
+<rect x="79" y="517" width="7" height="100" rx="2" fill="#107A70"/>
+<circle cx="130" cy="567.0" r="22" fill="#2B6598"/>
+<text x="130" y="574.0" font-family="Liberation Sans, Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+<text x="168" y="550" font-family="Liberation Sans, Arial, sans-serif" font-size="20" font-weight="bold" fill="#184568" text-anchor="start">4. Borradores de correo</text>
+<text x="168" y="580" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="normal" fill="#536679" text-anchor="start">Dos borradores guardados en Outlook, no enviados</text>
+<rect x="79" y="627" width="962" height="100" rx="10" fill="#F5F9FC" stroke="#D5E0E8" stroke-width="1"/>
+<rect x="79" y="627" width="7" height="100" rx="2" fill="#107A70"/>
+<circle cx="130" cy="677.0" r="22" fill="#2B6598"/>
+<text x="130" y="684.0" font-family="Liberation Sans, Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">5</text>
+<text x="168" y="660" font-family="Liberation Sans, Arial, sans-serif" font-size="20" font-weight="bold" fill="#184568" text-anchor="start">5. Control de aprobaciones</text>
+<text x="168" y="690" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="normal" fill="#536679" text-anchor="start">Quién debe aprobar antes de difundir</text>
+</svg>

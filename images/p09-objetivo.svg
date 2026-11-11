@@ -1,35 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="470" viewBox="0 0 1100 470">
-<rect width="1100" height="470" fill="#FFFFFF"/>
-<rect width="1100" height="70" fill="#1F4E79"/>
-<text x="30" y="32" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="20" fill="#FFFFFF" font-weight="bold" text-anchor="start">Práctica 9. Adaptar información técnica a públicos</text>
-<text x="30" y="56" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#DDE8F5" font-weight="normal" text-anchor="start">Tecnología principal: Diseñador de comunicaciones</text>
-<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#595959"/></marker></defs>
-<rect x="25" y="100" width="250" height="340" rx="10" fill="#EAF1FB" stroke="#2E75B6" stroke-width="2"/>
-<text x="45" y="130" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="17" fill="#1F4E79" font-weight="bold" text-anchor="start">Insumos</text>
-<text x="45" y="160" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#222" font-weight="normal" text-anchor="start">•</text>
-<text x="45" y="177" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#222" font-weight="normal" text-anchor="start">Ficha_Tecnica_Intervencion.docx</text>
-<text x="45" y="202" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#222" font-weight="normal" text-anchor="start">•</text>
-<text x="45" y="219" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#222" font-weight="normal" text-anchor="start">Nota_Interna_Datos_Sensibles.docx</text>
-<rect x="325" y="100" width="470" height="70" rx="10" fill="#FFFFFF" stroke="#2E75B6" stroke-width="2"/>
-<circle cx="357" cy="135.0" r="17" fill="#2E75B6"/>
-<text x="357" y="141.0" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle">1</text>
-<text x="387" y="140.0" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">Crear la comunicación interna para colaboradores</text>
-<line x1="560.0" y1="170" x2="560.0" y2="180" stroke="#595959" stroke-width="2" marker-end="url(#a)"/>
-<rect x="325" y="182" width="470" height="70" rx="10" fill="#FFFFFF" stroke="#2E75B6" stroke-width="2"/>
-<circle cx="357" cy="217.0" r="17" fill="#2E75B6"/>
-<text x="357" y="223.0" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle">2</text>
-<text x="387" y="213.0" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">Adaptar el mensaje a un público externo y otro</text>
-<text x="387" y="231.0" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">canal</text>
-<line x1="560.0" y1="252" x2="560.0" y2="262" stroke="#595959" stroke-width="2" marker-end="url(#a)"/>
-<rect x="325" y="264" width="470" height="70" rx="10" fill="#FFFFFF" stroke="#2E75B6" stroke-width="2"/>
-<circle cx="357" cy="299.0" r="17" fill="#2E75B6"/>
-<text x="357" y="305.0" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle">3</text>
-<text x="387" y="304.0" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">Identificar contenido a proteger o revisar</text>
-<line x1="277" y1="223.0" x2="319" y2="223.0" stroke="#595959" stroke-width="2" marker-end="url(#a)"/>
-<line x1="797" y1="223.0" x2="837" y2="223.0" stroke="#595959" stroke-width="2" marker-end="url(#a)"/>
-<rect x="845" y="100" width="230" height="340" rx="10" fill="#E8F6F3" stroke="#0F7B6C" stroke-width="2"/>
-<text x="865" y="130" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="17" fill="#0F7B6C" font-weight="bold" text-anchor="start">Entregable</text>
-<text x="865" y="162" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">Comunicación interna y</text>
-<text x="865" y="180" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">versión adaptada para un</text>
-<text x="865" y="198" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="14" fill="#222" font-weight="normal" text-anchor="start">público externo</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="868" viewBox="0 0 1280 868">
+<defs><style><![CDATA[text { font-family: Arial, Helvetica, sans-serif; }]]></style></defs>
+<rect width="100%" height="100%" fill="#f5f8fb"/>
+<rect x="0" y="0" width="100%" height="88" fill="#0b3a63"/>
+<text x="36" y="38" font-size="26" font-weight="700" fill="#ffffff">Práctica 09</text>
+<text x="36" y="70" font-size="28" font-weight="700" fill="#ffffff">Adaptar información técnica para diferentes públicos y canales</text>
+<text x="1244" y="40" text-anchor="end" font-size="18" font-weight="700" fill="#b7d4ea">MS-4004 · ISA INTERCOLOMBIA</text>
+<text x="36" y="126" font-size="26" font-weight="700" fill="#0b3a63">Objetivo y flujo de trabajo</text>
+<rect x="36" y="146" rx="18" ry="18" width="1208" height="191" fill="#ffffff" stroke="#c8d8e8" stroke-width="2"/>
+<text x="58" y="180" font-size="24" font-weight="700" fill="#0b3a63">Entradas</text>
+<text x="64" y="214" font-size="18" fill="#1d2b36">• Ficha_Tecnica_Intervencion.docx.</text>
+<text x="64" y="246" font-size="18" fill="#1d2b36">• Nota_Interna_Datos_Sensibles.docx.</text>
+<text x="64" y="278" font-size="18" fill="#1d2b36">• Necesidad: comunicar un mismo hecho a públicos distintos.</text>
+<rect x="36" y="363" rx="18" ry="18" width="1208" height="215" fill="#ffffff" stroke="#c8d8e8" stroke-width="2"/>
+<text x="58" y="397" font-size="24" font-weight="700" fill="#0b3a63">Trabajo con Copilot</text>
+<text x="64" y="431" font-size="18" fill="#1d2b36">• Redactar una comunicación interna clara y orientada a la acción.</text>
+<text x="64" y="463" font-size="18" fill="#1d2b36">• Crear una versión para público externo y otro canal.</text>
+<text x="64" y="495" font-size="18" fill="#1d2b36">• Comparar qué cambia en tono, extensión, detalle y protección de</text>
+<text x="64" y="519" font-size="18" fill="#1d2b36">  contenido.</text>
+<rect x="36" y="604" rx="18" ry="18" width="1208" height="184" fill="#ffffff" stroke="#c8d8e8" stroke-width="2"/>
+<text x="58" y="638" font-size="24" font-weight="700" fill="#0b3a63">Validar</text>
+<text x="64" y="672" font-size="18" fill="#1d2b36">• No alterar los hechos centrales.</text>
+<text x="64" y="704" font-size="18" fill="#1d2b36">• Marcar información que deba protegerse o revisarse antes de</text>
+<text x="64" y="728" font-size="18" fill="#1d2b36">  publicar.</text>
+<rect x="36" y="824" rx="10" ry="10" width="1208" height="34" fill="#dcecf7"/>
+<text x="52" y="846" font-size="15" fill="#3a5a76">Imagen de apoyo de la guía práctica. Resume entradas, flujo de trabajo, validación y resultados esperados.</text>
 </svg>
