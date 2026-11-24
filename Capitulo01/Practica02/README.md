@@ -9,7 +9,7 @@ Al finalizar la práctica, serás capaz de:
 - Distinguir datos observados, posibles explicaciones e información faltante para confirmar causas.
 - Evaluar si un segundo conjunto de datos fortalece o modifica las conclusiones iniciales.
 
-<img src="/images/p02-objetivo.svg" alt="Mapa visual de la práctica 2" width="720"/>
+<img src="../../images/p02-objetivo.svg" alt="Mapa visual de la práctica 2" width="720"/>
 
 ## Duración aproximada:
 
